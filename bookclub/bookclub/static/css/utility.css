@@ -1,0 +1,138 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: work-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.root {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  margin: 0;
+  padding: 0;
+  max-width: 100vw;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.center__container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.left {
+  width: 50%;
+}
+
+.left__narrow {
+  width: 30%;
+}
+
+.right {
+  width: 50%;
+}
+
+.right__arrow {
+  width: 70%;
+}
+
+#right_aligned_column {
+  text-align: right;
+}
+
+/***
+ * Specific type of elements
+ */
+
+#quote {
+  font-size: 4vw;
+  color: #042f27;
+  text-shadow: 2px 2px #86cec1;
+}
+
+/**
+ * STREAM
+ */
+
+#btn__row {
+  padding-top: 3vh;
+}
+
+.card {
+  margin-bottom: 2vw;
+}
+
+.page__root {
+  animation: fadein 0.5s ease-in-out;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.under__nav {
+  margin-top: 2vh;
+}
+
+.bottom__margin {
+  margin-bottom: 30px;
+}
+
+.snap-parent {
+  max-height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(3rem);
+  scroll-snap-type: y mandatory;
+}
+
+.snap-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  scroll-snap-align: start;
+}
+
+i {
+  font-style: italic;
+}
+
+#message-list {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+  height: 200px;
+  overflow-y: auto;
+}
+
+#message-list li {
+  background-color: rgb(240, 255, 250);
+  border-radius: 30px;
+  padding: 2px;
+  margin: 5px;
+  font-size: 1vw;
+}
+
+.btn {
+  font-size: 1.2vw;
+}
+
+.min-vw-90 {
+  min-width: 90vw;
+}

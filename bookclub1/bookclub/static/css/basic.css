@@ -1,0 +1,98 @@
+/* shared */
+* {
+  color: black;
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+button {
+  background-color: thistle;
+}
+
+input {
+  background-color: wheat;
+}
+
+#id_site_name {
+  font-size: 2em;
+  margin: 0;
+  padding: 0.5em;
+  background-color: rgb(250, 231, 255);
+  color: rgb(201, 152, 201);
+}
+
+#page_name_container {
+  font-size: 1.2em;
+  font-style: italic;
+  padding-left: 40%;
+}
+
+#id_header_div {
+  background-color: rosybrown;
+}
+
+/* navigation */
+#navigation {
+  background-color: whitesmoke;
+  padding: 2em;
+}
+
+#navigation a {
+  padding: 2em;
+  color: rgb(214, 166, 206);
+}
+
+/* stream */
+
+#stream_container {
+  padding: 1vw;
+  background-color: rgb(250, 231, 255);
+  box-shadow: 0 0 3pt 2pt rgb(255, 211, 255);
+}
+
+.indiv_post_container {
+  background-color: rgb(255, 224, 231);
+  padding: 1vw;
+}
+.indiv_post_comment_container {
+  border: rgb(255, 199, 218) 5px solid;
+  margin: 1vw;
+}
+
+.indiv_comment_form {
+  background-color: rgb(255, 242, 219);
+  padding: 1em;
+}
+
+#new_post_container {
+  padding-left: 25%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#new_post_container input {
+  height: 5em;
+  width: 15em;
+}
+
+.post_text {
+  font-size: 22px;
+}
+
+.comment_text {
+  font-size: 22px;
+  color: rgb(75, 4, 75);
+}
+
+.indiv_comment_container {
+  background-color: rgb(218, 222, 255);
+  margin: 1vw;
+  margin-left: 50%;
+  color: grey;
+  font-size: 20px;
+  border: rgb(207, 175, 238) 2px solid;
+}
+
+.comment_date_time {
+  margin-right: 1vw;
+}

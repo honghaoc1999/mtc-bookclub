@@ -1,0 +1,75 @@
+server {
+    server_name mtc-bookclub.xyz www.mtc-bookclub.xyz;
+    #server_name 192.241.154.7;
+
+    location = /favicon.ico { access_log off; log_not_found off; }
+    location /static/ {
+        root /home/django/bookclub/src/bookclub/bookclub;
+    }
+     location / {
+        include proxy_params;
+        proxy_pass http://unix:/run/gunicorn.sock;
+     }
+
+     location ~ /ws/ {
+        keepalive_timeout 3000s;
+        proxy_http_version 1.1;
+        proxy_read_timeout 300000s;
+        proxy_connect_timeout 300000s;
+        proxy_send_timeout 120000s;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+        proxy_redirect off;
+        proxy_pass https://127.0.0.1:8001;
+    }
+
+    #location /wss/ {
+    #    proxy_http_version 1.1;
+    #    proxy_set_header Upgrade $http_upgrade;
+    #    proxy_set_header Connection "upgrade";
+
+    #    proxy_redirect off;
+    #    proxy_pass https://127.0.0.1:8001;
+    #}
+
+
+
+
+    #listen 443 ssl; # managed by Certbot
+    #ssl_certificate /etc/letsencrypt/live/mtc-bookclub.xyz/fullchain.pem; # managed by Certbot
+    #ssl_certificate_key /etc/letsencrypt/live/mtc-bookclub.xyz/privkey.pem; # managed by Certbot
+    #include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    #ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+
+
+
+
+
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/mtc-bookclub.xyz/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/mtc-bookclub.xyz/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+
+}
+server {
+    if ($host = www.mtc-bookclub.xyz) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+
+    if ($host = mtc-bookclub.xyz) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+
+    server_name mtc-bookclub.xyz www.mtc-bookclub.xyz;
+    listen 80;
+    return 404; # managed by Certbot
+
+
+
+
+}

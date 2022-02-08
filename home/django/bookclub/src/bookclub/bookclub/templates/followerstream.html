@@ -1,0 +1,16 @@
+{% extends "base.html" %} {% block content %}
+<span id="error" class="error"></span>
+<div id="stream_container"></div>
+
+<script type="text/javascript">
+  var addCommentUrl = "{% url 'ajax-add-comment' %}";
+
+  var otherProfile = function (user_id) {
+    let str1 = "{% url 'other_profile' 0 %}".replace("0", user_id);
+    return str1;
+  };
+  window.onload = getFollower;
+  window.setInterval(getFollower, 5000);
+</script>
+
+{% endblock %}

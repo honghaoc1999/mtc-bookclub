@@ -1,0 +1,112 @@
+* {
+  color: #042f27;
+  font-family: bookmania, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: ohno-blazeface, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 14vw;
+  margin: 0;
+  text-shadow: 2px 2px #86cec1;
+}
+
+h2 {
+  font-family: ohno-blazeface, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 5vw;
+  margin: 0;
+  text-shadow: 2px 2px #86cec1;
+}
+
+h3 {
+  font-family: ohno-blazeface, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: #042f27;
+  margin: 0;
+  font-size: 3vw;
+  letter-spacing: 0.01em;
+  text-shadow: 2px 2px #86cec1;
+}
+
+h4 {
+  font-family: ohno-blazeface, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: #042f27;
+  margin: 0;
+  letter-spacing: 0.3em;
+  font-size: 2vw;
+  text-shadow: 2px 2px #86cec1;
+}
+
+button {
+  display: inline-block;
+  font-family: bookmania, serif;
+  font-weight: 900;
+  font-style: normal;
+  border-radius: 45%;
+  padding: 0.5em 3em 0.5em 3em;
+  margin-bottom: 0.8vh;
+  border: none;
+
+  background: #f6ff8f;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  color: #bf9227;
+  border: none;
+}
+
+button:hover {
+  background: #bf9227;
+  color: #f6ff8f;
+  transition: all cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.5s;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.25);
+}
+
+input {
+  font-family: bookmania, serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 30px;
+  background-color: rgb(241, 255, 252);
+  border: none;
+}
+
+table {
+  font-family: bookmania, serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: right;
+}
+
+table label {
+  padding-right: 3vw;
+}
+
+form {
+}
+
+li,
+p {
+  line-height: 1.5;
+  font-size: 1.5vw;
+}
+
+ul {
+  padding: 1vw;
+  list-style-type: square;
+}

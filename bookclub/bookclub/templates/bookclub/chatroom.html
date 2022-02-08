@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="snap-parent">
+<div class="scroller">
+  <div class="jumbotron snap-child min-vh-100" style="background-color:white;">
+      <img class="img-thumbnail" style="height: 300px; width:200px;" src={{book_cover_link}}>
+      <hr> </hr>
+      <h1>Discussion Room For <i> {{room_info.book_title}}</i> </h1>
+      <h3> Written By  {{room_info.book_author}}  </h3>
+      <hr class="my-4">
+      <h4>{{room_info.book_description}}</h4>
+    </div>
+
+
+  <div class="video-n-chat-container container min-vh-100 min-vw-90 snap-child" >
+    <div class="row ">
+      <div class="col-8">
+        <div class="row ">
+          <div class="col">
+              <div class="card">
+                <div class="card-body center__container">
+                  <video width="300" height="150" id="local-video"  autoplay playsinline></video>
+                  <span>
+                    {{user_name}}
+                  </span>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+          <div class="card">
+                <div class="card-body center__container" id="video_card_0">
+                  <video width="300" height="150" id="id_inactive_video_0"  autoplay playsinline></video>
+                  <span id="id_username_0"> Waiting... </span>
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="card">
+                  <div class="card-body center__container" id="video_card_1">
+                    <video width="300" height="150" id="id_inactive_video_1"  autoplay playsinline></video>
+                    <span id="id_username_1"> Waiting... </span>
+                  </div>
+                </div>
+          </div>
+        <div class="col">
+            <div class="card">
+                  <div class="card-body center__container" id="video_card_2">
+                    <video width="300" height="150" id="id_inactive_video_2"  autoplay playsinline></video>
+                    <span id="id_username_2"> Waiting... </span>
+                  </div>
+                </div>
+          </div>
+        </div>
+
+        <div class="btn-group" role="group" style="margin-bottom: 1vh;">
+          <button  type="button" class="btn btn-light" id="btn-toggle-audio">Turn Audio On</button>
+          <button  type="button" class="btn btn-light" id="btn-toggle-video">Turn Video On</button>
+        </div>
+      </div>
+
+      <div id="chat" class="col-4">
+
+        <div class="card rounded">
+          <div class="card-body" id="chat__box">
+            <h4 class="card-title">Chatbox</h4>
+            <div id="messages">
+              <ul id="message-list"></ul>
+            </div>
+            <div class='input-group'>
+              <input type="text" class="form-control" id="msg"></input>
+              <button  class="btn btn-light" id="btn-send-msg">Send</button>
+            </div>
+          </div>
+          <div class="card-footer">
+            <p> “You are not done with a book until you pass it to another reader.” - Donalyn Miller </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+</div>
+
+{% load static %}
+<script type="text/javascript" src="{% static 'js/chatroom.js' %}"></script>
+
+{% endblock %}

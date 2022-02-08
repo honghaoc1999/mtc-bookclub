@@ -1,0 +1,13 @@
+[Unit]
+Description=WebSocket Daphne Service
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/home/django/bookclub/src/bookclub
+ExecStart=/home/django/bookclub/venv/bin/python /home/django/bookclub/venv/bin/daphne -e ssl:8001:privateKey=/etc/letsencrypt/live/mtc-bookclub.xyz/privkey.pem:certKey=/etc/letsencrypt/live/mtc-bookclub.xyz/fullchain.pem webapps.asgi:application
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

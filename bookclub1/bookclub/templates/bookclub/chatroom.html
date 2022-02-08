@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bookclub.css' %}"></link>
+  </head>
+  <body>
+    <h3 id="label-username">Username</h3>
+    <!-- <div>
+      <input id="input-username" name="user_name"></input>
+    </div> -->
+    <h3 id="label-roomname">Roomname</h3>
+    <!-- <div>
+      <input id="input-roomname" name="room_name"></input><button id="btn-join-room" type="button" name="button">Join room</button>
+    </div> -->
+    <div class="main-grid-container">
+      <div id="video-container">
+        <div><video id="local-video" style="float: left;" autoplay playsinline></video></div>
+        <button id="btn-toggle-audio">Audio Mute</button>
+        <button id="btn-toggle-video">Video off</button>
+      </div>
+      <div id="chat">
+        <h1>CHATBOX</h1>
+        <div id="messages">
+          <ul id="message-list"></ul>
+        </div>
+        <div><input id="msg"></input><button id="btn-send-msg">Send</button></div>
+      </div>
+    </div>
+    <!-- <script type="text/javascript" src="{% static 'js/bookclub.js' %}"></script> -->
+    <script type="text/javascript" src="{% static 'js/chatroom.js' %}"></script>
+  </body>
+</html>

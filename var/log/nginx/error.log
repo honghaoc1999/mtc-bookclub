@@ -1,0 +1,43 @@
+2021/11/04 00:57:43 [error] 3372#3372: *3238 upstream prematurely closed connection while reading response header from upstream, client: 73.174.38.79, server: mtc-bookclub.xyz, request: "GET /ws/ HTTP/1.1", upstream: "http://127.0.0.1:8001/ws/", host: "mtc-bookclub.xyz"
+2021/11/04 01:22:17 [notice] 46391#46391: signal process started
+2021/11/04 01:22:38 [error] 46392#46392: *3265 upstream prematurely closed connection while reading response header from upstream, client: 73.174.38.79, server: mtc-bookclub.xyz, request: "GET /ws/ HTTP/1.1", upstream: "http://127.0.0.1:8001/ws/", host: "mtc-bookclub.xyz"
+2021/11/04 01:23:29 [notice] 46407#46407: signal process started
+2021/11/04 01:25:50 [notice] 46486#46486: signal process started
+2021/11/04 01:26:09 [error] 46487#46487: *3278 upstream prematurely closed connection while reading response header from upstream, client: 73.174.38.79, server: mtc-bookclub.xyz, request: "GET /ws/ HTTP/1.1", upstream: "http://127.0.0.1:8001/ws/", host: "mtc-bookclub.xyz"
+2021/11/04 01:40:46 [error] 46487#46487: *3285 upstream prematurely closed connection while reading response header from upstream, client: 73.174.38.79, server: mtc-bookclub.xyz, request: "GET /ws/ HTTP/1.1", upstream: "http://127.0.0.1:8001/ws/", host: "mtc-bookclub.xyz"
+2021/11/04 01:45:33 [crit] 46487#46487: *3300 SSL_do_handshake() failed (SSL: error:141CF06C:SSL routines:tls_parse_ctos_key_share:bad key share) while SSL handshaking, client: 184.105.247.196, server: 0.0.0.0:443
+2021/11/04 01:45:58 [error] 46487#46487: *3305 upstream prematurely closed connection while reading response header from upstream, client: 73.174.38.79, server: mtc-bookclub.xyz, request: "GET /ws/ HTTP/1.1", upstream: "http://127.0.0.1:8001/ws/", host: "www.mtc-bookclub.xyz"
+2021/11/04 01:56:12 [notice] 47630#47630: signal process started
+2021/11/04 01:56:31 [notice] 47636#47636: signal process started
+2021/11/04 01:56:49 [error] 47637#47637: *3316 upstream prematurely closed connection while reading response header from upstream, client: 73.174.38.79, server: mtc-bookclub.xyz, request: "GET /ws/ HTTP/1.1", upstream: "http://127.0.0.1:8001/ws/", host: "www.mtc-bookclub.xyz"
+2021/11/04 02:00:00 [notice] 47704#47704: signal process started
+2021/11/04 02:00:07 [error] 47705#47705: *3323 upstream prematurely closed connection while reading response header from upstream, client: 73.174.38.79, server: mtc-bookclub.xyz, request: "GET /ws/ HTTP/1.1", upstream: "http://127.0.0.1:8001/ws/", host: "www.mtc-bookclub.xyz"
+2021/11/04 02:26:40 [error] 47705#47705: *3371 upstream prematurely closed connection while reading response header from upstream, client: 98.236.66.5, server: mtc-bookclub.xyz, request: "GET /ws/ HTTP/1.1", upstream: "http://127.0.0.1:8001/ws/", host: "www.mtc-bookclub.xyz"
+2021/11/04 02:38:18 [error] 47705#47705: *3383 upstream prematurely closed connection while reading response header from upstream, client: 98.236.66.5, server: mtc-bookclub.xyz, request: "GET /ws/ HTTP/1.1", upstream: "http://127.0.0.1:8001/ws/", host: "www.mtc-bookclub.xyz"
+2021/11/04 02:53:44 [emerg] 48914#48914: host not found in upstream "mtc-book.xyz" in /etc/nginx/sites-enabled/bookclub:23
+2021/11/04 02:54:06 [notice] 48921#48921: signal process started
+2021/11/04 02:54:23 [notice] 48928#48928: signal process started
+2021/11/04 02:54:43 [error] 48929#48929: *3391 upstream prematurely closed connection while reading response header from upstream, client: 98.236.66.5, server: mtc-bookclub.xyz, request: "GET /ws/ HTTP/1.1", upstream: "http://192.241.154.7:8001/ws/", host: "www.mtc-bookclub.xyz"
+2021/11/04 03:00:25 [error] 48929#48929: *3396 connect() failed (111: Connection refused) while connecting to upstream, client: 98.236.66.5, server: mtc-bookclub.xyz, request: "GET /ws/ HTTP/1.1", upstream: "http://192.241.154.7:8001/ws/", host: "www.mtc-bookclub.xyz"
+2021/11/04 03:01:28 [notice] 49119#49119: signal process started
+2021/11/04 03:01:39 [error] 49120#49120: *3401 connect() failed (111: Connection refused) while connecting to upstream, client: 98.236.66.5, server: mtc-bookclub.xyz, request: "GET /ws/ HTTP/1.1", upstream: "http://127.0.0.1:8001/ws/", host: "www.mtc-bookclub.xyz"
+2021/11/04 03:01:44 [error] 49120#49120: *3403 connect() failed (111: Connection refused) while connecting to upstream, client: 98.236.66.5, server: mtc-bookclub.xyz, request: "GET /ws/ HTTP/1.1", upstream: "http://127.0.0.1:8001/ws/", host: "mtc-bookclub.xyz"
+2021/11/04 03:05:22 [emerg] 49149#49149: "listen" directive is not allowed here in /etc/nginx/nginx.conf:71
+2021/11/04 03:06:32 [notice] 49161#49161: signal process started
+2021/11/04 03:06:52 [error] 49162#49162: *3431 connect() failed (111: Connection refused) while connecting to upstream, client: 98.236.66.5, server: mtc-bookclub.xyz, request: "GET /ws/ HTTP/1.1", upstream: "http://127.0.0.1:8001/ws/", host: "www.mtc-bookclub.xyz"
+2021/11/04 03:08:46 [error] 49162#49162: *3437 upstream prematurely closed connection while reading response header from upstream, client: 98.236.66.5, server: mtc-bookclub.xyz, request: "GET /ws/ HTTP/1.1", upstream: "http://127.0.0.1:8001/ws/", host: "www.mtc-bookclub.xyz"
+2021/11/04 03:17:22 [crit] 49162#49162: *3452 SSL_do_handshake() failed (SSL: error:141CF06C:SSL routines:tls_parse_ctos_key_share:bad key share) while SSL handshaking, client: 104.152.52.180, server: 0.0.0.0:443
+2021/11/04 03:18:00 [crit] 49162#49162: *3462 SSL_do_handshake() failed (SSL: error:141CF06C:SSL routines:tls_parse_ctos_key_share:bad key share) while SSL handshaking, client: 104.152.52.134, server: 0.0.0.0:443
+2021/11/04 03:20:36 [error] 49162#49162: *3466 upstream prematurely closed connection while reading response header from upstream, client: 98.236.66.5, server: mtc-bookclub.xyz, request: "GET /ws/ HTTP/1.1", upstream: "http://127.0.0.1:8001/ws/", host: "www.mtc-bookclub.xyz"
+2021/11/04 03:23:48 [notice] 49566#49566: signal process started
+2021/11/04 03:24:06 [error] 49567#49567: *3471 upstream prematurely closed connection while reading response header from upstream, client: 98.236.66.5, server: mtc-bookclub.xyz, request: "GET /ws/ HTTP/1.1", upstream: "http://127.0.0.1:8001/ws/", host: "mtc-bookclub.xyz"
+2021/11/04 03:29:05 [error] 49567#49567: *3474 upstream prematurely closed connection while reading response header from upstream, client: 98.236.66.5, server: mtc-bookclub.xyz, request: "GET /ws/ HTTP/1.1", upstream: "http://127.0.0.1:8001/ws/", host: "mtc-bookclub.xyz"
+2021/11/04 03:35:14 [error] 49567#49567: *3479 connect() failed (111: Connection refused) while connecting to upstream, client: 98.236.66.5, server: mtc-bookclub.xyz, request: "GET /ws/ HTTP/1.1", upstream: "http://127.0.0.1:8001/ws/", host: "www.mtc-bookclub.xyz"
+2021/11/04 03:35:31 [error] 49567#49567: *3482 connect() failed (111: Connection refused) while connecting to upstream, client: 98.236.66.5, server: mtc-bookclub.xyz, request: "GET /ws/ HTTP/1.1", upstream: "http://127.0.0.1:8001/ws/", host: "www.mtc-bookclub.xyz"
+2021/11/04 03:35:41 [error] 49567#49567: *3485 connect() failed (111: Connection refused) while connecting to upstream, client: 98.236.66.5, server: mtc-bookclub.xyz, request: "GET /ws/ HTTP/1.1", upstream: "http://127.0.0.1:8001/ws/", host: "www.mtc-bookclub.xyz"
+2021/11/04 03:37:12 [error] 49567#49567: *3491 connect() failed (111: Connection refused) while connecting to upstream, client: 98.236.66.5, server: mtc-bookclub.xyz, request: "GET /ws/ HTTP/1.1", upstream: "http://127.0.0.1:8001/ws/", host: "www.mtc-bookclub.xyz"
+2021/11/04 03:38:21 [error] 49567#49567: *3496 upstream prematurely closed connection while reading response header from upstream, client: 98.236.66.5, server: mtc-bookclub.xyz, request: "GET /ws/ HTTP/1.1", upstream: "http://127.0.0.1:8001/ws/", host: "www.mtc-bookclub.xyz"
+2021/11/04 03:43:04 [error] 49567#49567: *3502 upstream prematurely closed connection while reading response header from upstream, client: 98.236.66.5, server: mtc-bookclub.xyz, request: "GET /ws/ HTTP/1.1", upstream: "http://127.0.0.1:8001/ws/", host: "www.mtc-bookclub.xyz"
+2021/11/04 03:43:14 [error] 49567#49567: *3504 upstream prematurely closed connection while reading response header from upstream, client: 98.236.66.5, server: mtc-bookclub.xyz, request: "GET /ws/ HTTP/1.1", upstream: "http://127.0.0.1:8001/ws/", host: "www.mtc-bookclub.xyz"
+2021/11/04 03:43:20 [error] 49567#49567: *3506 upstream prematurely closed connection while reading response header from upstream, client: 98.236.66.5, server: mtc-bookclub.xyz, request: "GET /ws/ HTTP/1.1", upstream: "http://127.0.0.1:8001/ws/", host: "www.mtc-bookclub.xyz"
+2021/11/04 03:47:53 [notice] 49849#49849: signal process started

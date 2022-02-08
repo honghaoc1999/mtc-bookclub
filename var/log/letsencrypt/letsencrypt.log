@@ -1,0 +1,2897 @@
+2021-10-31 03:16:14,330:DEBUG:certbot.main:certbot version: 0.40.0
+2021-10-31 03:16:14,331:DEBUG:certbot.main:Arguments: ['-q']
+2021-10-31 03:16:14,331:DEBUG:certbot.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#manual,PluginEntryPoint#nginx,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
+2021-10-31 03:16:14,342:DEBUG:certbot.log:Root logging level set at 30
+2021-10-31 03:16:14,343:INFO:certbot.log:Saving debug log to /var/log/letsencrypt/letsencrypt.log
+2021-10-31 03:16:14,354:DEBUG:certbot.plugins.selection:Requested authenticator <certbot.cli._Default object at 0x7f8ff5df72e0> and installer <certbot.cli._Default object at 0x7f8ff5df72e0>
+2021-10-31 03:16:14,364:INFO:certbot.renewal:Cert not yet due for renewal
+2021-10-31 03:16:14,365:DEBUG:certbot.plugins.selection:Requested authenticator nginx and installer nginx
+2021-10-31 03:16:14,365:DEBUG:certbot.plugins.selection:Selecting plugin: * nginx
+Description: Nginx Web Server plugin
+Interfaces: IAuthenticator, IInstaller, IPlugin
+Entry point: nginx = certbot_nginx.configurator:NginxConfigurator
+Initialized: <certbot_nginx.configurator.NginxConfigurator object at 0x7f8ff5df7a30>
+2021-10-31 03:16:14,366:DEBUG:certbot.renewal:no renewal failures
+2021-10-31 21:24:30,400:DEBUG:certbot.main:certbot version: 0.40.0
+2021-10-31 21:24:30,401:DEBUG:certbot.main:Arguments: ['-q']
+2021-10-31 21:24:30,401:DEBUG:certbot.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#manual,PluginEntryPoint#nginx,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
+2021-10-31 21:24:30,414:DEBUG:certbot.log:Root logging level set at 30
+2021-10-31 21:24:30,414:INFO:certbot.log:Saving debug log to /var/log/letsencrypt/letsencrypt.log
+2021-10-31 21:24:30,427:DEBUG:certbot.plugins.selection:Requested authenticator <certbot.cli._Default object at 0x7f2fba7e32e0> and installer <certbot.cli._Default object at 0x7f2fba7e32e0>
+2021-10-31 21:24:30,437:INFO:certbot.renewal:Cert not yet due for renewal
+2021-10-31 21:24:30,438:DEBUG:certbot.plugins.selection:Requested authenticator nginx and installer nginx
+2021-10-31 21:24:30,439:DEBUG:certbot.plugins.selection:Selecting plugin: * nginx
+Description: Nginx Web Server plugin
+Interfaces: IAuthenticator, IInstaller, IPlugin
+Entry point: nginx = certbot_nginx.configurator:NginxConfigurator
+Initialized: <certbot_nginx.configurator.NginxConfigurator object at 0x7f2fba7e3a30>
+2021-10-31 21:24:30,439:DEBUG:certbot.renewal:no renewal failures
+2021-11-01 03:42:00,438:DEBUG:certbot.main:certbot version: 0.40.0
+2021-11-01 03:42:00,438:DEBUG:certbot.main:Arguments: ['-q']
+2021-11-01 03:42:00,438:DEBUG:certbot.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#manual,PluginEntryPoint#nginx,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
+2021-11-01 03:42:00,455:DEBUG:certbot.log:Root logging level set at 30
+2021-11-01 03:42:00,455:INFO:certbot.log:Saving debug log to /var/log/letsencrypt/letsencrypt.log
+2021-11-01 03:42:00,468:DEBUG:certbot.plugins.selection:Requested authenticator <certbot.cli._Default object at 0x7ff8a7385340> and installer <certbot.cli._Default object at 0x7ff8a7385340>
+2021-11-01 03:42:00,477:INFO:certbot.renewal:Cert not yet due for renewal
+2021-11-01 03:42:00,478:DEBUG:certbot.plugins.selection:Requested authenticator nginx and installer nginx
+2021-11-01 03:42:00,479:DEBUG:certbot.plugins.selection:Selecting plugin: * nginx
+Description: Nginx Web Server plugin
+Interfaces: IAuthenticator, IInstaller, IPlugin
+Entry point: nginx = certbot_nginx.configurator:NginxConfigurator
+Initialized: <certbot_nginx.configurator.NginxConfigurator object at 0x7ff8a7385970>
+2021-11-01 03:42:00,479:DEBUG:certbot.renewal:no renewal failures
+2021-11-01 04:12:55,631:DEBUG:certbot.main:certbot version: 0.40.0
+2021-11-01 04:12:55,631:DEBUG:certbot.main:Arguments: ['--dry-run']
+2021-11-01 04:12:55,631:DEBUG:certbot.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#manual,PluginEntryPoint#nginx,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
+2021-11-01 04:12:55,642:DEBUG:certbot.log:Root logging level set at 20
+2021-11-01 04:12:55,642:INFO:certbot.log:Saving debug log to /var/log/letsencrypt/letsencrypt.log
+2021-11-01 04:12:55,653:DEBUG:certbot.plugins.selection:Requested authenticator <certbot.cli._Default object at 0x7fe8ab1bc580> and installer <certbot.cli._Default object at 0x7fe8ab1bc580>
+2021-11-01 04:12:55,653:DEBUG:certbot.cli:Var dry_run=True (set by user).
+2021-11-01 04:12:55,653:DEBUG:certbot.cli:Var server={'staging', 'dry_run'} (set by user).
+2021-11-01 04:12:55,653:DEBUG:certbot.cli:Var dry_run=True (set by user).
+2021-11-01 04:12:55,653:DEBUG:certbot.cli:Var server={'staging', 'dry_run'} (set by user).
+2021-11-01 04:12:55,653:DEBUG:certbot.cli:Var account={'server'} (set by user).
+2021-11-01 04:12:55,669:INFO:certbot.renewal:Cert not due for renewal, but simulating renewal for dry run
+2021-11-01 04:12:55,670:DEBUG:certbot.plugins.selection:Requested authenticator nginx and installer nginx
+2021-11-01 04:12:55,858:DEBUG:certbot.plugins.selection:Single candidate plugin: * nginx
+Description: Nginx Web Server plugin
+Interfaces: IAuthenticator, IInstaller, IPlugin
+Entry point: nginx = certbot_nginx.configurator:NginxConfigurator
+Initialized: <certbot_nginx.configurator.NginxConfigurator object at 0x7fe8ab1bcd00>
+Prep: True
+2021-11-01 04:12:55,859:DEBUG:certbot.plugins.selection:Single candidate plugin: * nginx
+Description: Nginx Web Server plugin
+Interfaces: IAuthenticator, IInstaller, IPlugin
+Entry point: nginx = certbot_nginx.configurator:NginxConfigurator
+Initialized: <certbot_nginx.configurator.NginxConfigurator object at 0x7fe8ab1bcd00>
+Prep: True
+2021-11-01 04:12:55,860:DEBUG:certbot.plugins.selection:Selected authenticator <certbot_nginx.configurator.NginxConfigurator object at 0x7fe8ab1bcd00> and installer <certbot_nginx.configurator.NginxConfigurator object at 0x7fe8ab1bcd00>
+2021-11-01 04:12:55,860:INFO:certbot.plugins.selection:Plugins selected: Authenticator nginx, Installer nginx
+2021-11-01 04:12:55,865:DEBUG:certbot.main:Picked account: <Account(RegistrationResource(body=Registration(key=None, contact=(), agreement=None, status=None, terms_of_service_agreed=None, only_return_existing=None, external_account_binding=None), uri='https://acme-staging-v02.api.letsencrypt.org/acme/acct/31127338', new_authzr_uri=None, terms_of_service=None), 3446af18bf30ffcfc34ba9494f210541, Meta(creation_dt=datetime.datetime(2021, 10, 24, 0, 3, 7, tzinfo=<UTC>), creation_host='ubuntu-s-1vcpu-1gb-nyc1-01'))>
+2021-11-01 04:12:55,867:DEBUG:acme.client:Sending GET request to https://acme-staging-v02.api.letsencrypt.org/directory.
+2021-11-01 04:12:55,870:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): acme-staging-v02.api.letsencrypt.org:443
+2021-11-01 04:12:56,054:DEBUG:urllib3.connectionpool:https://acme-staging-v02.api.letsencrypt.org:443 "GET /directory HTTP/1.1" 200 822
+2021-11-01 04:12:56,055:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Mon, 01 Nov 2021 04:12:56 GMT
+Content-Type: application/json
+Content-Length: 822
+Connection: keep-alive
+Cache-Control: public, max-age=0, no-cache
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "keyChange": "https://acme-staging-v02.api.letsencrypt.org/acme/key-change",
+  "meta": {
+    "caaIdentities": [
+      "letsencrypt.org"
+    ],
+    "termsOfService": "https://letsencrypt.org/documents/LE-SA-v1.2-November-15-2017.pdf",
+    "website": "https://letsencrypt.org/docs/staging-environment/"
+  },
+  "newAccount": "https://acme-staging-v02.api.letsencrypt.org/acme/new-acct",
+  "newNonce": "https://acme-staging-v02.api.letsencrypt.org/acme/new-nonce",
+  "newOrder": "https://acme-staging-v02.api.letsencrypt.org/acme/new-order",
+  "renewalInfo": "https://acme-staging-v02.api.letsencrypt.org/get/draft-aaron-ari/renewalInfo/",
+  "revokeCert": "https://acme-staging-v02.api.letsencrypt.org/acme/revoke-cert",
+  "ro6ObpSsk3E": "https://community.letsencrypt.org/t/adding-random-entries-to-the-directory/33417"
+}
+2021-11-01 04:12:56,056:INFO:certbot.main:Renewing an existing certificate
+2021-11-01 04:12:56,559:DEBUG:acme.client:Requesting fresh nonce
+2021-11-01 04:12:56,559:DEBUG:acme.client:Sending HEAD request to https://acme-staging-v02.api.letsencrypt.org/acme/new-nonce.
+2021-11-01 04:12:56,616:DEBUG:urllib3.connectionpool:https://acme-staging-v02.api.letsencrypt.org:443 "HEAD /acme/new-nonce HTTP/1.1" 200 0
+2021-11-01 04:12:56,617:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Mon, 01 Nov 2021 04:12:56 GMT
+Connection: keep-alive
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-staging-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: 0001Ycfr2OY8wkHSG4yE20DXFjjBjo4yaPWInCwg85oBVLI
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+
+2021-11-01 04:12:56,617:DEBUG:acme.client:Storing nonce: 0001Ycfr2OY8wkHSG4yE20DXFjjBjo4yaPWInCwg85oBVLI
+2021-11-01 04:12:56,618:DEBUG:acme.client:JWS payload:
+b'{\n  "identifiers": [\n    {\n      "type": "dns",\n      "value": "mtc-bookclub.xyz"\n    },\n    {\n      "type": "dns",\n      "value": "www.mtc-bookclub.xyz"\n    }\n  ]\n}'
+2021-11-01 04:12:56,620:DEBUG:acme.client:Sending POST request to https://acme-staging-v02.api.letsencrypt.org/acme/new-order:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS1zdGFnaW5nLXYwMi5hcGkubGV0c2VuY3J5cHQub3JnL2FjbWUvYWNjdC8zMTEyNzMzOCIsICJub25jZSI6ICIwMDAxWWNmcjJPWTh3a0hTRzR5RTIwRFhGampCam80eWFQV0luQ3dnODVvQlZMSSIsICJ1cmwiOiAiaHR0cHM6Ly9hY21lLXN0YWdpbmctdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9uZXctb3JkZXIifQ",
+  "signature": "XmcvSJIdRnyQc1FBmXTb-EGlAaBNTm1vcahhVDKX16X4LYH_Hq2UDUc0VaPowqHXfYk_Qa_h6Yz_NCWq7EHPV7c50idLpNzMQZ9Mah81bm2-KiChA-zDLpZIjQDEotXI_T6Ql-a7UfD0h7DvNzWJUp5OHxUOHnhMtxfbZj73KyGfxcVKaWHBBBFSpf5-Cjv260Iju3YJsNrwMTJ7rGM5awFdVdWejgnchJ-FVwFzMeWMKiHKBC2V_l8b3o9tUBQMlr580BnzLcwAGS16kZfWoICXRooA-Q6-JacKCbK3bx4BVMPPsDasI5e5ONqadeh1QQEEWip-sek6IucEfahU1A",
+  "payload": "ewogICJpZGVudGlmaWVycyI6IFsKICAgIHsKICAgICAgInR5cGUiOiAiZG5zIiwKICAgICAgInZhbHVlIjogIm10Yy1ib29rY2x1Yi54eXoiCiAgICB9LAogICAgewogICAgICAidHlwZSI6ICJkbnMiLAogICAgICAidmFsdWUiOiAid3d3Lm10Yy1ib29rY2x1Yi54eXoiCiAgICB9CiAgXQp9"
+}
+2021-11-01 04:12:56,708:DEBUG:urllib3.connectionpool:https://acme-staging-v02.api.letsencrypt.org:443 "POST /acme/new-order HTTP/1.1" 201 496
+2021-11-01 04:12:56,709:DEBUG:acme.client:Received response:
+HTTP 201
+Server: nginx
+Date: Mon, 01 Nov 2021 04:12:56 GMT
+Content-Type: application/json
+Content-Length: 496
+Connection: keep-alive
+Boulder-Requester: 31127338
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-staging-v02.api.letsencrypt.org/directory>;rel="index"
+Location: https://acme-staging-v02.api.letsencrypt.org/acme/order/31127338/901879768
+Replay-Nonce: 0002QjmnOVE7gPwgz6qHhKoHVbmIJceZc8o434Q5EzGIrWQ
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "status": "ready",
+  "expires": "2021-11-08T04:12:56Z",
+  "identifiers": [
+    {
+      "type": "dns",
+      "value": "mtc-bookclub.xyz"
+    },
+    {
+      "type": "dns",
+      "value": "www.mtc-bookclub.xyz"
+    }
+  ],
+  "authorizations": [
+    "https://acme-staging-v02.api.letsencrypt.org/acme/authz-v3/781751138",
+    "https://acme-staging-v02.api.letsencrypt.org/acme/authz-v3/781751148"
+  ],
+  "finalize": "https://acme-staging-v02.api.letsencrypt.org/acme/finalize/31127338/901879768"
+}
+2021-11-01 04:12:56,709:DEBUG:acme.client:Storing nonce: 0002QjmnOVE7gPwgz6qHhKoHVbmIJceZc8o434Q5EzGIrWQ
+2021-11-01 04:12:56,710:DEBUG:acme.client:JWS payload:
+b''
+2021-11-01 04:12:56,711:DEBUG:acme.client:Sending POST request to https://acme-staging-v02.api.letsencrypt.org/acme/authz-v3/781751138:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS1zdGFnaW5nLXYwMi5hcGkubGV0c2VuY3J5cHQub3JnL2FjbWUvYWNjdC8zMTEyNzMzOCIsICJub25jZSI6ICIwMDAyUWptbk9WRTdnUHdnejZxSGhLb0hWYm1JSmNlWmM4bzQzNFE1RXpHSXJXUSIsICJ1cmwiOiAiaHR0cHM6Ly9hY21lLXN0YWdpbmctdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9hdXRoei12My83ODE3NTExMzgifQ",
+  "signature": "SEqNOiMtISkyJ9ONgJT6Pzrep7sfMRA1uVkpiVZZP7bA7sATAzCI_a_pE1z-xExgFh-_S3Qk9BlC2f3YPiJTj6WmhXXZNBfwz8xYr9q5zRXwv9RVMuNuf0_50ePy5nnt4V_GBvCaWqEYKFi2w083LIZoy7tudpsZjW3RdBMhYsbdUG3QF-9saPhkBPyHSdCdkycHQ7Pm0bCjHm5x0tpMH8bOQkzjVCSmGoovwlX3JbDz-WoNEUMnQV_0lg2AcQHFVr077bonzetCXSDCF1o-hcPD5eZZYUWhN1Q6CCtLrEYSUcelcu2qJhA3ZWgFTocezN3nSEmX6PBF9_JEQXImtg",
+  "payload": ""
+}
+2021-11-01 04:12:56,787:DEBUG:urllib3.connectionpool:https://acme-staging-v02.api.letsencrypt.org:443 "POST /acme/authz-v3/781751138 HTTP/1.1" 200 768
+2021-11-01 04:12:56,787:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Mon, 01 Nov 2021 04:12:56 GMT
+Content-Type: application/json
+Content-Length: 768
+Connection: keep-alive
+Boulder-Requester: 31127338
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-staging-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: 0001JtY7kRLYvoZqr9LCp1Og79om554qzVyBFYlOTxZgeR4
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "identifier": {
+    "type": "dns",
+    "value": "mtc-bookclub.xyz"
+  },
+  "status": "valid",
+  "expires": "2021-11-24T07:17:22Z",
+  "challenges": [
+    {
+      "type": "http-01",
+      "status": "valid",
+      "url": "https://acme-staging-v02.api.letsencrypt.org/acme/chall-v3/781751138/n3g_8Q",
+      "token": "GUdWB9TpL_02FxD73v3ab8TJTiX7POd2x_sKjL1NtUY",
+      "validationRecord": [
+        {
+          "url": "http://mtc-bookclub.xyz/.well-known/acme-challenge/GUdWB9TpL_02FxD73v3ab8TJTiX7POd2x_sKjL1NtUY",
+          "hostname": "mtc-bookclub.xyz",
+          "port": "80",
+          "addressesResolved": [
+            "192.241.154.7"
+          ],
+          "addressUsed": "192.241.154.7"
+        }
+      ],
+      "validated": "2021-10-25T07:17:22Z"
+    }
+  ]
+}
+2021-11-01 04:12:56,788:DEBUG:acme.client:Storing nonce: 0001JtY7kRLYvoZqr9LCp1Og79om554qzVyBFYlOTxZgeR4
+2021-11-01 04:12:56,788:DEBUG:acme.client:JWS payload:
+b''
+2021-11-01 04:12:56,790:DEBUG:acme.client:Sending POST request to https://acme-staging-v02.api.letsencrypt.org/acme/authz-v3/781751148:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS1zdGFnaW5nLXYwMi5hcGkubGV0c2VuY3J5cHQub3JnL2FjbWUvYWNjdC8zMTEyNzMzOCIsICJub25jZSI6ICIwMDAxSnRZN2tSTFl2b1pxcjlMQ3AxT2c3OW9tNTU0cXpWeUJGWWxPVHhaZ2VSNCIsICJ1cmwiOiAiaHR0cHM6Ly9hY21lLXN0YWdpbmctdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9hdXRoei12My83ODE3NTExNDgifQ",
+  "signature": "cw1AYOgpMVj3HwqZ7fGicnB9Ep3zJ84OeIcaDQppNfNAzAkcdL9zc__SAHuAVm8JZVnDXe1dUMNZB1IzjL_Zcy8rbH4ZcbpN-QxUFn1HdU2bjp9FDK9NtbpU7QUXLPp40911vg46EoYBH7brVIxKKsCH3vCILNKxjwLIgN7x6HfIr6PKKe_CxlyB7sozzb2udCWdNSQwKN928CM6wwRc8-9hLnziA7gfW1VY-LrKpbne3Fs5E-E6vDRzgeYZ4-CG6Z_Odfjj4fus9eeU4nx4MsDRnmrsVhgww6ZjragJkZXdPjaG1PW18eiUCooOF9FtTeCqUjh7dCtwiY0z4ce7bw",
+  "payload": ""
+}
+2021-11-01 04:12:56,849:DEBUG:urllib3.connectionpool:https://acme-staging-v02.api.letsencrypt.org:443 "POST /acme/authz-v3/781751148 HTTP/1.1" 200 780
+2021-11-01 04:12:56,850:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Mon, 01 Nov 2021 04:12:56 GMT
+Content-Type: application/json
+Content-Length: 780
+Connection: keep-alive
+Boulder-Requester: 31127338
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-staging-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: 000281dYPL3NiZq2Wkw441DFs3GMgWP2pN0R03XpZVsm8uY
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "identifier": {
+    "type": "dns",
+    "value": "www.mtc-bookclub.xyz"
+  },
+  "status": "valid",
+  "expires": "2021-11-24T07:17:22Z",
+  "challenges": [
+    {
+      "type": "http-01",
+      "status": "valid",
+      "url": "https://acme-staging-v02.api.letsencrypt.org/acme/chall-v3/781751148/rlO2oQ",
+      "token": "nfP9ccxUwSwb7zl7hJ_aBuLcb1m5CNYFAoyubUJgINo",
+      "validationRecord": [
+        {
+          "url": "http://www.mtc-bookclub.xyz/.well-known/acme-challenge/nfP9ccxUwSwb7zl7hJ_aBuLcb1m5CNYFAoyubUJgINo",
+          "hostname": "www.mtc-bookclub.xyz",
+          "port": "80",
+          "addressesResolved": [
+            "192.241.154.7"
+          ],
+          "addressUsed": "192.241.154.7"
+        }
+      ],
+      "validated": "2021-10-25T07:17:22Z"
+    }
+  ]
+}
+2021-11-01 04:12:56,850:DEBUG:acme.client:Storing nonce: 000281dYPL3NiZq2Wkw441DFs3GMgWP2pN0R03XpZVsm8uY
+2021-11-01 04:12:56,851:DEBUG:acme.client:JWS payload:
+b'{\n  "status": "deactivated",\n  "resource": "authz"\n}'
+2021-11-01 04:12:56,852:DEBUG:acme.client:Sending POST request to https://acme-staging-v02.api.letsencrypt.org/acme/authz-v3/781751138:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS1zdGFnaW5nLXYwMi5hcGkubGV0c2VuY3J5cHQub3JnL2FjbWUvYWNjdC8zMTEyNzMzOCIsICJub25jZSI6ICIwMDAyODFkWVBMM05pWnEyV2t3NDQxREZzM0dNZ1dQMnBOMFIwM1hwWlZzbTh1WSIsICJ1cmwiOiAiaHR0cHM6Ly9hY21lLXN0YWdpbmctdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9hdXRoei12My83ODE3NTExMzgifQ",
+  "signature": "gieJbEzuYovOEqtl_wjzVZ1bPHMSuFeVGTN_9WynoPWOBephKhb2tX3Qbk3Jnwesud50-QrkvISCXSR9_Z0rF6GaOfHcqb7fnZ7MLKLWBNVqQj6qdOAjvDrhtsxQy3Dfop2BsX73GCU2IkWmAKfLAI0Ana1K6q20_JZVjeRpjO6ICYJC4iCcdettueeT8LK6k5vEBqdprU0rRPGXnJBrBqHZuBWQq9YoEOQzVTLgPtzTrmurlw7KzeQFnyTF3v-gweWmE2eWieO6wnDk-qqzoL0tqUoBXpHl9UpQgP3XvvAWbSyFdzDp7V3EuKYPy8m0eo__yv4wzwX77JXr8un9Zw",
+  "payload": "ewogICJzdGF0dXMiOiAiZGVhY3RpdmF0ZWQiLAogICJyZXNvdXJjZSI6ICJhdXRoeiIKfQ"
+}
+2021-11-01 04:12:56,915:DEBUG:urllib3.connectionpool:https://acme-staging-v02.api.letsencrypt.org:443 "POST /acme/authz-v3/781751138 HTTP/1.1" 200 774
+2021-11-01 04:12:56,916:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Mon, 01 Nov 2021 04:12:56 GMT
+Content-Type: application/json
+Content-Length: 774
+Connection: keep-alive
+Boulder-Requester: 31127338
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-staging-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: 0002oDElrGpb7mummPZyYfqI_RT4P4ThG5DpPaBiDLRh4ik
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "identifier": {
+    "type": "dns",
+    "value": "mtc-bookclub.xyz"
+  },
+  "status": "deactivated",
+  "expires": "2021-11-24T07:17:22Z",
+  "challenges": [
+    {
+      "type": "http-01",
+      "status": "valid",
+      "url": "https://acme-staging-v02.api.letsencrypt.org/acme/chall-v3/781751138/n3g_8Q",
+      "token": "GUdWB9TpL_02FxD73v3ab8TJTiX7POd2x_sKjL1NtUY",
+      "validationRecord": [
+        {
+          "url": "http://mtc-bookclub.xyz/.well-known/acme-challenge/GUdWB9TpL_02FxD73v3ab8TJTiX7POd2x_sKjL1NtUY",
+          "hostname": "mtc-bookclub.xyz",
+          "port": "80",
+          "addressesResolved": [
+            "192.241.154.7"
+          ],
+          "addressUsed": "192.241.154.7"
+        }
+      ],
+      "validated": "2021-10-25T07:17:22Z"
+    }
+  ]
+}
+2021-11-01 04:12:56,916:DEBUG:acme.client:Storing nonce: 0002oDElrGpb7mummPZyYfqI_RT4P4ThG5DpPaBiDLRh4ik
+2021-11-01 04:12:56,916:DEBUG:acme.client:JWS payload:
+b'{\n  "status": "deactivated",\n  "resource": "authz"\n}'
+2021-11-01 04:12:56,918:DEBUG:acme.client:Sending POST request to https://acme-staging-v02.api.letsencrypt.org/acme/authz-v3/781751148:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS1zdGFnaW5nLXYwMi5hcGkubGV0c2VuY3J5cHQub3JnL2FjbWUvYWNjdC8zMTEyNzMzOCIsICJub25jZSI6ICIwMDAyb0RFbHJHcGI3bXVtbVBaeVlmcUlfUlQ0UDRUaEc1RHBQYUJpRExSaDRpayIsICJ1cmwiOiAiaHR0cHM6Ly9hY21lLXN0YWdpbmctdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9hdXRoei12My83ODE3NTExNDgifQ",
+  "signature": "ZT3KbjksvUXTLTBm1ttxA77WEkgzgPrdBbYpVxn-x7q3N_8VgkVCbxgl42bTQR0-wfJikTzteVh9fJjdmomfXDn3qQvVqW9gBMK2aKhUjMYxkUjxSI2VB72DozSRII-IamuAiK4InM6LmE-_EqZQLJfFwwgdnaba-3117pL_sU6W_RI0PNIfCGmriJ-z3u00AuSZntLvlgxQrNvkvwB1ORsXksiYToe5kxsrxQI4QVdrjk6_UWmoqKXdT4KXAqtPIttKep8xj7WG3kQ77_r9LSwl4BcAkgywHT5CZerqw8jgB27Fai7Jz0HfyQlG0Z-MpSgynNI6mmwNPRPKWQyltw",
+  "payload": "ewogICJzdGF0dXMiOiAiZGVhY3RpdmF0ZWQiLAogICJyZXNvdXJjZSI6ICJhdXRoeiIKfQ"
+}
+2021-11-01 04:12:56,981:DEBUG:urllib3.connectionpool:https://acme-staging-v02.api.letsencrypt.org:443 "POST /acme/authz-v3/781751148 HTTP/1.1" 200 786
+2021-11-01 04:12:56,981:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Mon, 01 Nov 2021 04:12:56 GMT
+Content-Type: application/json
+Content-Length: 786
+Connection: keep-alive
+Boulder-Requester: 31127338
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-staging-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: 0001c45YEF3v2Av_OJceFR9e-hTdd9vq3GyA71uegyHxj3k
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "identifier": {
+    "type": "dns",
+    "value": "www.mtc-bookclub.xyz"
+  },
+  "status": "deactivated",
+  "expires": "2021-11-24T07:17:22Z",
+  "challenges": [
+    {
+      "type": "http-01",
+      "status": "valid",
+      "url": "https://acme-staging-v02.api.letsencrypt.org/acme/chall-v3/781751148/rlO2oQ",
+      "token": "nfP9ccxUwSwb7zl7hJ_aBuLcb1m5CNYFAoyubUJgINo",
+      "validationRecord": [
+        {
+          "url": "http://www.mtc-bookclub.xyz/.well-known/acme-challenge/nfP9ccxUwSwb7zl7hJ_aBuLcb1m5CNYFAoyubUJgINo",
+          "hostname": "www.mtc-bookclub.xyz",
+          "port": "80",
+          "addressesResolved": [
+            "192.241.154.7"
+          ],
+          "addressUsed": "192.241.154.7"
+        }
+      ],
+      "validated": "2021-10-25T07:17:22Z"
+    }
+  ]
+}
+2021-11-01 04:12:56,982:DEBUG:acme.client:Storing nonce: 0001c45YEF3v2Av_OJceFR9e-hTdd9vq3GyA71uegyHxj3k
+2021-11-01 04:12:56,982:DEBUG:certbot.client:Recreating order after authz deactivations
+2021-11-01 04:12:56,983:DEBUG:acme.client:JWS payload:
+b'{\n  "identifiers": [\n    {\n      "type": "dns",\n      "value": "mtc-bookclub.xyz"\n    },\n    {\n      "type": "dns",\n      "value": "www.mtc-bookclub.xyz"\n    }\n  ]\n}'
+2021-11-01 04:12:56,984:DEBUG:acme.client:Sending POST request to https://acme-staging-v02.api.letsencrypt.org/acme/new-order:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS1zdGFnaW5nLXYwMi5hcGkubGV0c2VuY3J5cHQub3JnL2FjbWUvYWNjdC8zMTEyNzMzOCIsICJub25jZSI6ICIwMDAxYzQ1WUVGM3YyQXZfT0pjZUZSOWUtaFRkZDl2cTNHeUE3MXVlZ3lIeGozayIsICJ1cmwiOiAiaHR0cHM6Ly9hY21lLXN0YWdpbmctdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9uZXctb3JkZXIifQ",
+  "signature": "elL9djpo4s9ub4Jz08nGgub5-8pxrkdejesv11w3RWSj85aevqcV9368GeNneEXWUA64mE3y7sxX85zil1ZKmLRyb5fDZEOBXFc0XWMa-6yomNJJEU8OxDTeOFXqqSfkyxxHtzU-dsiYrFhvHQULG-7dlz6be2C1ulxpyO-VMw4TXTof4WJWVz6A7ulxl9rzOKqA8BTvrHDmc6Qo9o6aDHg37iY50Rvo-ul5QbFGWNstnkvg8C-pb6nsU20rO7zUyfibX9gaYLwYEEyxFXqelpJ5iccZAX9gU2fnlH-NC5_f1gadlXCvL6akIZHozR6lgKqDp9FVXntehMVnaPErwg",
+  "payload": "ewogICJpZGVudGlmaWVycyI6IFsKICAgIHsKICAgICAgInR5cGUiOiAiZG5zIiwKICAgICAgInZhbHVlIjogIm10Yy1ib29rY2x1Yi54eXoiCiAgICB9LAogICAgewogICAgICAidHlwZSI6ICJkbnMiLAogICAgICAidmFsdWUiOiAid3d3Lm10Yy1ib29rY2x1Yi54eXoiCiAgICB9CiAgXQp9"
+}
+2021-11-01 04:12:57,066:DEBUG:urllib3.connectionpool:https://acme-staging-v02.api.letsencrypt.org:443 "POST /acme/new-order HTTP/1.1" 201 498
+2021-11-01 04:12:57,067:DEBUG:acme.client:Received response:
+HTTP 201
+Server: nginx
+Date: Mon, 01 Nov 2021 04:12:57 GMT
+Content-Type: application/json
+Content-Length: 498
+Connection: keep-alive
+Boulder-Requester: 31127338
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-staging-v02.api.letsencrypt.org/directory>;rel="index"
+Location: https://acme-staging-v02.api.letsencrypt.org/acme/order/31127338/901879828
+Replay-Nonce: 0001BK4Z12gYFNFQmnG2-wnTH8IK-0j3e_vpzsOYIiMi8GE
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "status": "pending",
+  "expires": "2021-11-08T04:12:57Z",
+  "identifiers": [
+    {
+      "type": "dns",
+      "value": "mtc-bookclub.xyz"
+    },
+    {
+      "type": "dns",
+      "value": "www.mtc-bookclub.xyz"
+    }
+  ],
+  "authorizations": [
+    "https://acme-staging-v02.api.letsencrypt.org/acme/authz-v3/830407048",
+    "https://acme-staging-v02.api.letsencrypt.org/acme/authz-v3/830407058"
+  ],
+  "finalize": "https://acme-staging-v02.api.letsencrypt.org/acme/finalize/31127338/901879828"
+}
+2021-11-01 04:12:57,068:DEBUG:acme.client:Storing nonce: 0001BK4Z12gYFNFQmnG2-wnTH8IK-0j3e_vpzsOYIiMi8GE
+2021-11-01 04:12:57,068:DEBUG:acme.client:JWS payload:
+b''
+2021-11-01 04:12:57,070:DEBUG:acme.client:Sending POST request to https://acme-staging-v02.api.letsencrypt.org/acme/authz-v3/830407048:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS1zdGFnaW5nLXYwMi5hcGkubGV0c2VuY3J5cHQub3JnL2FjbWUvYWNjdC8zMTEyNzMzOCIsICJub25jZSI6ICIwMDAxQks0WjEyZ1lGTkZRbW5HMi13blRIOElLLTBqM2VfdnB6c09ZSWlNaThHRSIsICJ1cmwiOiAiaHR0cHM6Ly9hY21lLXN0YWdpbmctdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9hdXRoei12My84MzA0MDcwNDgifQ",
+  "signature": "ITfSGrUwyNC2R1fgE9SgPMxtwqDNpoHZF5IuROOr5goLmMPamNxu2tVQUXYrLLVVEnuOqDfkY7Vd-3oRKXDxOzHydYfknPjb7zml-qEE1eb4L8w-bTSz6YBcFA2Iis-nzkSOLQoi7tc9lDuqKaZb2sUOLUAis3v5kg9y0O92QxycSRYwWGYWhdgNbRAcKuS47Z93Ua0dnF7iqksOoLnsqNrW9Y6r4HUok2oGfhinLUMiim5ayG1zp15xrjdDjCRzEnymSj-XZRJoO2kVKmfAScEMpwbduBi0oO_RM8xL6IR5AAgymSZDxflZf12-Gzv1_RtQmc-c5oyLtfYo6x6pOA",
+  "payload": ""
+}
+2021-11-01 04:12:57,132:DEBUG:urllib3.connectionpool:https://acme-staging-v02.api.letsencrypt.org:443 "POST /acme/authz-v3/830407048 HTTP/1.1" 200 815
+2021-11-01 04:12:57,132:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Mon, 01 Nov 2021 04:12:57 GMT
+Content-Type: application/json
+Content-Length: 815
+Connection: keep-alive
+Boulder-Requester: 31127338
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-staging-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: 0001CvzbZ30jhFS8RdYDV6B0EYGQTqyxak2TiVWubzuFxm8
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "identifier": {
+    "type": "dns",
+    "value": "mtc-bookclub.xyz"
+  },
+  "status": "pending",
+  "expires": "2021-11-08T04:12:57Z",
+  "challenges": [
+    {
+      "type": "http-01",
+      "status": "pending",
+      "url": "https://acme-staging-v02.api.letsencrypt.org/acme/chall-v3/830407048/pEzuwg",
+      "token": "AWWHNc4_NOTuVj4CUOdT51HapsRW-ZS71lCTV_6Qo40"
+    },
+    {
+      "type": "dns-01",
+      "status": "pending",
+      "url": "https://acme-staging-v02.api.letsencrypt.org/acme/chall-v3/830407048/PzB8hg",
+      "token": "AWWHNc4_NOTuVj4CUOdT51HapsRW-ZS71lCTV_6Qo40"
+    },
+    {
+      "type": "tls-alpn-01",
+      "status": "pending",
+      "url": "https://acme-staging-v02.api.letsencrypt.org/acme/chall-v3/830407048/2UuUig",
+      "token": "AWWHNc4_NOTuVj4CUOdT51HapsRW-ZS71lCTV_6Qo40"
+    }
+  ]
+}
+2021-11-01 04:12:57,132:DEBUG:acme.client:Storing nonce: 0001CvzbZ30jhFS8RdYDV6B0EYGQTqyxak2TiVWubzuFxm8
+2021-11-01 04:12:57,133:DEBUG:acme.client:JWS payload:
+b''
+2021-11-01 04:12:57,134:DEBUG:acme.client:Sending POST request to https://acme-staging-v02.api.letsencrypt.org/acme/authz-v3/830407058:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS1zdGFnaW5nLXYwMi5hcGkubGV0c2VuY3J5cHQub3JnL2FjbWUvYWNjdC8zMTEyNzMzOCIsICJub25jZSI6ICIwMDAxQ3Z6YlozMGpoRlM4UmRZRFY2QjBFWUdRVHF5eGFrMlRpVld1Ynp1RnhtOCIsICJ1cmwiOiAiaHR0cHM6Ly9hY21lLXN0YWdpbmctdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9hdXRoei12My84MzA0MDcwNTgifQ",
+  "signature": "fknQEWgG6XKL5ekHlQXjsoaoWi0cEZGjb8RChCu8kPIqi_F_JfZ__UMJnjzxlSkn5wCol2GMBIbMBi1Hl1FJJO43yxb4hpvB9iC9xY3XlztTcYtjvTvKz9w8O47BfP-SPM21rbPFceTn401v_cRGOP3SezzY9RujtdhRDwdHZy-lgi_cdK66vZxn7qhrrvCUZZ52bWMAXGD4PmGuxGPEa4UJqDUMwlkhaOVrNZnFjJJ3l80QIGXaK_rmERcY1wLaRPeI57BdktbLUyYRENyfl8dk_jc5R7uVZx8v4cnOAPKr49Haa55l4qlx6DfyPV9qm8jpwLaFlMy4ITLZKGhePA",
+  "payload": ""
+}
+2021-11-01 04:12:57,218:DEBUG:urllib3.connectionpool:https://acme-staging-v02.api.letsencrypt.org:443 "POST /acme/authz-v3/830407058 HTTP/1.1" 200 819
+2021-11-01 04:12:57,219:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Mon, 01 Nov 2021 04:12:57 GMT
+Content-Type: application/json
+Content-Length: 819
+Connection: keep-alive
+Boulder-Requester: 31127338
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-staging-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: 0002gJhSSiNMhJ7HkcqrabD0i5IEf0f3QRBfhgV4StGqAjc
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "identifier": {
+    "type": "dns",
+    "value": "www.mtc-bookclub.xyz"
+  },
+  "status": "pending",
+  "expires": "2021-11-08T04:12:57Z",
+  "challenges": [
+    {
+      "type": "http-01",
+      "status": "pending",
+      "url": "https://acme-staging-v02.api.letsencrypt.org/acme/chall-v3/830407058/3_Ps9A",
+      "token": "WrV1Iefr1c07DGzl78nyQCEQ4Zuz8gyL9pEQ0CH_V38"
+    },
+    {
+      "type": "dns-01",
+      "status": "pending",
+      "url": "https://acme-staging-v02.api.letsencrypt.org/acme/chall-v3/830407058/mQTLEA",
+      "token": "WrV1Iefr1c07DGzl78nyQCEQ4Zuz8gyL9pEQ0CH_V38"
+    },
+    {
+      "type": "tls-alpn-01",
+      "status": "pending",
+      "url": "https://acme-staging-v02.api.letsencrypt.org/acme/chall-v3/830407058/8Q_iVA",
+      "token": "WrV1Iefr1c07DGzl78nyQCEQ4Zuz8gyL9pEQ0CH_V38"
+    }
+  ]
+}
+2021-11-01 04:12:57,219:DEBUG:acme.client:Storing nonce: 0002gJhSSiNMhJ7HkcqrabD0i5IEf0f3QRBfhgV4StGqAjc
+2021-11-01 04:12:57,220:INFO:certbot.auth_handler:Performing the following challenges:
+2021-11-01 04:12:57,220:INFO:certbot.auth_handler:http-01 challenge for mtc-bookclub.xyz
+2021-11-01 04:12:57,220:INFO:certbot.auth_handler:http-01 challenge for www.mtc-bookclub.xyz
+2021-11-01 04:12:57,245:DEBUG:certbot_nginx.http_01:Generated server block:
+[]
+2021-11-01 04:12:57,246:DEBUG:certbot.reverter:Creating backup of /etc/nginx/modules-enabled/50-mod-http-image-filter.conf
+2021-11-01 04:12:57,246:DEBUG:certbot.reverter:Creating backup of /etc/nginx/modules-enabled/50-mod-http-xslt-filter.conf
+2021-11-01 04:12:57,247:DEBUG:certbot.reverter:Creating backup of /etc/nginx/mime.types
+2021-11-01 04:12:57,247:DEBUG:certbot.reverter:Creating backup of /etc/nginx/sites-enabled/default
+2021-11-01 04:12:57,247:DEBUG:certbot.reverter:Creating backup of /etc/nginx/nginx.conf
+2021-11-01 04:12:57,247:DEBUG:certbot.reverter:Creating backup of /etc/nginx/sites-enabled/bookclub
+2021-11-01 04:12:57,248:DEBUG:certbot.reverter:Creating backup of /etc/nginx/modules-enabled/50-mod-mail.conf
+2021-11-01 04:12:57,248:DEBUG:certbot.reverter:Creating backup of /etc/nginx/modules-enabled/50-mod-stream.conf
+2021-11-01 04:12:57,249:DEBUG:certbot_nginx.parser:Writing nginx conf tree to /etc/nginx/nginx.conf:
+user www-data;
+worker_processes auto;
+pid /run/nginx.pid;
+include /etc/nginx/modules-enabled/*.conf;
+
+events {
+	worker_connections 768;
+	# multi_accept on;
+}
+
+http {
+include /etc/letsencrypt/le_http_01_cert_challenge.conf;
+server_names_hash_bucket_size 128;
+
+	##
+	# Basic Settings
+	##
+
+	sendfile on;
+	tcp_nopush on;
+	tcp_nodelay on;
+	keepalive_timeout 65;
+	types_hash_max_size 2048;
+	# server_tokens off;
+
+	# server_names_hash_bucket_size 64;
+	# server_name_in_redirect off;
+
+	include /etc/nginx/mime.types;
+	default_type application/octet-stream;
+
+	##
+	# SSL Settings
+	##
+
+	ssl_protocols  TLSv1.2 TLSv1.3; # Dropping SSLv3, ref: POODLE
+	ssl_prefer_server_ciphers on;
+        
+
+        ##
+        # Connection header for WebSocket reverse proxy
+        ##
+        map $http_upgrade $connection_upgrade {
+            default upgrade;
+            ''      close;
+        }
+
+	##
+	# Logging Settings
+	##
+
+	access_log /var/log/nginx/access.log;
+	error_log /var/log/nginx/error.log;
+
+	##
+	# Gzip Settings
+	##
+
+	gzip on;
+        
+	# gzip_vary on;
+	# gzip_proxied any;
+	# gzip_comp_level 6;
+	# gzip_buffers 16 8k;
+	# gzip_http_version 1.1;
+	# gzip_types text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss text/javascript;
+
+	##
+	# Virtual Host Configs
+	##
+
+	include /etc/nginx/conf.d/*.conf;
+	include /etc/nginx/sites-enabled/*;
+
+	client_max_body_size 10M; 
+}
+
+
+#mail {
+#	# See sample authentication script at:
+#	# http://wiki.nginx.org/ImapAuthenticateWithApachePhpScript
+# 
+#	# auth_http localhost/auth.php;
+#	# pop3_capabilities "TOP" "USER";
+#	# imap_capabilities "IMAP4rev1" "UIDPLUS";
+# 
+#	server {
+#		listen     localhost:110;
+#		protocol   pop3;
+#		proxy      on;
+#	}
+# 
+#	server {
+#		listen     localhost:143;
+#		protocol   imap;
+#		proxy      on;
+#	}
+#}
+
+
+2021-11-01 04:12:57,251:DEBUG:certbot_nginx.parser:Writing nginx conf tree to /etc/nginx/sites-enabled/bookclub:
+server {rewrite ^(/.well-known/acme-challenge/.*) $1 break; # managed by Certbot
+
+rewrite ^(/.well-known/acme-challenge/.*) $1 break; # managed by Certbot
+
+
+    server_name mtc-bookclub.xyz www.mtc-bookclub.xyz;
+    #server_name 192.241.154.7;
+
+    location = /favicon.ico { access_log off; log_not_found off; }
+    location /static/ {
+        root /home/django/bookclub/src/bookclub/bookclub;
+    }
+     location / {
+        include proxy_params;
+        proxy_pass http://unix:/run/gunicorn.sock;
+     }
+
+     location /ws/ {
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+        proxy_redirect off;
+        proxy_pass http://127.0.0.1:8001;
+    }
+
+    #location /wss/ {
+    #    proxy_http_version 1.1;
+    #    proxy_set_header Upgrade $http_upgrade;
+    #    proxy_set_header Connection "upgrade";
+
+    #    proxy_redirect off;
+    #    proxy_pass https://127.0.0.1:8001;
+    #}
+
+
+
+
+    #listen 443 ssl; # managed by Certbot
+    #ssl_certificate /etc/letsencrypt/live/mtc-bookclub.xyz/fullchain.pem; # managed by Certbot
+    #ssl_certificate_key /etc/letsencrypt/live/mtc-bookclub.xyz/privkey.pem; # managed by Certbot
+    #include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    #ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+
+
+
+location = /.well-known/acme-challenge/AWWHNc4_NOTuVj4CUOdT51HapsRW-ZS71lCTV_6Qo40{default_type text/plain;return 200 AWWHNc4_NOTuVj4CUOdT51HapsRW-ZS71lCTV_6Qo40.cTWadPhTelqYLYbkEY9Y6ZxBTr5_6vO-zl0YPmVb4fo;} # managed by Certbot
+
+location = /.well-known/acme-challenge/WrV1Iefr1c07DGzl78nyQCEQ4Zuz8gyL9pEQ0CH_V38{default_type text/plain;return 200 WrV1Iefr1c07DGzl78nyQCEQ4Zuz8gyL9pEQ0CH_V38.cTWadPhTelqYLYbkEY9Y6ZxBTr5_6vO-zl0YPmVb4fo;} # managed by Certbot
+
+}
+
+2021-11-01 04:12:58,276:INFO:certbot.auth_handler:Waiting for verification...
+2021-11-01 04:12:58,277:DEBUG:acme.client:JWS payload:
+b'{\n  "resource": "challenge",\n  "type": "http-01"\n}'
+2021-11-01 04:12:58,279:DEBUG:acme.client:Sending POST request to https://acme-staging-v02.api.letsencrypt.org/acme/chall-v3/830407048/pEzuwg:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS1zdGFnaW5nLXYwMi5hcGkubGV0c2VuY3J5cHQub3JnL2FjbWUvYWNjdC8zMTEyNzMzOCIsICJub25jZSI6ICIwMDAyZ0poU1NpTk1oSjdIa2NxcmFiRDBpNUlFZjBmM1FSQmZoZ1Y0U3RHcUFqYyIsICJ1cmwiOiAiaHR0cHM6Ly9hY21lLXN0YWdpbmctdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9jaGFsbC12My84MzA0MDcwNDgvcEV6dXdnIn0",
+  "signature": "cQD_AM2jW2iDECefjxOLtwL4nvCSW0ZATEnwvTYKLn8v5aCyVNC2NdNaS-THIhEZFzP0sD_C4_c13lxRV_Hyre9nkXsGeLGbrWOYjGaySfX65X0tFHzDG0s7xwR2J2WXdlP6a5Yjq18quo5gEKGV5Wdsfy3pc_3j2tbrkI5Mm-9kzYUw9ZzVWNHx_lsh-ISBaOEVsyZuUXopyxiAHK95E4TKjUGthFFbqJXohds2WArcs8MeRLte6KnmcaxwHImzMKKyHacDcw9LeLnh2UaWz389dEYXX8OdQUtI-0RGB61McCFCZHr3vyt9dDInF8G_a7ik5UV7DbiJ0WMV3_3f2w",
+  "payload": "ewogICJyZXNvdXJjZSI6ICJjaGFsbGVuZ2UiLAogICJ0eXBlIjogImh0dHAtMDEiCn0"
+}
+2021-11-01 04:12:58,341:DEBUG:urllib3.connectionpool:https://acme-staging-v02.api.letsencrypt.org:443 "POST /acme/chall-v3/830407048/pEzuwg HTTP/1.1" 200 192
+2021-11-01 04:12:58,342:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Mon, 01 Nov 2021 04:12:58 GMT
+Content-Type: application/json
+Content-Length: 192
+Connection: keep-alive
+Boulder-Requester: 31127338
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-staging-v02.api.letsencrypt.org/directory>;rel="index", <https://acme-staging-v02.api.letsencrypt.org/acme/authz-v3/830407048>;rel="up"
+Location: https://acme-staging-v02.api.letsencrypt.org/acme/chall-v3/830407048/pEzuwg
+Replay-Nonce: 0002RGBmvUT3ZW2oG9kJdhdKx_S33xg6aJtFxx4atNpr7Kw
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "type": "http-01",
+  "status": "pending",
+  "url": "https://acme-staging-v02.api.letsencrypt.org/acme/chall-v3/830407048/pEzuwg",
+  "token": "AWWHNc4_NOTuVj4CUOdT51HapsRW-ZS71lCTV_6Qo40"
+}
+2021-11-01 04:12:58,342:DEBUG:acme.client:Storing nonce: 0002RGBmvUT3ZW2oG9kJdhdKx_S33xg6aJtFxx4atNpr7Kw
+2021-11-01 04:12:58,343:DEBUG:acme.client:JWS payload:
+b'{\n  "resource": "challenge",\n  "type": "http-01"\n}'
+2021-11-01 04:12:58,345:DEBUG:acme.client:Sending POST request to https://acme-staging-v02.api.letsencrypt.org/acme/chall-v3/830407058/3_Ps9A:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS1zdGFnaW5nLXYwMi5hcGkubGV0c2VuY3J5cHQub3JnL2FjbWUvYWNjdC8zMTEyNzMzOCIsICJub25jZSI6ICIwMDAyUkdCbXZVVDNaVzJvRzlrSmRoZEt4X1MzM3hnNmFKdEZ4eDRhdE5wcjdLdyIsICJ1cmwiOiAiaHR0cHM6Ly9hY21lLXN0YWdpbmctdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9jaGFsbC12My84MzA0MDcwNTgvM19QczlBIn0",
+  "signature": "C-S_ZKM198fpVoqztQfEm4MYlPAoPMUdKNTX42WVSoZD9Cy6kbgCPst3GeFDTPNfWdNpLjFiridF3rz59IlXPC8mwNWeZ8bNCEDaMv4BrFFme7kKlKzZfKBkEWonlB2uTrJQWR6OZNwiMO5gj_AuJgNsKFg4GjU0-CjCVUtq3EQWm6qGKI8lIi56AIKM9sn2LaGRkEn8joCtwil2dg62Gz4gvEn_FxSJS8UP-GiVc59MJYM8nyFDkaYIj93st55p8O8Dz5KQpj3vPIwd4KQol9uLK3KwFEXlu3a6QSSlSArlsXBQ1bHqZfoZ3RrOqKlP0TdOI8_pLw_lCqFPkKyaPg",
+  "payload": "ewogICJyZXNvdXJjZSI6ICJjaGFsbGVuZ2UiLAogICJ0eXBlIjogImh0dHAtMDEiCn0"
+}
+2021-11-01 04:12:58,406:DEBUG:urllib3.connectionpool:https://acme-staging-v02.api.letsencrypt.org:443 "POST /acme/chall-v3/830407058/3_Ps9A HTTP/1.1" 200 192
+2021-11-01 04:12:58,406:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Mon, 01 Nov 2021 04:12:58 GMT
+Content-Type: application/json
+Content-Length: 192
+Connection: keep-alive
+Boulder-Requester: 31127338
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-staging-v02.api.letsencrypt.org/directory>;rel="index", <https://acme-staging-v02.api.letsencrypt.org/acme/authz-v3/830407058>;rel="up"
+Location: https://acme-staging-v02.api.letsencrypt.org/acme/chall-v3/830407058/3_Ps9A
+Replay-Nonce: 0002RiJnk7tayvLoVslRr6fXRp54hT0897cAPUQfbsqwY4A
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "type": "http-01",
+  "status": "pending",
+  "url": "https://acme-staging-v02.api.letsencrypt.org/acme/chall-v3/830407058/3_Ps9A",
+  "token": "WrV1Iefr1c07DGzl78nyQCEQ4Zuz8gyL9pEQ0CH_V38"
+}
+2021-11-01 04:12:58,407:DEBUG:acme.client:Storing nonce: 0002RiJnk7tayvLoVslRr6fXRp54hT0897cAPUQfbsqwY4A
+2021-11-01 04:12:59,408:DEBUG:acme.client:JWS payload:
+b''
+2021-11-01 04:12:59,410:DEBUG:acme.client:Sending POST request to https://acme-staging-v02.api.letsencrypt.org/acme/authz-v3/830407048:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS1zdGFnaW5nLXYwMi5hcGkubGV0c2VuY3J5cHQub3JnL2FjbWUvYWNjdC8zMTEyNzMzOCIsICJub25jZSI6ICIwMDAyUmlKbms3dGF5dkxvVnNsUnI2ZlhScDU0aFQwODk3Y0FQVVFmYnNxd1k0QSIsICJ1cmwiOiAiaHR0cHM6Ly9hY21lLXN0YWdpbmctdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9hdXRoei12My84MzA0MDcwNDgifQ",
+  "signature": "arsnHxEo8IquQGNZUzpVn_wGtFoHyZGSQ_LuWG8iJo0QQLDUv0E2MeWY4u1tV0at_uMknf5OdJGFQiCU3EO8VD3iImoQMzwdu3BfcnIV-_S7TpYqoOr1Py2cZ5ezAQ90t7zo_McNkDy7yBd7KjsvX-DQ4WU9FdIa9gglAHMqJ86ADJBjlK6xUX3XX-NcXKnYqt378HplBSOkyNrAurAqCXFcsWmXtj2hhiwYavPFU911pAtdkRDyhydweqxtfiKrXmDlAgOgdqLFNkXDR397LhGoFoqg_hFsy20nmUBUtc4u-_dRzzIbRKNZgFehY0h7Rod9bomGRUfmtLWs7A2G3A",
+  "payload": ""
+}
+2021-11-01 04:12:59,471:DEBUG:urllib3.connectionpool:https://acme-staging-v02.api.letsencrypt.org:443 "POST /acme/authz-v3/830407048 HTTP/1.1" 200 768
+2021-11-01 04:12:59,472:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Mon, 01 Nov 2021 04:12:59 GMT
+Content-Type: application/json
+Content-Length: 768
+Connection: keep-alive
+Boulder-Requester: 31127338
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-staging-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: 0001Jxadvw46YEVryXTcie9YJjzfiE48ZwH0eYu3LNc02m8
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "identifier": {
+    "type": "dns",
+    "value": "mtc-bookclub.xyz"
+  },
+  "status": "valid",
+  "expires": "2021-12-01T04:12:58Z",
+  "challenges": [
+    {
+      "type": "http-01",
+      "status": "valid",
+      "url": "https://acme-staging-v02.api.letsencrypt.org/acme/chall-v3/830407048/pEzuwg",
+      "token": "AWWHNc4_NOTuVj4CUOdT51HapsRW-ZS71lCTV_6Qo40",
+      "validationRecord": [
+        {
+          "url": "http://mtc-bookclub.xyz/.well-known/acme-challenge/AWWHNc4_NOTuVj4CUOdT51HapsRW-ZS71lCTV_6Qo40",
+          "hostname": "mtc-bookclub.xyz",
+          "port": "80",
+          "addressesResolved": [
+            "192.241.154.7"
+          ],
+          "addressUsed": "192.241.154.7"
+        }
+      ],
+      "validated": "2021-11-01T04:12:58Z"
+    }
+  ]
+}
+2021-11-01 04:12:59,472:DEBUG:acme.client:Storing nonce: 0001Jxadvw46YEVryXTcie9YJjzfiE48ZwH0eYu3LNc02m8
+2021-11-01 04:12:59,473:DEBUG:acme.client:JWS payload:
+b''
+2021-11-01 04:12:59,475:DEBUG:acme.client:Sending POST request to https://acme-staging-v02.api.letsencrypt.org/acme/authz-v3/830407058:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS1zdGFnaW5nLXYwMi5hcGkubGV0c2VuY3J5cHQub3JnL2FjbWUvYWNjdC8zMTEyNzMzOCIsICJub25jZSI6ICIwMDAxSnhhZHZ3NDZZRVZyeVhUY2llOVlKanpmaUU0OFp3SDBlWXUzTE5jMDJtOCIsICJ1cmwiOiAiaHR0cHM6Ly9hY21lLXN0YWdpbmctdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9hdXRoei12My84MzA0MDcwNTgifQ",
+  "signature": "SH8hBt1gVbLhfhCLOHKwUyFOdGuRNAdrSUpulEKL0zKi8bcjMknr0ABf9ukJRFvsQUJKB2pUbXINUAvGclTXSGFlrvh2FYwsOhkGTGa5Mg-QYw29yqslRNE_bSa3I2Rnnvt4ORpS1FLVyEEmh00-F9RVgcwjf6vfjib6RVW6_2LQlroKxPOLawdO5PldNQ2NXzVUIw_bfmbWa_RQKlC2vWK9GVk0YhSAOrvycKvTb1ZXWfsq3Ou4QU6nMS5HvKIjLVmuN6wshFAJSyGHn-SBx9f2snu7UfZRrxBWEoZFKDn4c03qA-EqyArd0aKAbMiWQoCckq5UWZKW5xHiL9EsTA",
+  "payload": ""
+}
+2021-11-01 04:12:59,537:DEBUG:urllib3.connectionpool:https://acme-staging-v02.api.letsencrypt.org:443 "POST /acme/authz-v3/830407058 HTTP/1.1" 200 780
+2021-11-01 04:12:59,538:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Mon, 01 Nov 2021 04:12:59 GMT
+Content-Type: application/json
+Content-Length: 780
+Connection: keep-alive
+Boulder-Requester: 31127338
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-staging-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: 0002S6QbiPHgHNp98RoGkbBDCoCHH8nE5B4xydlViFk1lI8
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "identifier": {
+    "type": "dns",
+    "value": "www.mtc-bookclub.xyz"
+  },
+  "status": "valid",
+  "expires": "2021-12-01T04:12:58Z",
+  "challenges": [
+    {
+      "type": "http-01",
+      "status": "valid",
+      "url": "https://acme-staging-v02.api.letsencrypt.org/acme/chall-v3/830407058/3_Ps9A",
+      "token": "WrV1Iefr1c07DGzl78nyQCEQ4Zuz8gyL9pEQ0CH_V38",
+      "validationRecord": [
+        {
+          "url": "http://www.mtc-bookclub.xyz/.well-known/acme-challenge/WrV1Iefr1c07DGzl78nyQCEQ4Zuz8gyL9pEQ0CH_V38",
+          "hostname": "www.mtc-bookclub.xyz",
+          "port": "80",
+          "addressesResolved": [
+            "192.241.154.7"
+          ],
+          "addressUsed": "192.241.154.7"
+        }
+      ],
+      "validated": "2021-11-01T04:12:58Z"
+    }
+  ]
+}
+2021-11-01 04:12:59,538:DEBUG:acme.client:Storing nonce: 0002S6QbiPHgHNp98RoGkbBDCoCHH8nE5B4xydlViFk1lI8
+2021-11-01 04:12:59,539:DEBUG:certbot.error_handler:Calling registered functions
+2021-11-01 04:12:59,539:INFO:certbot.auth_handler:Cleaning up challenges
+2021-11-01 04:13:00,653:DEBUG:certbot.client:CSR: CSR(file=None, data=b'-----BEGIN CERTIFICATE REQUEST-----\nMIICiTCCAXECAQIwADCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALHx\nLwb75ZeBvV2xzkjO7D3PHMsvRvM+n7QyoYk3xw1wAdCUGbFku03KgArwpBPReH2g\nlDLJAhYf9iD+5l2M79w0lGqzeBhhwsXTcdWm8gFep/VxLvFkj1IA74r5xsKWxZoL\nXLHZFIyzTLxe3u+n5NaO9IFzaVaWrZW9YF6oLHPAVVgbOc/Ap2i/Ks4x9DkcQ/hm\nr5ISk9j/BLzbvyJdofThUw4slEUZuAuEyfMaNaU0vVKWzXa6zrcQLKfWDLpkNEjZ\ncD4gYhYVW2JYD2fx+m3KwdVW3gtoo4k0WDpftwX9UsQa1yyrWegd+hYO8KDatddt\nHKLXiVGPWDk8BGaIL5sCAwEAAaBEMEIGCSqGSIb3DQEJDjE1MDMwMQYDVR0RBCow\nKIIQbXRjLWJvb2tjbHViLnh5eoIUd3d3Lm10Yy1ib29rY2x1Yi54eXowDQYJKoZI\nhvcNAQELBQADggEBAI8w+mQPu0rKjVMR09kofp2YLhOdFNK9kHlYTIEOoFpru+rW\nNoOGossfcTvSmyOzHQpkwoWiYObqMmDNznsFxR3+2ekEeygYrydBCZKhBzPUCOaZ\n6ggmqk4hXDrE+DTxVmI8Rii7a85DAECxNAfdDoLRmhghXaw4jM9aVbDzLUtJj+YQ\nFGQDTS9sD8Uo3DFs2s4gWeQE9Tz/m3i7ww84zNgzhLI5IDE8rQcsvYNnVXU5lYQz\nUFdy21E+ZzEppakNys0FQgcP7KTU3In8XhOh57oXKBUuRk+u+mzuAaDJVYcpTiKy\ntt8+j3xXLlXov1THzqpRc3Wmw+qzb3oTlkb/oRQ=\n-----END CERTIFICATE REQUEST-----\n', form='pem')
+2021-11-01 04:13:00,656:DEBUG:acme.client:JWS payload:
+b'{\n  "resource": "new-cert",\n  "csr": "MIICiTCCAXECAQIwADCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALHxLwb75ZeBvV2xzkjO7D3PHMsvRvM-n7QyoYk3xw1wAdCUGbFku03KgArwpBPReH2glDLJAhYf9iD-5l2M79w0lGqzeBhhwsXTcdWm8gFep_VxLvFkj1IA74r5xsKWxZoLXLHZFIyzTLxe3u-n5NaO9IFzaVaWrZW9YF6oLHPAVVgbOc_Ap2i_Ks4x9DkcQ_hmr5ISk9j_BLzbvyJdofThUw4slEUZuAuEyfMaNaU0vVKWzXa6zrcQLKfWDLpkNEjZcD4gYhYVW2JYD2fx-m3KwdVW3gtoo4k0WDpftwX9UsQa1yyrWegd-hYO8KDatddtHKLXiVGPWDk8BGaIL5sCAwEAAaBEMEIGCSqGSIb3DQEJDjE1MDMwMQYDVR0RBCowKIIQbXRjLWJvb2tjbHViLnh5eoIUd3d3Lm10Yy1ib29rY2x1Yi54eXowDQYJKoZIhvcNAQELBQADggEBAI8w-mQPu0rKjVMR09kofp2YLhOdFNK9kHlYTIEOoFpru-rWNoOGossfcTvSmyOzHQpkwoWiYObqMmDNznsFxR3-2ekEeygYrydBCZKhBzPUCOaZ6ggmqk4hXDrE-DTxVmI8Rii7a85DAECxNAfdDoLRmhghXaw4jM9aVbDzLUtJj-YQFGQDTS9sD8Uo3DFs2s4gWeQE9Tz_m3i7ww84zNgzhLI5IDE8rQcsvYNnVXU5lYQzUFdy21E-ZzEppakNys0FQgcP7KTU3In8XhOh57oXKBUuRk-u-mzuAaDJVYcpTiKytt8-j3xXLlXov1THzqpRc3Wmw-qzb3oTlkb_oRQ"\n}'
+2021-11-01 04:13:00,658:DEBUG:acme.client:Sending POST request to https://acme-staging-v02.api.letsencrypt.org/acme/finalize/31127338/901879828:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS1zdGFnaW5nLXYwMi5hcGkubGV0c2VuY3J5cHQub3JnL2FjbWUvYWNjdC8zMTEyNzMzOCIsICJub25jZSI6ICIwMDAyUzZRYmlQSGdITnA5OFJvR2tiQkRDb0NISDhuRTVCNHh5ZGxWaUZrMWxJOCIsICJ1cmwiOiAiaHR0cHM6Ly9hY21lLXN0YWdpbmctdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9maW5hbGl6ZS8zMTEyNzMzOC85MDE4Nzk4MjgifQ",
+  "signature": "DYXcEbKEGAQUsbRFdIjVeJbh9CrgLfQLu3tb6mlhvPhiCTuPu9LYrlS3CPCwU1vGcKZBwBOu59Qjppa67WOYwArx4LOkDUNKtf5yuuYtVJS3jcSDZzBO5TRVANKsM0lymsxS339yyg-Kzaqa0pCYRz16WeOZZ7VxhKwSYHnjnQ6OkeZHuzZLg9P9UHsus4d0zaKj_KfmJrB-g6BCKU2FxbLAUMjXKH-PwIpqv7pYnqs_nL4-7j4HP_gb0JqoKxdMtzsaji9kW5MmR1RIu0VGwUow5RNVQtZfC8QmTNQ9bVU1J6Mn4gpUpmlYuuLyoQ9NAVTqhheZ4o71VPZ5gVWXNA",
+  "payload": "ewogICJyZXNvdXJjZSI6ICJuZXctY2VydCIsCiAgImNzciI6ICJNSUlDaVRDQ0FYRUNBUUl3QURDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDQVFvQ2dnRUJBTEh4THdiNzVaZUJ2VjJ4emtqTzdEM1BITXN2UnZNLW43UXlvWWszeHcxd0FkQ1VHYkZrdTAzS2dBcndwQlBSZUgyZ2xETEpBaFlmOWlELTVsMk03OXcwbEdxemVCaGh3c1hUY2RXbThnRmVwX1Z4THZGa2oxSUE3NHI1eHNLV3hab0xYTEhaRkl5elRMeGUzdS1uNU5hTzlJRnphVmFXclpXOVlGNm9MSFBBVlZnYk9jX0FwMmlfS3M0eDlEa2NRX2htcjVJU2s5al9CTHpidnlKZG9mVGhVdzRzbEVVWnVBdUV5Zk1hTmFVMHZWS1d6WGE2enJjUUxLZldETHBrTkVqWmNENGdZaFlWVzJKWUQyZngtbTNLd2RWVzNndG9vNGswV0RwZnR3WDlVc1FhMXl5cldlZ2QtaFlPOEtEYXRkZHRIS0xYaVZHUFdEazhCR2FJTDVzQ0F3RUFBYUJFTUVJR0NTcUdTSWIzRFFFSkRqRTFNRE13TVFZRFZSMFJCQ293S0lJUWJYUmpMV0p2YjJ0amJIVmlMbmg1ZW9JVWQzZDNMbTEwWXkxaWIyOXJZMngxWWk1NGVYb3dEUVlKS29aSWh2Y05BUUVMQlFBRGdnRUJBSTh3LW1RUHUwcktqVk1SMDlrb2ZwMllMaE9kRk5LOWtIbFlUSUVPb0ZwcnUtcldOb09Hb3NzZmNUdlNteU96SFFwa3dvV2lZT2JxTW1ETnpuc0Z4UjMtMmVrRWV5Z1lyeWRCQ1pLaEJ6UFVDT2FaNmdnbXFrNGhYRHJFLURUeFZtSThSaWk3YTg1REFFQ3hOQWZkRG9MUm1oZ2hYYXc0ak05YVZiRHpMVXRKai1ZUUZHUURUUzlzRDhVbzNERnMyczRnV2VRRTlUel9tM2k3d3c4NHpOZ3poTEk1SURFOHJRY3N2WU5uVlhVNWxZUXpVRmR5MjFFLVp6RXBwYWtOeXMwRlFnY1A3S1RVM0luOFhoT2g1N29YS0JVdVJrLXUtbXp1QWFESlZZY3BUaUt5dHQ4LWozeFhMbFhvdjFUSHpxcFJjM1dtdy1xemIzb1Rsa2Jfb1JRIgp9"
+}
+2021-11-01 04:13:00,905:DEBUG:urllib3.connectionpool:https://acme-staging-v02.api.letsencrypt.org:443 "POST /acme/finalize/31127338/901879828 HTTP/1.1" 200 608
+2021-11-01 04:13:00,906:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Mon, 01 Nov 2021 04:13:00 GMT
+Content-Type: application/json
+Content-Length: 608
+Connection: keep-alive
+Boulder-Requester: 31127338
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-staging-v02.api.letsencrypt.org/directory>;rel="index"
+Location: https://acme-staging-v02.api.letsencrypt.org/acme/order/31127338/901879828
+Replay-Nonce: 0002EN_GMh8jMrCTbL9uY5QhGHQX92elX5MN7ZFxWbZLYP8
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "status": "valid",
+  "expires": "2021-11-08T04:12:57Z",
+  "identifiers": [
+    {
+      "type": "dns",
+      "value": "mtc-bookclub.xyz"
+    },
+    {
+      "type": "dns",
+      "value": "www.mtc-bookclub.xyz"
+    }
+  ],
+  "authorizations": [
+    "https://acme-staging-v02.api.letsencrypt.org/acme/authz-v3/830407048",
+    "https://acme-staging-v02.api.letsencrypt.org/acme/authz-v3/830407058"
+  ],
+  "finalize": "https://acme-staging-v02.api.letsencrypt.org/acme/finalize/31127338/901879828",
+  "certificate": "https://acme-staging-v02.api.letsencrypt.org/acme/cert/fa7b44751abcde1295b8272bf2187840df2c"
+}
+2021-11-01 04:13:00,906:DEBUG:acme.client:Storing nonce: 0002EN_GMh8jMrCTbL9uY5QhGHQX92elX5MN7ZFxWbZLYP8
+2021-11-01 04:13:01,908:DEBUG:acme.client:JWS payload:
+b''
+2021-11-01 04:13:01,910:DEBUG:acme.client:Sending POST request to https://acme-staging-v02.api.letsencrypt.org/acme/order/31127338/901879828:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS1zdGFnaW5nLXYwMi5hcGkubGV0c2VuY3J5cHQub3JnL2FjbWUvYWNjdC8zMTEyNzMzOCIsICJub25jZSI6ICIwMDAyRU5fR01oOGpNckNUYkw5dVk1UWhHSFFYOTJlbFg1TU43WkZ4V2JaTFlQOCIsICJ1cmwiOiAiaHR0cHM6Ly9hY21lLXN0YWdpbmctdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9vcmRlci8zMTEyNzMzOC85MDE4Nzk4MjgifQ",
+  "signature": "H9srKh0zJNSQ8CP3cMBqClA9KRA10SV43pirz7W_5SaisvdsYi6NtIYjZX1kF-0CoWY5h52MCOfWHRhiDEy5s2quv_EbCQE1Vg0yEZHfRKbTgsHSFUHpcS4Xj0kF9wPO2I5U7tyc93IcxvGlz6Ge1BOVPSvSTCqtrKNhTV0OLu661_9nVh3zb2K_L5o0t0FnXwfAXFb49ybwuR91L94qX7Wa4s83T8rjuWXqk5D7iqdksUzED0EQNTeEOcCXO1DBTkBnInEcFAGy5oRtnHPPlJTNk9SbPBPfLEXOlldclcnBSLrIp2ge_fTV8UndL5To2yw8rCJBHFkGbVSH2DbCGA",
+  "payload": ""
+}
+2021-11-01 04:13:01,974:DEBUG:urllib3.connectionpool:https://acme-staging-v02.api.letsencrypt.org:443 "POST /acme/order/31127338/901879828 HTTP/1.1" 200 608
+2021-11-01 04:13:01,975:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Mon, 01 Nov 2021 04:13:01 GMT
+Content-Type: application/json
+Content-Length: 608
+Connection: keep-alive
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-staging-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: 0002wm-Fr303h_oQW5vLvst0YgbE3Be5Ar9qvwZzOVTy4q0
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "status": "valid",
+  "expires": "2021-11-08T04:12:57Z",
+  "identifiers": [
+    {
+      "type": "dns",
+      "value": "mtc-bookclub.xyz"
+    },
+    {
+      "type": "dns",
+      "value": "www.mtc-bookclub.xyz"
+    }
+  ],
+  "authorizations": [
+    "https://acme-staging-v02.api.letsencrypt.org/acme/authz-v3/830407048",
+    "https://acme-staging-v02.api.letsencrypt.org/acme/authz-v3/830407058"
+  ],
+  "finalize": "https://acme-staging-v02.api.letsencrypt.org/acme/finalize/31127338/901879828",
+  "certificate": "https://acme-staging-v02.api.letsencrypt.org/acme/cert/fa7b44751abcde1295b8272bf2187840df2c"
+}
+2021-11-01 04:13:01,975:DEBUG:acme.client:Storing nonce: 0002wm-Fr303h_oQW5vLvst0YgbE3Be5Ar9qvwZzOVTy4q0
+2021-11-01 04:13:01,976:DEBUG:acme.client:JWS payload:
+b''
+2021-11-01 04:13:01,977:DEBUG:acme.client:Sending POST request to https://acme-staging-v02.api.letsencrypt.org/acme/cert/fa7b44751abcde1295b8272bf2187840df2c:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS1zdGFnaW5nLXYwMi5hcGkubGV0c2VuY3J5cHQub3JnL2FjbWUvYWNjdC8zMTEyNzMzOCIsICJub25jZSI6ICIwMDAyd20tRnIzMDNoX29RVzV2THZzdDBZZ2JFM0JlNUFyOXF2d1p6T1ZUeTRxMCIsICJ1cmwiOiAiaHR0cHM6Ly9hY21lLXN0YWdpbmctdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9jZXJ0L2ZhN2I0NDc1MWFiY2RlMTI5NWI4MjcyYmYyMTg3ODQwZGYyYyJ9",
+  "signature": "X8qIKnoSaqZ7mDQWPTQtNqMRwF95U8IPdpm0SvlKXLBPwbssosrec6Fh27Gw8FjU8Cu71WEOVx8jLi3QqSCvLJP2iY3fbb4T0kE41-c6wTv_9P9aCz4Cs9nAHzbp-UFF3ZRSInlgCDGMY_6Er0TUQ7x5FEkSSdKQJl3o315OQVlQuCH6KKb_RVGStv_2dlh2YRIHInWhI8_ht-LPECcjFaPLQSKb-3LW2L2Dr0wE9mxcSMvUYtTFP0hs6mTdt8r0TphDDmOYv0jjcywyyq0v53PXxELOBz-PxK9lyA41mAu0P0m0PbzNrfeYAthZeJGte2MJf60Wd8kuf4Qg_970LQ",
+  "payload": ""
+}
+2021-11-01 04:13:02,037:DEBUG:urllib3.connectionpool:https://acme-staging-v02.api.letsencrypt.org:443 "POST /acme/cert/fa7b44751abcde1295b8272bf2187840df2c HTTP/1.1" 200 5767
+2021-11-01 04:13:02,038:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Mon, 01 Nov 2021 04:13:02 GMT
+Content-Type: application/pem-certificate-chain
+Content-Length: 5767
+Connection: keep-alive
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-staging-v02.api.letsencrypt.org/directory>;rel="index", <https://acme-staging-v02.api.letsencrypt.org/acme/cert/fa7b44751abcde1295b8272bf2187840df2c/1>;rel="alternate"
+Replay-Nonce: 0001n64iIAJCWju64sh-EuYon1xAtmwhaopqaKUJOqyqTOk
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+-----BEGIN CERTIFICATE-----
+MIIFbDCCBFSgAwIBAgITAPp7RHUavN4SlbgnK/IYeEDfLDANBgkqhkiG9w0BAQsF
+ADBZMQswCQYDVQQGEwJVUzEgMB4GA1UEChMXKFNUQUdJTkcpIExldCdzIEVuY3J5
+cHQxKDAmBgNVBAMTHyhTVEFHSU5HKSBBcnRpZmljaWFsIEFwcmljb3QgUjMwHhcN
+MjExMTAxMDMxMzAwWhcNMjIwMTMwMDMxMjU5WjAbMRkwFwYDVQQDExBtdGMtYm9v
+a2NsdWIueHl6MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsfEvBvvl
+l4G9XbHOSM7sPc8cyy9G8z6ftDKhiTfHDXAB0JQZsWS7TcqACvCkE9F4faCUMskC
+Fh/2IP7mXYzv3DSUarN4GGHCxdNx1abyAV6n9XEu8WSPUgDvivnGwpbFmgtcsdkU
+jLNMvF7e76fk1o70gXNpVpatlb1gXqgsc8BVWBs5z8CnaL8qzjH0ORxD+GavkhKT
+2P8EvNu/Il2h9OFTDiyURRm4C4TJ8xo1pTS9UpbNdrrOtxAsp9YMumQ0SNlwPiBi
+FhVbYlgPZ/H6bcrB1VbeC2ijiTRYOl+3Bf1SxBrXLKtZ6B36Fg7woNq1120coteJ
+UY9YOTwEZogvmwIDAQABo4ICaTCCAmUwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQW
+MBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBQb
+9hHF2YI/GEiWLYUHUJ6w5DqvqjAfBgNVHSMEGDAWgBTecnpI3zHDplDfn4Uj31c3
+S10uZTBdBggrBgEFBQcBAQRRME8wJQYIKwYBBQUHMAGGGWh0dHA6Ly9zdGctcjMu
+by5sZW5jci5vcmcwJgYIKwYBBQUHMAKGGmh0dHA6Ly9zdGctcjMuaS5sZW5jci5v
+cmcvMDEGA1UdEQQqMCiCEG10Yy1ib29rY2x1Yi54eXqCFHd3dy5tdGMtYm9va2Ns
+dWIueHl6MEwGA1UdIARFMEMwCAYGZ4EMAQIBMDcGCysGAQQBgt8TAQEBMCgwJgYI
+KwYBBQUHAgEWGmh0dHA6Ly9jcHMubGV0c2VuY3J5cHQub3JnMIIBBAYKKwYBBAHW
+eQIEAgSB9QSB8gDwAHcAKHYaGJAn++880NYaAY12sFBXKcenQRvMvfYE9F1CYVMA
+AAF82bNTxQAABAMASDBGAiEAou8NdA+eb8v9PPqKrRCdJC2qelG1KMMcex2Zv0gg
+7gECIQDjb438b2A+b5bK3+8SPaPWJIe1khBu3hQML7YcRIESggB1ALDMg+Wl+X1r
+r3wJzChJBIcqx+iLEyxjULfG/SbhbGx3AAABfNmzU8kAAAQDAEYwRAIgNq9QJkpd
+Wv1HvdUKBu38rJKhyfzrJ6WxYsJzI2MCFhUCIEYc6ZlHPKWhd22Cv67bUhtV79N8
+OvFX/0Qz79lm8a1XMA0GCSqGSIb3DQEBCwUAA4IBAQAOcZJLn07n7vzDlTqqoor+
+FhQnPDHAR+4chDSwS7bHw61hrELLa9+O0ZWKoPU776Xd0bk7LciK1YJTC5ZExRWz
+3hH3x+X97BEjduRsDWxJhIs1mqvzpPhaUMh48zSR+4OBTEaoVYzUS+0f18LskecR
+fA/XYsEnjJB8uacOeS3a5eGIdMscI3UMZHSf6RzIpkmOAOCO/SosPhn0Uy14yqss
+AQhkOLqfDZ23LN/hBsmg+WncTeLS0LcZpulPAj+DanpFSeMyQULNlObTspYNgFD/
+KCdVSM3X9VMA6ZnVonjSVHWgt8EwwGlX17aaWTzNxGvbRdi3NSt4lzZX27C6Em8w
+-----END CERTIFICATE-----
+
+-----BEGIN CERTIFICATE-----
+MIIFWzCCA0OgAwIBAgIQTfQrldHumzpMLrM7jRBd1jANBgkqhkiG9w0BAQsFADBm
+MQswCQYDVQQGEwJVUzEzMDEGA1UEChMqKFNUQUdJTkcpIEludGVybmV0IFNlY3Vy
+aXR5IFJlc2VhcmNoIEdyb3VwMSIwIAYDVQQDExkoU1RBR0lORykgUHJldGVuZCBQ
+ZWFyIFgxMB4XDTIwMDkwNDAwMDAwMFoXDTI1MDkxNTE2MDAwMFowWTELMAkGA1UE
+BhMCVVMxIDAeBgNVBAoTFyhTVEFHSU5HKSBMZXQncyBFbmNyeXB0MSgwJgYDVQQD
+Ex8oU1RBR0lORykgQXJ0aWZpY2lhbCBBcHJpY290IFIzMIIBIjANBgkqhkiG9w0B
+AQEFAAOCAQ8AMIIBCgKCAQEAu6TR8+74b46mOE1FUwBrvxzEYLck3iasmKrcQkb+
+gy/z9Jy7QNIAl0B9pVKp4YU76JwxF5DOZZhi7vK7SbCkK6FbHlyU5BiDYIxbbfvO
+L/jVGqdsSjNaJQTg3C3XrJja/HA4WCFEMVoT2wDZm8ABC1N+IQe7Q6FEqc8NwmTS
+nmmRQm4TQvr06DP+zgFK/MNubxWWDSbSKKTH5im5j2fZfg+j/tM1bGaczFWw8/lS
+nukyn5J2L+NJYnclzkXoh9nMFnyPmVbfyDPOc4Y25aTzVoeBKXa/cZ5MM+WddjdL
+biWvm19f1sYn1aRaAIrkppv7kkn83vcth8XCG39qC2ZvaQIDAQABo4IBEDCCAQww
+DgYDVR0PAQH/BAQDAgGGMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDATAS
+BgNVHRMBAf8ECDAGAQH/AgEAMB0GA1UdDgQWBBTecnpI3zHDplDfn4Uj31c3S10u
+ZTAfBgNVHSMEGDAWgBS182Xy/rAKkh/7PH3zRKCsYyXDFDA2BggrBgEFBQcBAQQq
+MCgwJgYIKwYBBQUHMAKGGmh0dHA6Ly9zdGcteDEuaS5sZW5jci5vcmcvMCsGA1Ud
+HwQkMCIwIKAeoByGGmh0dHA6Ly9zdGcteDEuYy5sZW5jci5vcmcvMCIGA1UdIAQb
+MBkwCAYGZ4EMAQIBMA0GCysGAQQBgt8TAQEBMA0GCSqGSIb3DQEBCwUAA4ICAQCN
+DLam9yN0EFxxn/3p+ruWO6n/9goCAM5PT6cC6fkjMs4uas6UGXJjr5j7PoTQf3C1
+vuxiIGRJC6qxV7yc6U0X+w0Mj85sHI5DnQVWN5+D1er7mp13JJA0xbAbHa3Rlczn
+y2Q82XKui8WHuWra0gb2KLpfboYj1Ghgkhr3gau83pC/WQ8HfkwcvSwhIYqTqxoZ
+Uq8HIf3M82qS9aKOZE0CEmSyR1zZqQxJUT7emOUapkUN9poJ9zGc+FgRZvdro0XB
+yphWXDaqMYph0DxW/10ig5j4xmmNDjCRmqIKsKoWA52wBTKKXK1na2ty/lW5dhtA
+xkz5rVZFd4sgS4J0O+zm6d5GRkWsNJ4knotGXl8vtS3X40KXeb3A5+/3p0qaD215
+Xq8oSNORfB2oI1kQuyEAJ5xvPTdfwRlyRG3lFYodrRg6poUBD/8fNTXMtzydpRgy
+zUQZh/18F6B/iW6cbiRN9r2Hkh05Om+q0/6w0DdZe+8YrNpfhSObr/1eVZbKGMIY
+qKmyZbBNu5ysENIK5MPc14mUeKmFjpN840VR5zunoU52lqpLDua/qIM8idk86xGW
+xx2ml43DO/Ya/tVZVok0mO0TUjzJIfPqyvr455IsIut4RlCR9Iq0EDTve2/ZwCuG
+hSjpTUFGSiQrR2JK2Evp+o6AETUkBCO1aw0PpQBPDQ==
+-----END CERTIFICATE-----
+
+-----BEGIN CERTIFICATE-----
+MIIFVDCCBDygAwIBAgIRAO1dW8lt+99NPs1qSY3Rs8cwDQYJKoZIhvcNAQELBQAw
+cTELMAkGA1UEBhMCVVMxMzAxBgNVBAoTKihTVEFHSU5HKSBJbnRlcm5ldCBTZWN1
+cml0eSBSZXNlYXJjaCBHcm91cDEtMCsGA1UEAxMkKFNUQUdJTkcpIERvY3RvcmVk
+IER1cmlhbiBSb290IENBIFgzMB4XDTIxMDEyMDE5MTQwM1oXDTI0MDkzMDE4MTQw
+M1owZjELMAkGA1UEBhMCVVMxMzAxBgNVBAoTKihTVEFHSU5HKSBJbnRlcm5ldCBT
+ZWN1cml0eSBSZXNlYXJjaCBHcm91cDEiMCAGA1UEAxMZKFNUQUdJTkcpIFByZXRl
+bmQgUGVhciBYMTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBALbagEdD
+Ta1QgGBWSYkyMhscZXENOBaVRTMX1hceJENgsL0Ma49D3MilI4KS38mtkmdF6cPW
+nL++fgehT0FbRHZgjOEr8UAN4jH6omjrbTD++VZneTsMVaGamQmDdFl5g1gYaigk
+kmx8OiCO68a4QXg4wSyn6iDipKP8utsE+x1E28SA75HOYqpdrk4HGxuULvlr03wZ
+GTIf/oRt2/c+dYmDoaJhge+GOrLAEQByO7+8+vzOwpNAPEx6LW+crEEZ7eBXih6V
+P19sTGy3yfqK5tPtTdXXCOQMKAp+gCj/VByhmIr+0iNDC540gtvV303WpcbwnkkL
+YC0Ft2cYUyHtkstOfRcRO+K2cZozoSwVPyB8/J9RpcRK3jgnX9lujfwA/pAbP0J2
+UPQFxmWFRQnFjaq6rkqbNEBgLy+kFL1NEsRbvFbKrRi5bYy2lNms2NJPZvdNQbT/
+2dBZKmJqxHkxCuOQFjhJQNeO+Njm1Z1iATS/3rts2yZlqXKsxQUzN6vNbD8KnXRM
+EeOXUYvbV4lqfCf8mS14WEbSiMy87GB5S9ucSV1XUrlTG5UGcMSZOBcEUpisRPEm
+QWUOTWIoDQ5FOia/GI+Ki523r2ruEmbmG37EBSBXdxIdndqrjy+QVAmCebyDx9eV
+EGOIpn26bW5LKerumJxa/CFBaKi4bRvmdJRLAgMBAAGjgfEwge4wDgYDVR0PAQH/
+BAQDAgEGMA8GA1UdEwEB/wQFMAMBAf8wHQYDVR0OBBYEFLXzZfL+sAqSH/s8ffNE
+oKxjJcMUMB8GA1UdIwQYMBaAFAhX2onHolN5DE/d4JCPdLriJ3NEMDgGCCsGAQUF
+BwEBBCwwKjAoBggrBgEFBQcwAoYcaHR0cDovL3N0Zy1kc3QzLmkubGVuY3Iub3Jn
+LzAtBgNVHR8EJjAkMCKgIKAehhxodHRwOi8vc3RnLWRzdDMuYy5sZW5jci5vcmcv
+MCIGA1UdIAQbMBkwCAYGZ4EMAQIBMA0GCysGAQQBgt8TAQEBMA0GCSqGSIb3DQEB
+CwUAA4IBAQB7tR8B0eIQSS6MhP5kuvGth+dN02DsIhr0yJtk2ehIcPIqSxRRmHGl
+4u2c3QlvEpeRDp2w7eQdRTlI/WnNhY4JOofpMf2zwABgBWtAu0VooQcZZTpQruig
+F/z6xYkBk3UHkjeqxzMN3d1EqGusxJoqgdTouZ5X5QTTIee9nQ3LEhWnRSXDx7Y0
+ttR1BGfcdqHopO4IBqAhbkKRjF5zj7OD8cG35omywUbZtOJnftiI0nFcRaxbXo0v
+oDfLD0S6+AC2R3tKpqjkNX6/91hrRFglUakyMcZU/xleqbv6+Lr3YD8PsBTub6lI
+oZ2lS38fL18Aon458fbc0BPHtenfhKj5
+-----END CERTIFICATE-----
+
+2021-11-01 04:13:02,039:DEBUG:acme.client:Storing nonce: 0001n64iIAJCWju64sh-EuYon1xAtmwhaopqaKUJOqyqTOk
+2021-11-01 04:13:02,039:DEBUG:certbot.renewal:Dry run: skipping updating lineage at /etc/letsencrypt/live/mtc-bookclub.xyz
+2021-11-01 04:13:02,040:DEBUG:certbot.updater:Skipping renewal deployer in dry-run mode.
+2021-11-01 04:13:03,064:DEBUG:certbot.updater:Skipping updaters in dry-run mode.
+2021-11-01 04:13:03,064:DEBUG:certbot.renewal:no renewal failures
+2021-11-01 04:29:10,572:DEBUG:certbot.main:certbot version: 0.40.0
+2021-11-01 04:29:10,572:DEBUG:certbot.main:Arguments: ['--nginx', '-d', 'mtc-bookclub.xyz', '-d', 'www.mtc-bookclub.xyz']
+2021-11-01 04:29:10,572:DEBUG:certbot.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#manual,PluginEntryPoint#nginx,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
+2021-11-01 04:29:10,586:DEBUG:certbot.log:Root logging level set at 20
+2021-11-01 04:29:10,586:INFO:certbot.log:Saving debug log to /var/log/letsencrypt/letsencrypt.log
+2021-11-01 04:29:10,588:DEBUG:certbot.plugins.selection:Requested authenticator nginx and installer nginx
+2021-11-01 04:29:10,738:DEBUG:certbot.plugins.selection:Single candidate plugin: * nginx
+Description: Nginx Web Server plugin
+Interfaces: IAuthenticator, IInstaller, IPlugin
+Entry point: nginx = certbot_nginx.configurator:NginxConfigurator
+Initialized: <certbot_nginx.configurator.NginxConfigurator object at 0x7fbc2cee3e80>
+Prep: True
+2021-11-01 04:29:10,739:DEBUG:certbot.plugins.selection:Selected authenticator <certbot_nginx.configurator.NginxConfigurator object at 0x7fbc2cee3e80> and installer <certbot_nginx.configurator.NginxConfigurator object at 0x7fbc2cee3e80>
+2021-11-01 04:29:10,739:INFO:certbot.plugins.selection:Plugins selected: Authenticator nginx, Installer nginx
+2021-11-01 04:29:10,745:DEBUG:certbot.main:Picked account: <Account(RegistrationResource(body=Registration(key=None, contact=(), agreement=None, status=None, terms_of_service_agreed=None, only_return_existing=None, external_account_binding=None), uri='https://acme-v02.api.letsencrypt.org/acme/acct/251316800', new_authzr_uri=None, terms_of_service=None), e0d55730ed8736b53f59505b6933cd5a, Meta(creation_dt=datetime.datetime(2021, 10, 23, 5, 26, 24, tzinfo=<UTC>), creation_host='ubuntu-s-1vcpu-1gb-nyc1-01'))>
+2021-11-01 04:29:10,746:DEBUG:acme.client:Sending GET request to https://acme-v02.api.letsencrypt.org/directory.
+2021-11-01 04:29:10,748:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): acme-v02.api.letsencrypt.org:443
+2021-11-01 04:29:10,927:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "GET /directory HTTP/1.1" 200 658
+2021-11-01 04:29:10,928:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Mon, 01 Nov 2021 04:29:10 GMT
+Content-Type: application/json
+Content-Length: 658
+Connection: keep-alive
+Cache-Control: public, max-age=0, no-cache
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "keyChange": "https://acme-v02.api.letsencrypt.org/acme/key-change",
+  "meta": {
+    "caaIdentities": [
+      "letsencrypt.org"
+    ],
+    "termsOfService": "https://letsencrypt.org/documents/LE-SA-v1.2-November-15-2017.pdf",
+    "website": "https://letsencrypt.org"
+  },
+  "newAccount": "https://acme-v02.api.letsencrypt.org/acme/new-acct",
+  "newNonce": "https://acme-v02.api.letsencrypt.org/acme/new-nonce",
+  "newOrder": "https://acme-v02.api.letsencrypt.org/acme/new-order",
+  "revokeCert": "https://acme-v02.api.letsencrypt.org/acme/revoke-cert",
+  "sdgjGthJI50": "https://community.letsencrypt.org/t/adding-random-entries-to-the-directory/33417"
+}
+2021-11-01 04:29:10,938:INFO:certbot.renewal:Cert not yet due for renewal
+2021-11-01 04:29:21,521:INFO:certbot.main:Renewing an existing certificate
+2021-11-01 04:29:21,615:DEBUG:certbot.crypto_util:Generating key (2048 bits): /etc/letsencrypt/keys/0012_key-certbot.pem
+2021-11-01 04:29:21,618:DEBUG:certbot.crypto_util:Creating CSR: /etc/letsencrypt/csr/0012_csr-certbot.pem
+2021-11-01 04:29:21,618:DEBUG:acme.client:Requesting fresh nonce
+2021-11-01 04:29:21,618:DEBUG:acme.client:Sending HEAD request to https://acme-v02.api.letsencrypt.org/acme/new-nonce.
+2021-11-01 04:29:21,677:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "HEAD /acme/new-nonce HTTP/1.1" 200 0
+2021-11-01 04:29:21,678:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Mon, 01 Nov 2021 04:29:21 GMT
+Connection: keep-alive
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: 0002Ah7ecWm3vjlVBuD_nBJO-6FBs5sau8TG_HKtNPR2tJQ
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+
+2021-11-01 04:29:21,678:DEBUG:acme.client:Storing nonce: 0002Ah7ecWm3vjlVBuD_nBJO-6FBs5sau8TG_HKtNPR2tJQ
+2021-11-01 04:29:21,678:DEBUG:acme.client:JWS payload:
+b'{\n  "identifiers": [\n    {\n      "type": "dns",\n      "value": "mtc-bookclub.xyz"\n    },\n    {\n      "type": "dns",\n      "value": "www.mtc-bookclub.xyz"\n    }\n  ]\n}'
+2021-11-01 04:29:21,680:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/new-order:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2FjY3QvMjUxMzE2ODAwIiwgIm5vbmNlIjogIjAwMDJBaDdlY1dtM3ZqbFZCdURfbkJKTy02RkJzNXNhdThUR19IS3ROUFIydEpRIiwgInVybCI6ICJodHRwczovL2FjbWUtdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9uZXctb3JkZXIifQ",
+  "signature": "FCOB77N8lMMiMdVxsPchifrU__nK04pO6ElySVK8oBQPZgf7XBefqgajnCwQi1KJQnDZFEgU27ZGl6x-mw3BUXzqkdQEiYIfHJD_TWbAcmui69LoTzBFZR_OIsgbZkqynDmePbQ1n2bv4ok7BbjCPK2R-8UZIHbQ9yMbv62hNsHOzWjy6xdC_WWwap-ngV0HzsV44IWxoMe5PtwAytlG9YLL5F6LFzsteUfjWbSAw3Iy9rsdMlu1w9v9nsaVFfZZHM1tiiAsZBuY3GSfXLA6dZFt5_UW7yyR3xUQXV6auad74uBse7PHtDBR6fVtRjFY7Kjqs8p-MvrAiNyIF0nvOw",
+  "payload": "ewogICJpZGVudGlmaWVycyI6IFsKICAgIHsKICAgICAgInR5cGUiOiAiZG5zIiwKICAgICAgInZhbHVlIjogIm10Yy1ib29rY2x1Yi54eXoiCiAgICB9LAogICAgewogICAgICAidHlwZSI6ICJkbnMiLAogICAgICAidmFsdWUiOiAid3d3Lm10Yy1ib29rY2x1Yi54eXoiCiAgICB9CiAgXQp9"
+}
+2021-11-01 04:29:21,767:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "POST /acme/new-order HTTP/1.1" 201 479
+2021-11-01 04:29:21,768:DEBUG:acme.client:Received response:
+HTTP 201
+Server: nginx
+Date: Mon, 01 Nov 2021 04:29:21 GMT
+Content-Type: application/json
+Content-Length: 479
+Connection: keep-alive
+Boulder-Requester: 251316800
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index"
+Location: https://acme-v02.api.letsencrypt.org/acme/order/251316800/36228901910
+Replay-Nonce: 00025dMascC1469fxr8NJYfUEfb0X5H1KB7dGEIl5mXfpU8
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "status": "ready",
+  "expires": "2021-11-08T04:29:21Z",
+  "identifiers": [
+    {
+      "type": "dns",
+      "value": "mtc-bookclub.xyz"
+    },
+    {
+      "type": "dns",
+      "value": "www.mtc-bookclub.xyz"
+    }
+  ],
+  "authorizations": [
+    "https://acme-v02.api.letsencrypt.org/acme/authz-v3/42480018640",
+    "https://acme-v02.api.letsencrypt.org/acme/authz-v3/42466290380"
+  ],
+  "finalize": "https://acme-v02.api.letsencrypt.org/acme/finalize/251316800/36228901910"
+}
+2021-11-01 04:29:21,768:DEBUG:acme.client:Storing nonce: 00025dMascC1469fxr8NJYfUEfb0X5H1KB7dGEIl5mXfpU8
+2021-11-01 04:29:21,768:DEBUG:acme.client:JWS payload:
+b''
+2021-11-01 04:29:21,770:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/authz-v3/42480018640:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2FjY3QvMjUxMzE2ODAwIiwgIm5vbmNlIjogIjAwMDI1ZE1hc2NDMTQ2OWZ4cjhOSllmVUVmYjBYNUgxS0I3ZEdFSWw1bVhmcFU4IiwgInVybCI6ICJodHRwczovL2FjbWUtdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9hdXRoei12My80MjQ4MDAxODY0MCJ9",
+  "signature": "y6hkvxhzgpR_ImuWhZ6KiKEA92oiV96yPzfj9nEUuT0sGhax-pnKD812p2K-_83t9xvsUDRuctyYvVv3hWSuFvEpc1QEAU7Jp6t9SkBIYatIrPjqF4ftAIve6hqU6FTlS54vWvtZHmkAE6Olc3iUhZ1TLwfrHOEdszaRQRss8CYZLKtgyoj4Rch7MpyhlIYUSDBdE4cMCjsz0g_umZuVvuVIyoXawXjTbVHrCjufLyjYixuMX5wLG829C9YlZLZCaCFGPDI4mvEQoG1kFX0gw0mmiYHK1nZHw0jHMfFhITZoVSlKw3GjTgB29XyuuN_acrhfISRpNBB-mBvOgbYMdQ",
+  "payload": ""
+}
+2021-11-01 04:29:21,833:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "POST /acme/authz-v3/42480018640 HTTP/1.1" 200 762
+2021-11-01 04:29:21,833:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Mon, 01 Nov 2021 04:29:21 GMT
+Content-Type: application/json
+Content-Length: 762
+Connection: keep-alive
+Boulder-Requester: 251316800
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: 0002tYR5ctdHPfPK8qSa3wIafRLB6nz38GXunLadhA7CHcU
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "identifier": {
+    "type": "dns",
+    "value": "mtc-bookclub.xyz"
+  },
+  "status": "valid",
+  "expires": "2021-11-22T06:33:56Z",
+  "challenges": [
+    {
+      "type": "http-01",
+      "status": "valid",
+      "url": "https://acme-v02.api.letsencrypt.org/acme/chall-v3/42480018640/05ooHw",
+      "token": "3DxZkyTyZrCa6RQN8oT2oasy-i1nsvH29JXNNr_ElQg",
+      "validationRecord": [
+        {
+          "url": "http://mtc-bookclub.xyz/.well-known/acme-challenge/3DxZkyTyZrCa6RQN8oT2oasy-i1nsvH29JXNNr_ElQg",
+          "hostname": "mtc-bookclub.xyz",
+          "port": "80",
+          "addressesResolved": [
+            "192.241.154.7"
+          ],
+          "addressUsed": "192.241.154.7"
+        }
+      ],
+      "validated": "2021-10-23T06:33:55Z"
+    }
+  ]
+}
+2021-11-01 04:29:21,834:DEBUG:acme.client:Storing nonce: 0002tYR5ctdHPfPK8qSa3wIafRLB6nz38GXunLadhA7CHcU
+2021-11-01 04:29:21,834:DEBUG:acme.client:JWS payload:
+b''
+2021-11-01 04:29:21,836:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/authz-v3/42466290380:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2FjY3QvMjUxMzE2ODAwIiwgIm5vbmNlIjogIjAwMDJ0WVI1Y3RkSFBmUEs4cVNhM3dJYWZSTEI2bnozOEdYdW5MYWRoQTdDSGNVIiwgInVybCI6ICJodHRwczovL2FjbWUtdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9hdXRoei12My80MjQ2NjI5MDM4MCJ9",
+  "signature": "adSnvYkPRjmB32OihdYy0G5MahnDU5fAC7gcoMlX9y53XopJvGvz3E0uEIu8YOeprytFUoLVtHykqcYMPTGWqgEJ0iqCdMOYmaXpXcy4U-qRQ6fsla4GNmHppdJo6kxpZUjv1N55-3LOyY18FpAbYbLiY7d8YSyVxxzBeYdi-awuo1GTTnzyJneoA_bIRP77bNI0SO9_UrRNY724cTetTPRQ-pqK00MlYNjpVNZXpSdbSkME2Rxr41Av4QUAFm_IObP64mQp3stQNT1lb8P1kt286BoxU2Af0XjWVactuhgC4O0kRVAL0TE2XxM9Snnb_no_V6Ub_dfmwDwNXKm3aw",
+  "payload": ""
+}
+2021-11-01 04:29:21,900:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "POST /acme/authz-v3/42466290380 HTTP/1.1" 200 774
+2021-11-01 04:29:21,901:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Mon, 01 Nov 2021 04:29:21 GMT
+Content-Type: application/json
+Content-Length: 774
+Connection: keep-alive
+Boulder-Requester: 251316800
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: 0001_8VeVh31SllyLIgHHGUAM0PQayXr62pgb0rxLLqhHP4
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "identifier": {
+    "type": "dns",
+    "value": "www.mtc-bookclub.xyz"
+  },
+  "status": "valid",
+  "expires": "2021-11-22T05:26:39Z",
+  "challenges": [
+    {
+      "type": "http-01",
+      "status": "valid",
+      "url": "https://acme-v02.api.letsencrypt.org/acme/chall-v3/42466290380/MoYrXw",
+      "token": "3A3WpIFX2_-L0HuQGESMVyiE5j_JpsjBxMlflNWG06o",
+      "validationRecord": [
+        {
+          "url": "http://www.mtc-bookclub.xyz/.well-known/acme-challenge/3A3WpIFX2_-L0HuQGESMVyiE5j_JpsjBxMlflNWG06o",
+          "hostname": "www.mtc-bookclub.xyz",
+          "port": "80",
+          "addressesResolved": [
+            "192.241.154.7"
+          ],
+          "addressUsed": "192.241.154.7"
+        }
+      ],
+      "validated": "2021-10-23T05:26:38Z"
+    }
+  ]
+}
+2021-11-01 04:29:21,901:DEBUG:acme.client:Storing nonce: 0001_8VeVh31SllyLIgHHGUAM0PQayXr62pgb0rxLLqhHP4
+2021-11-01 04:29:21,901:DEBUG:certbot.client:CSR: CSR(file='/etc/letsencrypt/csr/0012_csr-certbot.pem', data=b'-----BEGIN CERTIFICATE REQUEST-----\nMIICiTCCAXECAQIwADCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAN35\nwG3W4gZ1snYs2qcwZBxdGBr9kTU9a0cDHoiHgeTsAwOuTU3YIizTHG/JZEcnLLfn\nwbNnmYQAyN5NVHIN0Bvg6WZAyuZqZFFXNcOIVf7U39S+rQ9umfakHm6YtAxuZ9Gu\nmCh5to3qeaorlWFnmIFL2MuwHbSz7HrN/iUB1rOSe1evjERx+DYCzXd8O7rZKS8C\nYNnf0syuu+WtUEhS9UiHfppixdaP4C5WSnlPHCMpqI/8IncMuHPElLhzQ1bmQLID\nJirXyCELlwBvmwOOFWcF2w+h3N4TxfERyy3G90KTo/vCMYAoBo0gAvPsUuqD4t+p\nGfpb0q2G+x8GJeu5mLMCAwEAAaBEMEIGCSqGSIb3DQEJDjE1MDMwMQYDVR0RBCow\nKIIQbXRjLWJvb2tjbHViLnh5eoIUd3d3Lm10Yy1ib29rY2x1Yi54eXowDQYJKoZI\nhvcNAQELBQADggEBAJyo50QwtdxEzdJZ57roJnttV8xnTVy0M4PLjpaqjx7n0kBm\nalZjv0ecs+4ZP5jYoAY3nQHHiBqOVa08h/lTwjZKH+1KBk0FDmJbVrzKsNCrhlFe\nUbh6fUCsjyhDp6E2V6L8XXYTA7GOJpOcUeDN4X+ujfWMEdVAwtI3JgRKabwczJl0\ncKO8aSygla9ftg9R2Yjhaz3XzlJBb7OxcK9qBMt6GFIW4wegfxC8GmkExlA5JkwB\njbhjapOegIe0GhglreKcQTX+2+KU3caVNVbz9usawcyy0xJ/zylt77q6l3I/5Ino\nASbwj30sqS8puVpOarvIvb1D4a+o2/TjLUTMBgs=\n-----END CERTIFICATE REQUEST-----\n', form='pem')
+2021-11-01 04:29:21,902:DEBUG:acme.client:JWS payload:
+b'{\n  "resource": "new-cert",\n  "csr": "MIICiTCCAXECAQIwADCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAN35wG3W4gZ1snYs2qcwZBxdGBr9kTU9a0cDHoiHgeTsAwOuTU3YIizTHG_JZEcnLLfnwbNnmYQAyN5NVHIN0Bvg6WZAyuZqZFFXNcOIVf7U39S-rQ9umfakHm6YtAxuZ9GumCh5to3qeaorlWFnmIFL2MuwHbSz7HrN_iUB1rOSe1evjERx-DYCzXd8O7rZKS8CYNnf0syuu-WtUEhS9UiHfppixdaP4C5WSnlPHCMpqI_8IncMuHPElLhzQ1bmQLIDJirXyCELlwBvmwOOFWcF2w-h3N4TxfERyy3G90KTo_vCMYAoBo0gAvPsUuqD4t-pGfpb0q2G-x8GJeu5mLMCAwEAAaBEMEIGCSqGSIb3DQEJDjE1MDMwMQYDVR0RBCowKIIQbXRjLWJvb2tjbHViLnh5eoIUd3d3Lm10Yy1ib29rY2x1Yi54eXowDQYJKoZIhvcNAQELBQADggEBAJyo50QwtdxEzdJZ57roJnttV8xnTVy0M4PLjpaqjx7n0kBmalZjv0ecs-4ZP5jYoAY3nQHHiBqOVa08h_lTwjZKH-1KBk0FDmJbVrzKsNCrhlFeUbh6fUCsjyhDp6E2V6L8XXYTA7GOJpOcUeDN4X-ujfWMEdVAwtI3JgRKabwczJl0cKO8aSygla9ftg9R2Yjhaz3XzlJBb7OxcK9qBMt6GFIW4wegfxC8GmkExlA5JkwBjbhjapOegIe0GhglreKcQTX-2-KU3caVNVbz9usawcyy0xJ_zylt77q6l3I_5InoASbwj30sqS8puVpOarvIvb1D4a-o2_TjLUTMBgs"\n}'
+2021-11-01 04:29:21,904:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/finalize/251316800/36228901910:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2FjY3QvMjUxMzE2ODAwIiwgIm5vbmNlIjogIjAwMDFfOFZlVmgzMVNsbHlMSWdISEdVQU0wUFFheVhyNjJwZ2IwcnhMTHFoSFA0IiwgInVybCI6ICJodHRwczovL2FjbWUtdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9maW5hbGl6ZS8yNTEzMTY4MDAvMzYyMjg5MDE5MTAifQ",
+  "signature": "xwXUXC-1F4P8gMa0WESeZmLbaICHBZQOOGPIt0tlhl69KLlcGsWTxyQNfBTq7n_THBAq4-T89vDAuKM4C7niTNSRvgJhEXCNV3rID_cqgg0BJM4cw5zyx3kiZzYWfN5jNmzSb7urwa2n1WXn6cwPis7O0XrRgQlwgWKKcQ62NJ63lk__HB0LjpQiJHBh5pxptGUjA2cCSca7pnA7z0etA0xsDAQX0OIXhFtgkwqb397pA6FJcWzBUurLQ_GKIjPLUIEyb-X8mh1m5kKGoQvbUJPkUC1z8gD4cvYvUnr5ZvTWJBRDDzMfWO3_KvyNZBAH-6sANZurFJplOTrrMUp42w",
+  "payload": "ewogICJyZXNvdXJjZSI6ICJuZXctY2VydCIsCiAgImNzciI6ICJNSUlDaVRDQ0FYRUNBUUl3QURDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDQVFvQ2dnRUJBTjM1d0czVzRnWjFzbllzMnFjd1pCeGRHQnI5a1RVOWEwY0RIb2lIZ2VUc0F3T3VUVTNZSWl6VEhHX0paRWNuTExmbndiTm5tWVFBeU41TlZISU4wQnZnNldaQXl1WnFaRkZYTmNPSVZmN1UzOVMtclE5dW1mYWtIbTZZdEF4dVo5R3VtQ2g1dG8zcWVhb3JsV0ZubUlGTDJNdXdIYlN6N0hyTl9pVUIxck9TZTFldmpFUngtRFlDelhkOE83clpLUzhDWU5uZjBzeXV1LVd0VUVoUzlVaUhmcHBpeGRhUDRDNVdTbmxQSENNcHFJXzhJbmNNdUhQRWxMaHpRMWJtUUxJREppclh5Q0VMbHdCdm13T09GV2NGMnctaDNONFR4ZkVSeXkzRzkwS1RvX3ZDTVlBb0JvMGdBdlBzVXVxRDR0LXBHZnBiMHEyRy14OEdKZXU1bUxNQ0F3RUFBYUJFTUVJR0NTcUdTSWIzRFFFSkRqRTFNRE13TVFZRFZSMFJCQ293S0lJUWJYUmpMV0p2YjJ0amJIVmlMbmg1ZW9JVWQzZDNMbTEwWXkxaWIyOXJZMngxWWk1NGVYb3dEUVlKS29aSWh2Y05BUUVMQlFBRGdnRUJBSnlvNTBRd3RkeEV6ZEpaNTdyb0pudHRWOHhuVFZ5ME00UExqcGFxang3bjBrQm1hbFpqdjBlY3MtNFpQNWpZb0FZM25RSEhpQnFPVmEwOGhfbFR3alpLSC0xS0JrMEZEbUpiVnJ6S3NOQ3JobEZlVWJoNmZVQ3NqeWhEcDZFMlY2TDhYWFlUQTdHT0pwT2NVZURONFgtdWpmV01FZFZBd3RJM0pnUkthYndjekpsMGNLTzhhU3lnbGE5ZnRnOVIyWWpoYXozWHpsSkJiN094Y0s5cUJNdDZHRklXNHdlZ2Z4QzhHbWtFeGxBNUprd0JqYmhqYXBPZWdJZTBHaGdscmVLY1FUWC0yLUtVM2NhVk5WYno5dXNhd2N5eTB4Sl96eWx0NzdxNmwzSV81SW5vQVNid2ozMHNxUzhwdVZwT2Fydkl2YjFENGEtbzJfVGpMVVRNQmdzIgp9"
+}
+2021-11-01 04:29:22,505:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "POST /acme/finalize/251316800/36228901910 HTTP/1.1" 200 583
+2021-11-01 04:29:22,506:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Mon, 01 Nov 2021 04:29:22 GMT
+Content-Type: application/json
+Content-Length: 583
+Connection: keep-alive
+Boulder-Requester: 251316800
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index"
+Location: https://acme-v02.api.letsencrypt.org/acme/order/251316800/36228901910
+Replay-Nonce: 0002E8F9Z6mDOsZk-C9hCy3XYwEn5d_juOvJgr0q5GqThZk
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "status": "valid",
+  "expires": "2021-11-08T04:29:21Z",
+  "identifiers": [
+    {
+      "type": "dns",
+      "value": "mtc-bookclub.xyz"
+    },
+    {
+      "type": "dns",
+      "value": "www.mtc-bookclub.xyz"
+    }
+  ],
+  "authorizations": [
+    "https://acme-v02.api.letsencrypt.org/acme/authz-v3/42466290380",
+    "https://acme-v02.api.letsencrypt.org/acme/authz-v3/42480018640"
+  ],
+  "finalize": "https://acme-v02.api.letsencrypt.org/acme/finalize/251316800/36228901910",
+  "certificate": "https://acme-v02.api.letsencrypt.org/acme/cert/03ad3ca181a138aa3ce236ac35bcbb8e208f"
+}
+2021-11-01 04:29:22,506:DEBUG:acme.client:Storing nonce: 0002E8F9Z6mDOsZk-C9hCy3XYwEn5d_juOvJgr0q5GqThZk
+2021-11-01 04:29:23,508:DEBUG:acme.client:JWS payload:
+b''
+2021-11-01 04:29:23,509:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/order/251316800/36228901910:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2FjY3QvMjUxMzE2ODAwIiwgIm5vbmNlIjogIjAwMDJFOEY5WjZtRE9zWmstQzloQ3kzWFl3RW41ZF9qdU92SmdyMHE1R3FUaFprIiwgInVybCI6ICJodHRwczovL2FjbWUtdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9vcmRlci8yNTEzMTY4MDAvMzYyMjg5MDE5MTAifQ",
+  "signature": "Wn8to9uQK6KSD_uKGPRm_mn47CoOFSTyrI6maSBfHQAIeRkcppkmZQXD02qlQaz_g8qukB2PlfkNdNGVS4xtReKBqNmRNHi7_EQ9OJ7ik-v4jNI8iTTB37XQmCZgHBUAUXeSOQlyFfIn0-Nu7OhxobJULibI89wOG2HQs13svTuCKknrg6xUz_KWRZNQPn4TyP3OBwy7fBsxRt2s7vzAVlS1Ktg8VAgsQSj1IuSsydg-Qe-KOVCnPW-EcFJvplBbQwQNycHfIdsmK4hThJm6KJjrcQSWjCXHeaPssj8J6CzgAzM9DdBNGiCmQykdLfNYD8C7phhSS_i3rk_eAjAD7g",
+  "payload": ""
+}
+2021-11-01 04:29:23,585:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "POST /acme/order/251316800/36228901910 HTTP/1.1" 200 583
+2021-11-01 04:29:23,585:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Mon, 01 Nov 2021 04:29:23 GMT
+Content-Type: application/json
+Content-Length: 583
+Connection: keep-alive
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: 0001Yfzc6khR8hBFGuACNAyEye0fyC_RFxhDfw3d-q6mUMw
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "status": "valid",
+  "expires": "2021-11-08T04:29:21Z",
+  "identifiers": [
+    {
+      "type": "dns",
+      "value": "mtc-bookclub.xyz"
+    },
+    {
+      "type": "dns",
+      "value": "www.mtc-bookclub.xyz"
+    }
+  ],
+  "authorizations": [
+    "https://acme-v02.api.letsencrypt.org/acme/authz-v3/42466290380",
+    "https://acme-v02.api.letsencrypt.org/acme/authz-v3/42480018640"
+  ],
+  "finalize": "https://acme-v02.api.letsencrypt.org/acme/finalize/251316800/36228901910",
+  "certificate": "https://acme-v02.api.letsencrypt.org/acme/cert/03ad3ca181a138aa3ce236ac35bcbb8e208f"
+}
+2021-11-01 04:29:23,585:DEBUG:acme.client:Storing nonce: 0001Yfzc6khR8hBFGuACNAyEye0fyC_RFxhDfw3d-q6mUMw
+2021-11-01 04:29:23,586:DEBUG:acme.client:JWS payload:
+b''
+2021-11-01 04:29:23,587:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/cert/03ad3ca181a138aa3ce236ac35bcbb8e208f:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2FjY3QvMjUxMzE2ODAwIiwgIm5vbmNlIjogIjAwMDFZZnpjNmtoUjhoQkZHdUFDTkF5RXllMGZ5Q19SRnhoRGZ3M2QtcTZtVU13IiwgInVybCI6ICJodHRwczovL2FjbWUtdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9jZXJ0LzAzYWQzY2ExODFhMTM4YWEzY2UyMzZhYzM1YmNiYjhlMjA4ZiJ9",
+  "signature": "nSXMX5Xbjs9GG8Ne4RZs4DLqUioFzU4hhoOxBddAblBe0yC9SvvbMX9nwImOybodpEw6ChZ_FhiLJzSicILs_1kUYkuPosVr5cFbP8UTGP3IV13CW7WUDxKZQfYqkXVX9es0WSS6DuV3KaO8a0y1Ri9awppoudIPMdcUHNLfAxv4ktGuBJKWQ_j_E9pHIZkUI_KFhQVOOtIWGkaBJd0b46t11LxZP618f8NBjHXe3SNpn_wxQYjMavmWYAac6KJTe3A4_kLLuzoz91nWS5p54_LTgsV0gkdPu-N01yxDcOMg34XQoo0Xv-WLwvqRa6dHlgKrp2GftLlDQ7Bq26tD8w",
+  "payload": ""
+}
+2021-11-01 04:29:23,650:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "POST /acme/cert/03ad3ca181a138aa3ce236ac35bcbb8e208f HTTP/1.1" 200 5625
+2021-11-01 04:29:23,651:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Mon, 01 Nov 2021 04:29:23 GMT
+Content-Type: application/pem-certificate-chain
+Content-Length: 5625
+Connection: keep-alive
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index", <https://acme-v02.api.letsencrypt.org/acme/cert/03ad3ca181a138aa3ce236ac35bcbb8e208f/1>;rel="alternate"
+Replay-Nonce: 00025PkIcvRsa2n5MICDBXuIegtyOjO68RnGSpI2Cx3AiBw
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+-----BEGIN CERTIFICATE-----
+MIIFPDCCBCSgAwIBAgISA608oYGhOKo84jasNby7jiCPMA0GCSqGSIb3DQEBCwUA
+MDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQD
+EwJSMzAeFw0yMTExMDEwMzI5MjJaFw0yMjAxMzAwMzI5MjFaMBsxGTAXBgNVBAMT
+EG10Yy1ib29rY2x1Yi54eXowggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+AQDd+cBt1uIGdbJ2LNqnMGQcXRga/ZE1PWtHAx6Ih4Hk7AMDrk1N2CIs0xxvyWRH
+Jyy358GzZ5mEAMjeTVRyDdAb4OlmQMrmamRRVzXDiFX+1N/Uvq0Pbpn2pB5umLQM
+bmfRrpgoebaN6nmqK5VhZ5iBS9jLsB20s+x6zf4lAdazkntXr4xEcfg2As13fDu6
+2SkvAmDZ39LMrrvlrVBIUvVIh36aYsXWj+AuVkp5TxwjKaiP/CJ3DLhzxJS4c0NW
+5kCyAyYq18ghC5cAb5sDjhVnBdsPodzeE8XxEcstxvdCk6P7wjGAKAaNIALz7FLq
+g+LfqRn6W9KthvsfBiXruZizAgMBAAGjggJhMIICXTAOBgNVHQ8BAf8EBAMCBaAw
+HQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYD
+VR0OBBYEFPzE5j50N+qXj/hhweea6aX+FAt3MB8GA1UdIwQYMBaAFBQusxe3WFbL
+rlAJQOYfr52LFMLGMFUGCCsGAQUFBwEBBEkwRzAhBggrBgEFBQcwAYYVaHR0cDov
+L3IzLm8ubGVuY3Iub3JnMCIGCCsGAQUFBzAChhZodHRwOi8vcjMuaS5sZW5jci5v
+cmcvMDEGA1UdEQQqMCiCEG10Yy1ib29rY2x1Yi54eXqCFHd3dy5tdGMtYm9va2Ns
+dWIueHl6MEwGA1UdIARFMEMwCAYGZ4EMAQIBMDcGCysGAQQBgt8TAQEBMCgwJgYI
+KwYBBQUHAgEWGmh0dHA6Ly9jcHMubGV0c2VuY3J5cHQub3JnMIIBBAYKKwYBBAHW
+eQIEAgSB9QSB8gDwAHYAQcjKsd8iRkoQxqE6CUKHXk4xixsD6+tLx2jwkGKWBvYA
+AAF82cJOQwAABAMARzBFAiEAybFNuXybF7W5XtarTilga6jQyop1eAMZi5xrBiI3
+kTwCIB4crOe2NRHkY1GE+EsBDT6jTLzqXS0lNBM4FhyiS6lIAHYAKXm+8J45OSHw
+VnOfY6V35b5XfZxgCvj5TV0mXCVdx4QAAAF82cJORAAABAMARzBFAiEAwi9FaaQ7
+sTCu2YeNwvj+e8H9fEUOOf1LWv8y1WsPYfICIHPV3Rk3+UJlsh8TEbPifBRk/fT5
+GcpP7Gfnc1m9cPTqMA0GCSqGSIb3DQEBCwUAA4IBAQBPJMsWufRPKNueNATNkZMs
+OAQwrNQfPoGCra242cBjZsLkw6eWfYr5ztBHo2fY7R8o7XYsZV/HR5dSYC0Ep1Tn
+yTsVB1Ba8vuJvIUEnmWe7TU6AGsc6n4OwYs28TSG5Utc848dbg8PSm1URvjAJaW6
+u+FbBNsGxlLYFo1EeqqgRkf5vSwzt0SZfDi2fv5Vr1lf8OlpWYO5GIwv1BWEbC/U
+42SJJZ+CWxRfYFhnjhYAcJZg3IzahfSN8kNfwEwMDefnuXGLwbGZDKGaUuVO7Ukq
+raLe1fzMN2Nrf8Qq586HLNBJdMuAUNs0vuc/FHvJJG+CVn8aAEPy5nOojTURsPKY
+-----END CERTIFICATE-----
+
+-----BEGIN CERTIFICATE-----
+MIIFFjCCAv6gAwIBAgIRAJErCErPDBinU/bWLiWnX1owDQYJKoZIhvcNAQELBQAw
+TzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2Vh
+cmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMjAwOTA0MDAwMDAw
+WhcNMjUwOTE1MTYwMDAwWjAyMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3Mg
+RW5jcnlwdDELMAkGA1UEAxMCUjMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK
+AoIBAQC7AhUozPaglNMPEuyNVZLD+ILxmaZ6QoinXSaqtSu5xUyxr45r+XXIo9cP
+R5QUVTVXjJ6oojkZ9YI8QqlObvU7wy7bjcCwXPNZOOftz2nwWgsbvsCUJCWH+jdx
+sxPnHKzhm+/b5DtFUkWWqcFTzjTIUu61ru2P3mBw4qVUq7ZtDpelQDRrK9O8Zutm
+NHz6a4uPVymZ+DAXXbpyb/uBxa3Shlg9F8fnCbvxK/eG3MHacV3URuPMrSXBiLxg
+Z3Vms/EY96Jc5lP/Ooi2R6X/ExjqmAl3P51T+c8B5fWmcBcUr2Ok/5mzk53cU6cG
+/kiFHaFpriV1uxPMUgP17VGhi9sVAgMBAAGjggEIMIIBBDAOBgNVHQ8BAf8EBAMC
+AYYwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMBIGA1UdEwEB/wQIMAYB
+Af8CAQAwHQYDVR0OBBYEFBQusxe3WFbLrlAJQOYfr52LFMLGMB8GA1UdIwQYMBaA
+FHm0WeZ7tuXkAXOACIjIGlj26ZtuMDIGCCsGAQUFBwEBBCYwJDAiBggrBgEFBQcw
+AoYWaHR0cDovL3gxLmkubGVuY3Iub3JnLzAnBgNVHR8EIDAeMBygGqAYhhZodHRw
+Oi8veDEuYy5sZW5jci5vcmcvMCIGA1UdIAQbMBkwCAYGZ4EMAQIBMA0GCysGAQQB
+gt8TAQEBMA0GCSqGSIb3DQEBCwUAA4ICAQCFyk5HPqP3hUSFvNVneLKYY611TR6W
+PTNlclQtgaDqw+34IL9fzLdwALduO/ZelN7kIJ+m74uyA+eitRY8kc607TkC53wl
+ikfmZW4/RvTZ8M6UK+5UzhK8jCdLuMGYL6KvzXGRSgi3yLgjewQtCPkIVz6D2QQz
+CkcheAmCJ8MqyJu5zlzyZMjAvnnAT45tRAxekrsu94sQ4egdRCnbWSDtY7kh+BIm
+lJNXoB1lBMEKIq4QDUOXoRgffuDghje1WrG9ML+Hbisq/yFOGwXD9RiX8F6sw6W4
+avAuvDszue5L3sz85K+EC4Y/wFVDNvZo4TYXao6Z0f+lQKc0t8DQYzk1OXVu8rp2
+yJMC6alLbBfODALZvYH7n7do1AZls4I9d1P4jnkDrQoxB3UqQ9hVl3LEKQ73xF1O
+yK5GhDDX8oVfGKF5u+decIsH4YaTw7mP3GFxJSqv3+0lUFJoi5Lc5da149p90Ids
+hCExroL1+7mryIkXPeFM5TgO9r0rvZaBFOvV2z0gp35Z0+L4WPlbuEjN/lxPFin+
+HlUjr8gRsI3qfJOQFy/9rKIJR0Y/8Omwt/8oTWgy1mdeHmmjk7j1nYsvC9JSQ6Zv
+MldlTTKB3zhThV1+XWYp6rjd5JW1zbVWEkLNxE7GJThEUG3szgBVGP7pSWTUTsqX
+nLRbwHOoq7hHwg==
+-----END CERTIFICATE-----
+
+-----BEGIN CERTIFICATE-----
+MIIFYDCCBEigAwIBAgIQQAF3ITfU6UK47naqPGQKtzANBgkqhkiG9w0BAQsFADA/
+MSQwIgYDVQQKExtEaWdpdGFsIFNpZ25hdHVyZSBUcnVzdCBDby4xFzAVBgNVBAMT
+DkRTVCBSb290IENBIFgzMB4XDTIxMDEyMDE5MTQwM1oXDTI0MDkzMDE4MTQwM1ow
+TzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2Vh
+cmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwggIiMA0GCSqGSIb3DQEB
+AQUAA4ICDwAwggIKAoICAQCt6CRz9BQ385ueK1coHIe+3LffOJCMbjzmV6B493XC
+ov71am72AE8o295ohmxEk7axY/0UEmu/H9LqMZshftEzPLpI9d1537O4/xLxIZpL
+wYqGcWlKZmZsj348cL+tKSIG8+TA5oCu4kuPt5l+lAOf00eXfJlII1PoOK5PCm+D
+LtFJV4yAdLbaL9A4jXsDcCEbdfIwPPqPrt3aY6vrFk/CjhFLfs8L6P+1dy70sntK
+4EwSJQxwjQMpoOFTJOwT2e4ZvxCzSow/iaNhUd6shweU9GNx7C7ib1uYgeGJXDR5
+bHbvO5BieebbpJovJsXQEOEO3tkQjhb7t/eo98flAgeYjzYIlefiN5YNNnWe+w5y
+sR2bvAP5SQXYgd0FtCrWQemsAXaVCg/Y39W9Eh81LygXbNKYwagJZHduRze6zqxZ
+Xmidf3LWicUGQSk+WT7dJvUkyRGnWqNMQB9GoZm1pzpRboY7nn1ypxIFeFntPlF4
+FQsDj43QLwWyPntKHEtzBRL8xurgUBN8Q5N0s8p0544fAQjQMNRbcTa0B7rBMDBc
+SLeCO5imfWCKoqMpgsy6vYMEG6KDA0Gh1gXxG8K28Kh8hjtGqEgqiNx2mna/H2ql
+PRmP6zjzZN7IKw0KKP/32+IVQtQi0Cdd4Xn+GOdwiK1O5tmLOsbdJ1Fu/7xk9TND
+TwIDAQABo4IBRjCCAUIwDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMCAQYw
+SwYIKwYBBQUHAQEEPzA9MDsGCCsGAQUFBzAChi9odHRwOi8vYXBwcy5pZGVudHJ1
+c3QuY29tL3Jvb3RzL2RzdHJvb3RjYXgzLnA3YzAfBgNVHSMEGDAWgBTEp7Gkeyxx
++tvhS5B1/8QVYIWJEDBUBgNVHSAETTBLMAgGBmeBDAECATA/BgsrBgEEAYLfEwEB
+ATAwMC4GCCsGAQUFBwIBFiJodHRwOi8vY3BzLnJvb3QteDEubGV0c2VuY3J5cHQu
+b3JnMDwGA1UdHwQ1MDMwMaAvoC2GK2h0dHA6Ly9jcmwuaWRlbnRydXN0LmNvbS9E
+U1RST09UQ0FYM0NSTC5jcmwwHQYDVR0OBBYEFHm0WeZ7tuXkAXOACIjIGlj26Ztu
+MA0GCSqGSIb3DQEBCwUAA4IBAQAKcwBslm7/DlLQrt2M51oGrS+o44+/yQoDFVDC
+5WxCu2+b9LRPwkSICHXM6webFGJueN7sJ7o5XPWioW5WlHAQU7G75K/QosMrAdSW
+9MUgNTP52GE24HGNtLi1qoJFlcDyqSMo59ahy2cI2qBDLKobkx/J3vWraV0T9VuG
+WCLKTVXkcGdtwlfFRjlBz4pYg1htmf5X6DYO8A4jqv2Il9DjXA6USbW1FzXSLr9O
+he8Y4IWS6wY7bCkjCWDcRQJMEhg76fsO3txE+FiYruq9RUWhiF1myv4Q6W+CyBFC
+Dfvp7OOGAN6dEOM4+qR9sdjoSYKEBpsr6GtPAQw4dy753ec5
+-----END CERTIFICATE-----
+
+2021-11-01 04:29:23,651:DEBUG:acme.client:Storing nonce: 00025PkIcvRsa2n5MICDBXuIegtyOjO68RnGSpI2Cx3AiBw
+2021-11-01 04:29:23,652:DEBUG:certbot.storage:Writing new private key to /etc/letsencrypt/archive/mtc-bookclub.xyz/privkey3.pem.
+2021-11-01 04:29:23,652:DEBUG:certbot.storage:Writing certificate to /etc/letsencrypt/archive/mtc-bookclub.xyz/cert3.pem.
+2021-11-01 04:29:23,653:DEBUG:certbot.storage:Writing chain to /etc/letsencrypt/archive/mtc-bookclub.xyz/chain3.pem.
+2021-11-01 04:29:23,653:DEBUG:certbot.storage:Writing full chain to /etc/letsencrypt/archive/mtc-bookclub.xyz/fullchain3.pem.
+2021-11-01 04:29:23,661:DEBUG:certbot.plugins.selection:Requested authenticator nginx and installer nginx
+2021-11-01 04:29:23,661:DEBUG:certbot.cli:Var authenticator=nginx (set by user).
+2021-11-01 04:29:23,661:DEBUG:certbot.cli:Var installer=nginx (set by user).
+2021-11-01 04:29:23,662:DEBUG:certbot.storage:Writing new config /etc/letsencrypt/renewal/mtc-bookclub.xyz.conf.new.
+2021-11-01 04:29:23,664:DEBUG:certbot.reporter:Reporting to user: Congratulations! Your certificate and chain have been saved at:
+/etc/letsencrypt/live/mtc-bookclub.xyz/fullchain.pem
+Your key file has been saved at:
+/etc/letsencrypt/live/mtc-bookclub.xyz/privkey.pem
+Your cert will expire on 2022-01-30. To obtain a new or tweaked version of this certificate in the future, simply run certbot again with the "certonly" option. To non-interactively renew *all* of your certificates, run "certbot renew"
+2021-11-01 04:29:23,765:DEBUG:certbot.crypto_util:Generating key (1024 bits): /var/lib/letsencrypt/snakeoil/0001_key.pem
+2021-11-01 04:29:23,779:INFO:certbot_nginx.configurator:Deploying Certificate to VirtualHost /etc/nginx/sites-enabled/bookclub
+2021-11-01 04:29:23,779:DEBUG:certbot.reverter:Creating backup of /etc/nginx/modules-enabled/50-mod-mail.conf
+2021-11-01 04:29:23,780:DEBUG:certbot.reverter:Creating backup of /etc/nginx/modules-enabled/50-mod-http-xslt-filter.conf
+2021-11-01 04:29:23,780:DEBUG:certbot.reverter:Creating backup of /etc/nginx/modules-enabled/50-mod-stream.conf
+2021-11-01 04:29:23,780:DEBUG:certbot.reverter:Creating backup of /etc/nginx/sites-enabled/bookclub
+2021-11-01 04:29:23,780:DEBUG:certbot.reverter:Creating backup of /etc/nginx/nginx.conf
+2021-11-01 04:29:23,781:DEBUG:certbot.reverter:Creating backup of /etc/nginx/mime.types
+2021-11-01 04:29:23,781:DEBUG:certbot.reverter:Creating backup of /etc/nginx/sites-enabled/default
+2021-11-01 04:29:23,781:DEBUG:certbot.reverter:Creating backup of /etc/nginx/modules-enabled/50-mod-http-image-filter.conf
+2021-11-01 04:29:23,782:DEBUG:certbot_nginx.parser:Writing nginx conf tree to /etc/nginx/sites-enabled/bookclub:
+server {
+    server_name mtc-bookclub.xyz www.mtc-bookclub.xyz;
+    #server_name 192.241.154.7;
+
+    location = /favicon.ico { access_log off; log_not_found off; }
+    location /static/ {
+        root /home/django/bookclub/src/bookclub/bookclub;
+    }
+     location / {
+        include proxy_params;
+        proxy_pass http://unix:/run/gunicorn.sock;
+     }
+
+     location /ws/ {
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+        proxy_redirect off;
+        proxy_pass http://127.0.0.1:8001;
+    }
+
+    #location /wss/ {
+    #    proxy_http_version 1.1;
+    #    proxy_set_header Upgrade $http_upgrade;
+    #    proxy_set_header Connection "upgrade";
+
+    #    proxy_redirect off;
+    #    proxy_pass https://127.0.0.1:8001;
+    #}
+
+
+
+
+    #listen 443 ssl; # managed by Certbot
+    #ssl_certificate /etc/letsencrypt/live/mtc-bookclub.xyz/fullchain.pem; # managed by Certbot
+    #ssl_certificate_key /etc/letsencrypt/live/mtc-bookclub.xyz/privkey.pem; # managed by Certbot
+    #include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    #ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+
+
+
+
+    listen 80; # managed by Certbot
+
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/mtc-bookclub.xyz/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/mtc-bookclub.xyz/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+}
+
+2021-11-01 04:29:23,790:INFO:certbot_nginx.configurator:Deploying Certificate to VirtualHost /etc/nginx/sites-enabled/bookclub
+2021-11-01 04:29:23,792:DEBUG:certbot_nginx.parser:Writing nginx conf tree to /etc/nginx/sites-enabled/bookclub:
+server {
+    server_name mtc-bookclub.xyz www.mtc-bookclub.xyz;
+    #server_name 192.241.154.7;
+
+    location = /favicon.ico { access_log off; log_not_found off; }
+    location /static/ {
+        root /home/django/bookclub/src/bookclub/bookclub;
+    }
+     location / {
+        include proxy_params;
+        proxy_pass http://unix:/run/gunicorn.sock;
+     }
+
+     location /ws/ {
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+        proxy_redirect off;
+        proxy_pass http://127.0.0.1:8001;
+    }
+
+    #location /wss/ {
+    #    proxy_http_version 1.1;
+    #    proxy_set_header Upgrade $http_upgrade;
+    #    proxy_set_header Connection "upgrade";
+
+    #    proxy_redirect off;
+    #    proxy_pass https://127.0.0.1:8001;
+    #}
+
+
+
+
+    #listen 443 ssl; # managed by Certbot
+    #ssl_certificate /etc/letsencrypt/live/mtc-bookclub.xyz/fullchain.pem; # managed by Certbot
+    #ssl_certificate_key /etc/letsencrypt/live/mtc-bookclub.xyz/privkey.pem; # managed by Certbot
+    #include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    #ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+
+
+
+
+    listen 80; # managed by Certbot
+
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/mtc-bookclub.xyz/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/mtc-bookclub.xyz/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+
+}
+
+2021-11-01 04:29:23,793:DEBUG:certbot_nginx.parser:Writing nginx conf tree to /etc/nginx/sites-enabled/bookclub:
+server {
+    server_name mtc-bookclub.xyz www.mtc-bookclub.xyz;
+    #server_name 192.241.154.7;
+
+    location = /favicon.ico { access_log off; log_not_found off; }
+    location /static/ {
+        root /home/django/bookclub/src/bookclub/bookclub;
+    }
+     location / {
+        include proxy_params;
+        proxy_pass http://unix:/run/gunicorn.sock;
+     }
+
+     location /ws/ {
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+        proxy_redirect off;
+        proxy_pass http://127.0.0.1:8001;
+    }
+
+    #location /wss/ {
+    #    proxy_http_version 1.1;
+    #    proxy_set_header Upgrade $http_upgrade;
+    #    proxy_set_header Connection "upgrade";
+
+    #    proxy_redirect off;
+    #    proxy_pass https://127.0.0.1:8001;
+    #}
+
+
+
+
+    #listen 443 ssl; # managed by Certbot
+    #ssl_certificate /etc/letsencrypt/live/mtc-bookclub.xyz/fullchain.pem; # managed by Certbot
+    #ssl_certificate_key /etc/letsencrypt/live/mtc-bookclub.xyz/privkey.pem; # managed by Certbot
+    #include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    #ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+
+
+
+
+    listen 80; # managed by Certbot
+
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/mtc-bookclub.xyz/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/mtc-bookclub.xyz/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+
+}
+
+2021-11-01 04:29:31,454:INFO:certbot_nginx.configurator:Redirecting all traffic on port 80 to ssl in /etc/nginx/sites-enabled/bookclub
+2021-11-01 04:29:31,462:INFO:certbot_nginx.configurator:Redirecting all traffic on port 80 to ssl in /etc/nginx/sites-enabled/bookclub
+2021-11-01 04:29:31,462:DEBUG:certbot.reverter:Creating backup of /etc/nginx/modules-enabled/50-mod-mail.conf
+2021-11-01 04:29:31,463:DEBUG:certbot.reverter:Creating backup of /etc/nginx/modules-enabled/50-mod-http-xslt-filter.conf
+2021-11-01 04:29:31,463:DEBUG:certbot.reverter:Creating backup of /etc/nginx/modules-enabled/50-mod-stream.conf
+2021-11-01 04:29:31,463:DEBUG:certbot.reverter:Creating backup of /etc/nginx/sites-enabled/bookclub
+2021-11-01 04:29:31,463:DEBUG:certbot.reverter:Creating backup of /etc/nginx/nginx.conf
+2021-11-01 04:29:31,463:DEBUG:certbot.reverter:Creating backup of /etc/nginx/mime.types
+2021-11-01 04:29:31,464:DEBUG:certbot.reverter:Creating backup of /etc/nginx/sites-enabled/default
+2021-11-01 04:29:31,464:DEBUG:certbot.reverter:Creating backup of /etc/nginx/modules-enabled/50-mod-http-image-filter.conf
+2021-11-01 04:29:31,465:DEBUG:certbot_nginx.parser:Writing nginx conf tree to /etc/nginx/sites-enabled/bookclub:
+server {
+    server_name mtc-bookclub.xyz www.mtc-bookclub.xyz;
+    #server_name 192.241.154.7;
+
+    location = /favicon.ico { access_log off; log_not_found off; }
+    location /static/ {
+        root /home/django/bookclub/src/bookclub/bookclub;
+    }
+     location / {
+        include proxy_params;
+        proxy_pass http://unix:/run/gunicorn.sock;
+     }
+
+     location /ws/ {
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+        proxy_redirect off;
+        proxy_pass http://127.0.0.1:8001;
+    }
+
+    #location /wss/ {
+    #    proxy_http_version 1.1;
+    #    proxy_set_header Upgrade $http_upgrade;
+    #    proxy_set_header Connection "upgrade";
+
+    #    proxy_redirect off;
+    #    proxy_pass https://127.0.0.1:8001;
+    #}
+
+
+
+
+    #listen 443 ssl; # managed by Certbot
+    #ssl_certificate /etc/letsencrypt/live/mtc-bookclub.xyz/fullchain.pem; # managed by Certbot
+    #ssl_certificate_key /etc/letsencrypt/live/mtc-bookclub.xyz/privkey.pem; # managed by Certbot
+    #include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    #ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+
+
+
+
+
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/mtc-bookclub.xyz/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/mtc-bookclub.xyz/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+
+}
+server {
+    if ($host = www.mtc-bookclub.xyz) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+
+    if ($host = mtc-bookclub.xyz) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+
+    server_name mtc-bookclub.xyz www.mtc-bookclub.xyz;
+    listen 80;
+    return 404; # managed by Certbot
+
+
+
+
+}
+2021-11-01 04:29:32,487:DEBUG:certbot.reporter:Reporting to user: If you like Certbot, please consider supporting our work by:
+
+Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
+Donating to EFF:                    https://eff.org/donate-le
+
+
+2021-11-01 04:29:57,995:DEBUG:certbot.main:certbot version: 0.40.0
+2021-11-01 04:29:57,995:DEBUG:certbot.main:Arguments: ['--dry-run']
+2021-11-01 04:29:57,995:DEBUG:certbot.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#manual,PluginEntryPoint#nginx,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
+2021-11-01 04:29:58,005:DEBUG:certbot.log:Root logging level set at 20
+2021-11-01 04:29:58,005:INFO:certbot.log:Saving debug log to /var/log/letsencrypt/letsencrypt.log
+2021-11-01 04:29:58,013:DEBUG:certbot.plugins.selection:Requested authenticator <certbot.cli._Default object at 0x7f1a243fc520> and installer <certbot.cli._Default object at 0x7f1a243fc520>
+2021-11-01 04:29:58,013:DEBUG:certbot.cli:Var dry_run=True (set by user).
+2021-11-01 04:29:58,013:DEBUG:certbot.cli:Var server={'staging', 'dry_run'} (set by user).
+2021-11-01 04:29:58,014:DEBUG:certbot.cli:Var dry_run=True (set by user).
+2021-11-01 04:29:58,014:DEBUG:certbot.cli:Var server={'staging', 'dry_run'} (set by user).
+2021-11-01 04:29:58,014:DEBUG:certbot.cli:Var account={'server'} (set by user).
+2021-11-01 04:29:58,023:INFO:certbot.renewal:Cert not due for renewal, but simulating renewal for dry run
+2021-11-01 04:29:58,023:DEBUG:certbot.plugins.selection:Requested authenticator nginx and installer nginx
+2021-11-01 04:29:58,208:DEBUG:certbot.plugins.selection:Single candidate plugin: * nginx
+Description: Nginx Web Server plugin
+Interfaces: IAuthenticator, IInstaller, IPlugin
+Entry point: nginx = certbot_nginx.configurator:NginxConfigurator
+Initialized: <certbot_nginx.configurator.NginxConfigurator object at 0x7f1a243fcca0>
+Prep: True
+2021-11-01 04:29:58,209:DEBUG:certbot.plugins.selection:Single candidate plugin: * nginx
+Description: Nginx Web Server plugin
+Interfaces: IAuthenticator, IInstaller, IPlugin
+Entry point: nginx = certbot_nginx.configurator:NginxConfigurator
+Initialized: <certbot_nginx.configurator.NginxConfigurator object at 0x7f1a243fcca0>
+Prep: True
+2021-11-01 04:29:58,209:DEBUG:certbot.plugins.selection:Selected authenticator <certbot_nginx.configurator.NginxConfigurator object at 0x7f1a243fcca0> and installer <certbot_nginx.configurator.NginxConfigurator object at 0x7f1a243fcca0>
+2021-11-01 04:29:58,209:INFO:certbot.plugins.selection:Plugins selected: Authenticator nginx, Installer nginx
+2021-11-01 04:29:58,216:DEBUG:certbot.main:Picked account: <Account(RegistrationResource(body=Registration(key=None, contact=(), agreement=None, status=None, terms_of_service_agreed=None, only_return_existing=None, external_account_binding=None), uri='https://acme-staging-v02.api.letsencrypt.org/acme/acct/31127338', new_authzr_uri=None, terms_of_service=None), 3446af18bf30ffcfc34ba9494f210541, Meta(creation_dt=datetime.datetime(2021, 10, 24, 0, 3, 7, tzinfo=<UTC>), creation_host='ubuntu-s-1vcpu-1gb-nyc1-01'))>
+2021-11-01 04:29:58,217:DEBUG:acme.client:Sending GET request to https://acme-staging-v02.api.letsencrypt.org/directory.
+2021-11-01 04:29:58,220:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): acme-staging-v02.api.letsencrypt.org:443
+2021-11-01 04:29:58,397:DEBUG:urllib3.connectionpool:https://acme-staging-v02.api.letsencrypt.org:443 "GET /directory HTTP/1.1" 200 822
+2021-11-01 04:29:58,398:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Mon, 01 Nov 2021 04:29:58 GMT
+Content-Type: application/json
+Content-Length: 822
+Connection: keep-alive
+Cache-Control: public, max-age=0, no-cache
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "OXniEilNjEU": "https://community.letsencrypt.org/t/adding-random-entries-to-the-directory/33417",
+  "keyChange": "https://acme-staging-v02.api.letsencrypt.org/acme/key-change",
+  "meta": {
+    "caaIdentities": [
+      "letsencrypt.org"
+    ],
+    "termsOfService": "https://letsencrypt.org/documents/LE-SA-v1.2-November-15-2017.pdf",
+    "website": "https://letsencrypt.org/docs/staging-environment/"
+  },
+  "newAccount": "https://acme-staging-v02.api.letsencrypt.org/acme/new-acct",
+  "newNonce": "https://acme-staging-v02.api.letsencrypt.org/acme/new-nonce",
+  "newOrder": "https://acme-staging-v02.api.letsencrypt.org/acme/new-order",
+  "renewalInfo": "https://acme-staging-v02.api.letsencrypt.org/get/draft-aaron-ari/renewalInfo/",
+  "revokeCert": "https://acme-staging-v02.api.letsencrypt.org/acme/revoke-cert"
+}
+2021-11-01 04:29:58,399:INFO:certbot.main:Renewing an existing certificate
+2021-11-01 04:29:58,440:DEBUG:acme.client:Requesting fresh nonce
+2021-11-01 04:29:58,441:DEBUG:acme.client:Sending HEAD request to https://acme-staging-v02.api.letsencrypt.org/acme/new-nonce.
+2021-11-01 04:29:58,498:DEBUG:urllib3.connectionpool:https://acme-staging-v02.api.letsencrypt.org:443 "HEAD /acme/new-nonce HTTP/1.1" 200 0
+2021-11-01 04:29:58,498:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Mon, 01 Nov 2021 04:29:58 GMT
+Connection: keep-alive
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-staging-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: 0002aMEtSfZ-TrdB_UMQv6BhDWQ0wY-GK4PIIs6_wjMziJ4
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+
+2021-11-01 04:29:58,498:DEBUG:acme.client:Storing nonce: 0002aMEtSfZ-TrdB_UMQv6BhDWQ0wY-GK4PIIs6_wjMziJ4
+2021-11-01 04:29:58,499:DEBUG:acme.client:JWS payload:
+b'{\n  "identifiers": [\n    {\n      "type": "dns",\n      "value": "mtc-bookclub.xyz"\n    },\n    {\n      "type": "dns",\n      "value": "www.mtc-bookclub.xyz"\n    }\n  ]\n}'
+2021-11-01 04:29:58,501:DEBUG:acme.client:Sending POST request to https://acme-staging-v02.api.letsencrypt.org/acme/new-order:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS1zdGFnaW5nLXYwMi5hcGkubGV0c2VuY3J5cHQub3JnL2FjbWUvYWNjdC8zMTEyNzMzOCIsICJub25jZSI6ICIwMDAyYU1FdFNmWi1UcmRCX1VNUXY2QmhEV1Ewd1ktR0s0UElJczZfd2pNemlKNCIsICJ1cmwiOiAiaHR0cHM6Ly9hY21lLXN0YWdpbmctdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9uZXctb3JkZXIifQ",
+  "signature": "fyD1rgJp5TVXEQbVTeN_BiVmzMkhaKzlXKeC-xv-GqZygDKMsX0GDiVxHFFU2hDuyshvnPjtHnYBl57zChr9ZNF5VoJB_77W2T5-G-QUPPWbbvNgxUvTD1Y3dT7y8OvqEFOFj_5N6EaV6-eVhs5EZfmVzVmmspcPYrVRFYCXPJZA07hOObt6vrTrUX251Jh4eXgJwa3j3TPZRZu2y6BRIqA8axbItYqkF_TYgJDSEie1GLdO1kWfhBFF3-6rOTJvWBWKXFrsDLLxbApLkVIvmnRGZeD3--BXpR0Eo_Sh9w5RCLPRlM5k5PaQsgOhjXauNRFZ2Y16L8ytII0rlSen_w",
+  "payload": "ewogICJpZGVudGlmaWVycyI6IFsKICAgIHsKICAgICAgInR5cGUiOiAiZG5zIiwKICAgICAgInZhbHVlIjogIm10Yy1ib29rY2x1Yi54eXoiCiAgICB9LAogICAgewogICAgICAidHlwZSI6ICJkbnMiLAogICAgICAidmFsdWUiOiAid3d3Lm10Yy1ib29rY2x1Yi54eXoiCiAgICB9CiAgXQp9"
+}
+2021-11-01 04:29:58,590:DEBUG:urllib3.connectionpool:https://acme-staging-v02.api.letsencrypt.org:443 "POST /acme/new-order HTTP/1.1" 201 496
+2021-11-01 04:29:58,591:DEBUG:acme.client:Received response:
+HTTP 201
+Server: nginx
+Date: Mon, 01 Nov 2021 04:29:58 GMT
+Content-Type: application/json
+Content-Length: 496
+Connection: keep-alive
+Boulder-Requester: 31127338
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-staging-v02.api.letsencrypt.org/directory>;rel="index"
+Location: https://acme-staging-v02.api.letsencrypt.org/acme/order/31127338/901986568
+Replay-Nonce: 0001xOei0qD_1nUjab3fgdyZl9UNRmzseVQp-jUadnszS8w
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "status": "ready",
+  "expires": "2021-11-08T04:29:58Z",
+  "identifiers": [
+    {
+      "type": "dns",
+      "value": "mtc-bookclub.xyz"
+    },
+    {
+      "type": "dns",
+      "value": "www.mtc-bookclub.xyz"
+    }
+  ],
+  "authorizations": [
+    "https://acme-staging-v02.api.letsencrypt.org/acme/authz-v3/830407048",
+    "https://acme-staging-v02.api.letsencrypt.org/acme/authz-v3/830407058"
+  ],
+  "finalize": "https://acme-staging-v02.api.letsencrypt.org/acme/finalize/31127338/901986568"
+}
+2021-11-01 04:29:58,591:DEBUG:acme.client:Storing nonce: 0001xOei0qD_1nUjab3fgdyZl9UNRmzseVQp-jUadnszS8w
+2021-11-01 04:29:58,591:DEBUG:acme.client:JWS payload:
+b''
+2021-11-01 04:29:58,593:DEBUG:acme.client:Sending POST request to https://acme-staging-v02.api.letsencrypt.org/acme/authz-v3/830407048:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS1zdGFnaW5nLXYwMi5hcGkubGV0c2VuY3J5cHQub3JnL2FjbWUvYWNjdC8zMTEyNzMzOCIsICJub25jZSI6ICIwMDAxeE9laTBxRF8xblVqYWIzZmdkeVpsOVVOUm16c2VWUXAtalVhZG5zelM4dyIsICJ1cmwiOiAiaHR0cHM6Ly9hY21lLXN0YWdpbmctdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9hdXRoei12My84MzA0MDcwNDgifQ",
+  "signature": "YoSBpT6xHR5EWSgP64myyvVVfh-4EojZ1_qnMERCzPDHmTKkyALIPYgqG4DYPUYWQS82ME6CloJ1Cs513r43W1Zip4z3rWeok13Z5T7v8j2cunKh4UgjqTqFFW8qNsSeihy6_HfE7r-JWzrPaM-gILsP_hRI6rnIjdSGuZmJ0-pb42eeP7pEZCGXeqPZ5UKEySLDBu0tR-9hIevjYwf08DAyqDRWLdarrVsOS8UwZDz9WjRIIE5LLfAOlwj87akxzQcxiZ_IGPUVuxAnFjiolfQrK2JkIjgbhiQmkKMzCt16u9_0vEZ4DD_ET6i-KCidKNBXFWD5uxIx7ATexPAmxQ",
+  "payload": ""
+}
+2021-11-01 04:29:58,653:DEBUG:urllib3.connectionpool:https://acme-staging-v02.api.letsencrypt.org:443 "POST /acme/authz-v3/830407048 HTTP/1.1" 200 768
+2021-11-01 04:29:58,653:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Mon, 01 Nov 2021 04:29:58 GMT
+Content-Type: application/json
+Content-Length: 768
+Connection: keep-alive
+Boulder-Requester: 31127338
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-staging-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: 0002fqgvyWPwEcv63Ew5WhaU1MCzZZYAav1f20VtZ09sd8s
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "identifier": {
+    "type": "dns",
+    "value": "mtc-bookclub.xyz"
+  },
+  "status": "valid",
+  "expires": "2021-12-01T04:12:58Z",
+  "challenges": [
+    {
+      "type": "http-01",
+      "status": "valid",
+      "url": "https://acme-staging-v02.api.letsencrypt.org/acme/chall-v3/830407048/pEzuwg",
+      "token": "AWWHNc4_NOTuVj4CUOdT51HapsRW-ZS71lCTV_6Qo40",
+      "validationRecord": [
+        {
+          "url": "http://mtc-bookclub.xyz/.well-known/acme-challenge/AWWHNc4_NOTuVj4CUOdT51HapsRW-ZS71lCTV_6Qo40",
+          "hostname": "mtc-bookclub.xyz",
+          "port": "80",
+          "addressesResolved": [
+            "192.241.154.7"
+          ],
+          "addressUsed": "192.241.154.7"
+        }
+      ],
+      "validated": "2021-11-01T04:12:58Z"
+    }
+  ]
+}
+2021-11-01 04:29:58,653:DEBUG:acme.client:Storing nonce: 0002fqgvyWPwEcv63Ew5WhaU1MCzZZYAav1f20VtZ09sd8s
+2021-11-01 04:29:58,654:DEBUG:acme.client:JWS payload:
+b''
+2021-11-01 04:29:58,655:DEBUG:acme.client:Sending POST request to https://acme-staging-v02.api.letsencrypt.org/acme/authz-v3/830407058:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS1zdGFnaW5nLXYwMi5hcGkubGV0c2VuY3J5cHQub3JnL2FjbWUvYWNjdC8zMTEyNzMzOCIsICJub25jZSI6ICIwMDAyZnFndnlXUHdFY3Y2M0V3NVdoYVUxTUN6WlpZQWF2MWYyMFZ0WjA5c2Q4cyIsICJ1cmwiOiAiaHR0cHM6Ly9hY21lLXN0YWdpbmctdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9hdXRoei12My84MzA0MDcwNTgifQ",
+  "signature": "YjFQ8JotLR-DAg6mfDZ_rjqPWlO2BhQEanGUdOwnpDq2cAWqpcmqzcgVeay33nRv5IPls5GHfrAqhQBGSrtDp9x6WaAjrus4b76ghc-8jBTJPCVdkh0WJhizTaCqyQGmgv-e-rPjXWyhLWwFb0pZHe6LZa41aVrqepVlvhZ7r-Az0UN8Hy8WYK1UiyRE2lE1b5Hm5rQ11ZYtgm68w0le-UMwyTH3bnuA9Cz8V8nsfod2cgSM0o-OhAOmK4A84GyJMbLCNfNpoz7DMXINSECMq2BQlnEys7uA5OS7TSjm-57_eyyAJf-OcBKpuqk2oKHouTCf_WySNbOPx6dy9ViPxA",
+  "payload": ""
+}
+2021-11-01 04:29:58,716:DEBUG:urllib3.connectionpool:https://acme-staging-v02.api.letsencrypt.org:443 "POST /acme/authz-v3/830407058 HTTP/1.1" 200 780
+2021-11-01 04:29:58,716:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Mon, 01 Nov 2021 04:29:58 GMT
+Content-Type: application/json
+Content-Length: 780
+Connection: keep-alive
+Boulder-Requester: 31127338
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-staging-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: 0001B23vkqce0sPb8UsE6SEFQeEa1onkTdMdsH76QNU2woo
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "identifier": {
+    "type": "dns",
+    "value": "www.mtc-bookclub.xyz"
+  },
+  "status": "valid",
+  "expires": "2021-12-01T04:12:58Z",
+  "challenges": [
+    {
+      "type": "http-01",
+      "status": "valid",
+      "url": "https://acme-staging-v02.api.letsencrypt.org/acme/chall-v3/830407058/3_Ps9A",
+      "token": "WrV1Iefr1c07DGzl78nyQCEQ4Zuz8gyL9pEQ0CH_V38",
+      "validationRecord": [
+        {
+          "url": "http://www.mtc-bookclub.xyz/.well-known/acme-challenge/WrV1Iefr1c07DGzl78nyQCEQ4Zuz8gyL9pEQ0CH_V38",
+          "hostname": "www.mtc-bookclub.xyz",
+          "port": "80",
+          "addressesResolved": [
+            "192.241.154.7"
+          ],
+          "addressUsed": "192.241.154.7"
+        }
+      ],
+      "validated": "2021-11-01T04:12:58Z"
+    }
+  ]
+}
+2021-11-01 04:29:58,716:DEBUG:acme.client:Storing nonce: 0001B23vkqce0sPb8UsE6SEFQeEa1onkTdMdsH76QNU2woo
+2021-11-01 04:29:58,717:DEBUG:acme.client:JWS payload:
+b'{\n  "status": "deactivated",\n  "resource": "authz"\n}'
+2021-11-01 04:29:58,719:DEBUG:acme.client:Sending POST request to https://acme-staging-v02.api.letsencrypt.org/acme/authz-v3/830407048:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS1zdGFnaW5nLXYwMi5hcGkubGV0c2VuY3J5cHQub3JnL2FjbWUvYWNjdC8zMTEyNzMzOCIsICJub25jZSI6ICIwMDAxQjIzdmtxY2Uwc1BiOFVzRTZTRUZRZUVhMW9ua1RkTWRzSDc2UU5VMndvbyIsICJ1cmwiOiAiaHR0cHM6Ly9hY21lLXN0YWdpbmctdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9hdXRoei12My84MzA0MDcwNDgifQ",
+  "signature": "GrelzR9PdBQZaS9CSGG4lMiz1OW-rxoolaLptSsJnZp94X-1UhJhC9mjzf2dFqkd9qVuKujrZ5NKFSlhv1OADe8-pEnNNsw3lmdAFgPZLzfn--sUdIzkEfiM-so883NWf_YyygPJFJ6rX7f_-tjomzdERm7yN2kZo1yb7PoCSdCiDDFL3fVv8nEbptLzzA3ZOWz7RiJakHjWBE3EuBAofpAy6lN-ezKXEi1NxPTgXJgtMQh6o0y988Y3naibSC9B4deSnP44nDtVOSQWxu4XsKHeo_XCczbqXlBlcahz8n8fSSUSdexKSBiDAZ6WkvMgHDdqsi_4dZ7L7oATnjmbrw",
+  "payload": "ewogICJzdGF0dXMiOiAiZGVhY3RpdmF0ZWQiLAogICJyZXNvdXJjZSI6ICJhdXRoeiIKfQ"
+}
+2021-11-01 04:29:59,117:DEBUG:urllib3.connectionpool:https://acme-staging-v02.api.letsencrypt.org:443 "POST /acme/authz-v3/830407048 HTTP/1.1" 200 774
+2021-11-01 04:29:59,118:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Mon, 01 Nov 2021 04:29:59 GMT
+Content-Type: application/json
+Content-Length: 774
+Connection: keep-alive
+Boulder-Requester: 31127338
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-staging-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: 0002Z-S6smue8AznXZjuQ_9fHG5iV7QWw_P9XtxCrbXkUyw
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "identifier": {
+    "type": "dns",
+    "value": "mtc-bookclub.xyz"
+  },
+  "status": "deactivated",
+  "expires": "2021-12-01T04:12:58Z",
+  "challenges": [
+    {
+      "type": "http-01",
+      "status": "valid",
+      "url": "https://acme-staging-v02.api.letsencrypt.org/acme/chall-v3/830407048/pEzuwg",
+      "token": "AWWHNc4_NOTuVj4CUOdT51HapsRW-ZS71lCTV_6Qo40",
+      "validationRecord": [
+        {
+          "url": "http://mtc-bookclub.xyz/.well-known/acme-challenge/AWWHNc4_NOTuVj4CUOdT51HapsRW-ZS71lCTV_6Qo40",
+          "hostname": "mtc-bookclub.xyz",
+          "port": "80",
+          "addressesResolved": [
+            "192.241.154.7"
+          ],
+          "addressUsed": "192.241.154.7"
+        }
+      ],
+      "validated": "2021-11-01T04:12:58Z"
+    }
+  ]
+}
+2021-11-01 04:29:59,118:DEBUG:acme.client:Storing nonce: 0002Z-S6smue8AznXZjuQ_9fHG5iV7QWw_P9XtxCrbXkUyw
+2021-11-01 04:29:59,119:DEBUG:acme.client:JWS payload:
+b'{\n  "status": "deactivated",\n  "resource": "authz"\n}'
+2021-11-01 04:29:59,120:DEBUG:acme.client:Sending POST request to https://acme-staging-v02.api.letsencrypt.org/acme/authz-v3/830407058:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS1zdGFnaW5nLXYwMi5hcGkubGV0c2VuY3J5cHQub3JnL2FjbWUvYWNjdC8zMTEyNzMzOCIsICJub25jZSI6ICIwMDAyWi1TNnNtdWU4QXpuWFpqdVFfOWZIRzVpVjdRV3dfUDlYdHhDcmJYa1V5dyIsICJ1cmwiOiAiaHR0cHM6Ly9hY21lLXN0YWdpbmctdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9hdXRoei12My84MzA0MDcwNTgifQ",
+  "signature": "a8LGkahe2G1YowdFFeaU_O-1yJr7XAFRDBv6aLWjTVYMC9tThTOOSGc3SneImN-KcSkTr45o2s3K3SjVO5bK8hVZmCWB-uC45jTh0Iye4VI3Hzu8_Rygh7BBOoGbXXeJpR9XHr24xsNlHR9b4RXpa6qrX8BdtEzqthaAkd4ln193p76n6652-FN_zROeNMLC_wgHkTze9wjuGil_WFC9eHZWLTGfQkhBhKRmEN4USCarUpzyGZeybIj8IkQWEWIkrJU051LQpgSxQ407f5PCbtxxCd2qYsioXvyBNk_N9YFoBtOz_LnftW6mdnzmEZ6xawCPSFvDlce5e-8VO5Dr0Q",
+  "payload": "ewogICJzdGF0dXMiOiAiZGVhY3RpdmF0ZWQiLAogICJyZXNvdXJjZSI6ICJhdXRoeiIKfQ"
+}
+2021-11-01 04:29:59,184:DEBUG:urllib3.connectionpool:https://acme-staging-v02.api.letsencrypt.org:443 "POST /acme/authz-v3/830407058 HTTP/1.1" 200 786
+2021-11-01 04:29:59,184:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Mon, 01 Nov 2021 04:29:59 GMT
+Content-Type: application/json
+Content-Length: 786
+Connection: keep-alive
+Boulder-Requester: 31127338
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-staging-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: 0001ksQfsfM7nZgWQ4eX4P295pcevYgM8qJhOgxaVChXvPc
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "identifier": {
+    "type": "dns",
+    "value": "www.mtc-bookclub.xyz"
+  },
+  "status": "deactivated",
+  "expires": "2021-12-01T04:12:58Z",
+  "challenges": [
+    {
+      "type": "http-01",
+      "status": "valid",
+      "url": "https://acme-staging-v02.api.letsencrypt.org/acme/chall-v3/830407058/3_Ps9A",
+      "token": "WrV1Iefr1c07DGzl78nyQCEQ4Zuz8gyL9pEQ0CH_V38",
+      "validationRecord": [
+        {
+          "url": "http://www.mtc-bookclub.xyz/.well-known/acme-challenge/WrV1Iefr1c07DGzl78nyQCEQ4Zuz8gyL9pEQ0CH_V38",
+          "hostname": "www.mtc-bookclub.xyz",
+          "port": "80",
+          "addressesResolved": [
+            "192.241.154.7"
+          ],
+          "addressUsed": "192.241.154.7"
+        }
+      ],
+      "validated": "2021-11-01T04:12:58Z"
+    }
+  ]
+}
+2021-11-01 04:29:59,185:DEBUG:acme.client:Storing nonce: 0001ksQfsfM7nZgWQ4eX4P295pcevYgM8qJhOgxaVChXvPc
+2021-11-01 04:29:59,185:DEBUG:certbot.client:Recreating order after authz deactivations
+2021-11-01 04:29:59,186:DEBUG:acme.client:JWS payload:
+b'{\n  "identifiers": [\n    {\n      "type": "dns",\n      "value": "mtc-bookclub.xyz"\n    },\n    {\n      "type": "dns",\n      "value": "www.mtc-bookclub.xyz"\n    }\n  ]\n}'
+2021-11-01 04:29:59,187:DEBUG:acme.client:Sending POST request to https://acme-staging-v02.api.letsencrypt.org/acme/new-order:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS1zdGFnaW5nLXYwMi5hcGkubGV0c2VuY3J5cHQub3JnL2FjbWUvYWNjdC8zMTEyNzMzOCIsICJub25jZSI6ICIwMDAxa3NRZnNmTTduWmdXUTRlWDRQMjk1cGNldllnTThxSmhPZ3hhVkNoWHZQYyIsICJ1cmwiOiAiaHR0cHM6Ly9hY21lLXN0YWdpbmctdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9uZXctb3JkZXIifQ",
+  "signature": "f9VSTptOsC5H3Hi0Q6xGUJMnY3-dM_JXV8pD6H2snRshXBRCc0EArdF8ecB7ob7EWb2tTI6cBKH11GhpX36eR4zGJ4X-ECHaSqssKxLTjk5Q__6k7CSEHqLZkmq82ptfgwD51pDRW0hrN15Ip8BcT3nnCE5K3aIZSTzUpkIxDe5pLEiQj-pAo1jF56iUUOvcw88Q0qAq1hvdJXV_KCrK3V85x3-65HN_qrnvwmhB8sqo4O2jYk5O_fw89ziveCENTkjs9z9dfQx2Om3e_Vj0mIoKvCaGKBK0ZPtGY5qRRwPLJ9ftJylNEWJBWmTY8YsBBwfuDxiCCakX5VjY1q8azQ",
+  "payload": "ewogICJpZGVudGlmaWVycyI6IFsKICAgIHsKICAgICAgInR5cGUiOiAiZG5zIiwKICAgICAgInZhbHVlIjogIm10Yy1ib29rY2x1Yi54eXoiCiAgICB9LAogICAgewogICAgICAidHlwZSI6ICJkbnMiLAogICAgICAidmFsdWUiOiAid3d3Lm10Yy1ib29rY2x1Yi54eXoiCiAgICB9CiAgXQp9"
+}
+2021-11-01 04:29:59,293:DEBUG:urllib3.connectionpool:https://acme-staging-v02.api.letsencrypt.org:443 "POST /acme/new-order HTTP/1.1" 201 498
+2021-11-01 04:29:59,293:DEBUG:acme.client:Received response:
+HTTP 201
+Server: nginx
+Date: Mon, 01 Nov 2021 04:29:59 GMT
+Content-Type: application/json
+Content-Length: 498
+Connection: keep-alive
+Boulder-Requester: 31127338
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-staging-v02.api.letsencrypt.org/directory>;rel="index"
+Location: https://acme-staging-v02.api.letsencrypt.org/acme/order/31127338/901986748
+Replay-Nonce: 0002RU75Gqujdwq_nExhR-E0HSrcXRVYfhd-PaK-Yoam-lw
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "status": "pending",
+  "expires": "2021-11-08T04:29:59Z",
+  "identifiers": [
+    {
+      "type": "dns",
+      "value": "mtc-bookclub.xyz"
+    },
+    {
+      "type": "dns",
+      "value": "www.mtc-bookclub.xyz"
+    }
+  ],
+  "authorizations": [
+    "https://acme-staging-v02.api.letsencrypt.org/acme/authz-v3/830505998",
+    "https://acme-staging-v02.api.letsencrypt.org/acme/authz-v3/830506008"
+  ],
+  "finalize": "https://acme-staging-v02.api.letsencrypt.org/acme/finalize/31127338/901986748"
+}
+2021-11-01 04:29:59,294:DEBUG:acme.client:Storing nonce: 0002RU75Gqujdwq_nExhR-E0HSrcXRVYfhd-PaK-Yoam-lw
+2021-11-01 04:29:59,294:DEBUG:acme.client:JWS payload:
+b''
+2021-11-01 04:29:59,295:DEBUG:acme.client:Sending POST request to https://acme-staging-v02.api.letsencrypt.org/acme/authz-v3/830505998:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS1zdGFnaW5nLXYwMi5hcGkubGV0c2VuY3J5cHQub3JnL2FjbWUvYWNjdC8zMTEyNzMzOCIsICJub25jZSI6ICIwMDAyUlU3NUdxdWpkd3FfbkV4aFItRTBIU3JjWFJWWWZoZC1QYUstWW9hbS1sdyIsICJ1cmwiOiAiaHR0cHM6Ly9hY21lLXN0YWdpbmctdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9hdXRoei12My84MzA1MDU5OTgifQ",
+  "signature": "FPE2RfVqIuSZjn_KyFkcJKz-yphF-hrXFCyT6eJ_5oVk16KwEJh44OS9C34DkqS736bS51ZlXzbDN4u4evXf9qa_zHoBA2NE-jHDOcHKlXX92IZy4Wu2yo2OlUNAxK-u3mI-4ydVLaMOhXtCOzt0kygvxY-xTML8Z4uN6L7av-_JBanY0uF0hJlYT8q_0leIh5rGqXHBhM9fT-vHjgqDCJDz9Srdaa6swMU9y-DIgx4seAbRa5iOXJYgC3LZmy0N3ZWzALybrCECakczTXZxgroRWss0gGWHSyWGtuzTX8KgUCPjbIcMrFLz5LZaXpytEOe4TLbcZWTuyffzl96GWQ",
+  "payload": ""
+}
+2021-11-01 04:29:59,355:DEBUG:urllib3.connectionpool:https://acme-staging-v02.api.letsencrypt.org:443 "POST /acme/authz-v3/830505998 HTTP/1.1" 200 815
+2021-11-01 04:29:59,356:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Mon, 01 Nov 2021 04:29:59 GMT
+Content-Type: application/json
+Content-Length: 815
+Connection: keep-alive
+Boulder-Requester: 31127338
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-staging-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: 0001d7TTeZtgbKAPzAZAt7IwJD6JradZ_OcJLiwCCSx6nj8
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "identifier": {
+    "type": "dns",
+    "value": "mtc-bookclub.xyz"
+  },
+  "status": "pending",
+  "expires": "2021-11-08T04:29:59Z",
+  "challenges": [
+    {
+      "type": "http-01",
+      "status": "pending",
+      "url": "https://acme-staging-v02.api.letsencrypt.org/acme/chall-v3/830505998/whWfXA",
+      "token": "qfFkNXf8G5Ob8CZjLEm_cjxlp7FNU4VjRANGKb88ZjI"
+    },
+    {
+      "type": "dns-01",
+      "status": "pending",
+      "url": "https://acme-staging-v02.api.letsencrypt.org/acme/chall-v3/830505998/lLDeOg",
+      "token": "qfFkNXf8G5Ob8CZjLEm_cjxlp7FNU4VjRANGKb88ZjI"
+    },
+    {
+      "type": "tls-alpn-01",
+      "status": "pending",
+      "url": "https://acme-staging-v02.api.letsencrypt.org/acme/chall-v3/830505998/al7-IA",
+      "token": "qfFkNXf8G5Ob8CZjLEm_cjxlp7FNU4VjRANGKb88ZjI"
+    }
+  ]
+}
+2021-11-01 04:29:59,356:DEBUG:acme.client:Storing nonce: 0001d7TTeZtgbKAPzAZAt7IwJD6JradZ_OcJLiwCCSx6nj8
+2021-11-01 04:29:59,357:DEBUG:acme.client:JWS payload:
+b''
+2021-11-01 04:29:59,358:DEBUG:acme.client:Sending POST request to https://acme-staging-v02.api.letsencrypt.org/acme/authz-v3/830506008:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS1zdGFnaW5nLXYwMi5hcGkubGV0c2VuY3J5cHQub3JnL2FjbWUvYWNjdC8zMTEyNzMzOCIsICJub25jZSI6ICIwMDAxZDdUVGVadGdiS0FQekFaQXQ3SXdKRDZKcmFkWl9PY0pMaXdDQ1N4Nm5qOCIsICJ1cmwiOiAiaHR0cHM6Ly9hY21lLXN0YWdpbmctdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9hdXRoei12My84MzA1MDYwMDgifQ",
+  "signature": "kcdF15UAUpM87Hs-RuINBRf4ozZRxcbyuPoGKuFL4uGEpD8fP1fdDgrUXU8pzx6N-4qyWXFA73TLBm4RJognVizEc8mTzRy-CsOQhCKDmGisLIW6KLRSk4RPtGaRjiOnLxRzEy4n3nopONVU9_iPadmeHxhgreG4maD-yLdnjJkiuGxLZaDHulpdJPQ1kR4zNwRw0iAGSGG2ExhLZCrGdRgiHs66W_cZ5AcWFBTniSwDlZsJH1Mtz4ZSq-pHzYn9jvtkPCmwxeQMNNCp75K4C6GHXVsGaHtn_dSpuBNulS4mIEYQf4-zQJqYwhqCg1nYeSe7NZhcxam5qwre95JNrA",
+  "payload": ""
+}
+2021-11-01 04:29:59,419:DEBUG:urllib3.connectionpool:https://acme-staging-v02.api.letsencrypt.org:443 "POST /acme/authz-v3/830506008 HTTP/1.1" 200 819
+2021-11-01 04:29:59,420:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Mon, 01 Nov 2021 04:29:59 GMT
+Content-Type: application/json
+Content-Length: 819
+Connection: keep-alive
+Boulder-Requester: 31127338
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-staging-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: 0002IGMPFTwyihRz2T7z-q7aQM7R3yUvaW48lbwvxdD6LT8
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "identifier": {
+    "type": "dns",
+    "value": "www.mtc-bookclub.xyz"
+  },
+  "status": "pending",
+  "expires": "2021-11-08T04:29:59Z",
+  "challenges": [
+    {
+      "type": "http-01",
+      "status": "pending",
+      "url": "https://acme-staging-v02.api.letsencrypt.org/acme/chall-v3/830506008/ASwc3Q",
+      "token": "T2xw1o-uzqR3x-77mA8QLArGMakhhmcGsjf2pUrEmLQ"
+    },
+    {
+      "type": "dns-01",
+      "status": "pending",
+      "url": "https://acme-staging-v02.api.letsencrypt.org/acme/chall-v3/830506008/OW-a1A",
+      "token": "T2xw1o-uzqR3x-77mA8QLArGMakhhmcGsjf2pUrEmLQ"
+    },
+    {
+      "type": "tls-alpn-01",
+      "status": "pending",
+      "url": "https://acme-staging-v02.api.letsencrypt.org/acme/chall-v3/830506008/EmnZww",
+      "token": "T2xw1o-uzqR3x-77mA8QLArGMakhhmcGsjf2pUrEmLQ"
+    }
+  ]
+}
+2021-11-01 04:29:59,420:DEBUG:acme.client:Storing nonce: 0002IGMPFTwyihRz2T7z-q7aQM7R3yUvaW48lbwvxdD6LT8
+2021-11-01 04:29:59,420:INFO:certbot.auth_handler:Performing the following challenges:
+2021-11-01 04:29:59,421:INFO:certbot.auth_handler:http-01 challenge for mtc-bookclub.xyz
+2021-11-01 04:29:59,421:INFO:certbot.auth_handler:http-01 challenge for www.mtc-bookclub.xyz
+2021-11-01 04:29:59,452:DEBUG:certbot_nginx.http_01:Generated server block:
+[]
+2021-11-01 04:29:59,452:DEBUG:certbot.reverter:Creating backup of /etc/nginx/nginx.conf
+2021-11-01 04:29:59,453:DEBUG:certbot.reverter:Creating backup of /etc/nginx/modules-enabled/50-mod-stream.conf
+2021-11-01 04:29:59,453:DEBUG:certbot.reverter:Creating backup of /etc/nginx/sites-enabled/default
+2021-11-01 04:29:59,453:DEBUG:certbot.reverter:Creating backup of /etc/nginx/modules-enabled/50-mod-http-xslt-filter.conf
+2021-11-01 04:29:59,453:DEBUG:certbot.reverter:Creating backup of /etc/nginx/modules-enabled/50-mod-http-image-filter.conf
+2021-11-01 04:29:59,454:DEBUG:certbot.reverter:Creating backup of /etc/nginx/modules-enabled/50-mod-mail.conf
+2021-11-01 04:29:59,454:DEBUG:certbot.reverter:Creating backup of /etc/nginx/sites-enabled/bookclub
+2021-11-01 04:29:59,454:DEBUG:certbot.reverter:Creating backup of /etc/letsencrypt/options-ssl-nginx.conf
+2021-11-01 04:29:59,454:DEBUG:certbot.reverter:Creating backup of /etc/nginx/mime.types
+2021-11-01 04:29:59,455:DEBUG:certbot_nginx.parser:Writing nginx conf tree to /etc/nginx/nginx.conf:
+user www-data;
+worker_processes auto;
+pid /run/nginx.pid;
+include /etc/nginx/modules-enabled/*.conf;
+
+events {
+	worker_connections 768;
+	# multi_accept on;
+}
+
+http {
+include /etc/letsencrypt/le_http_01_cert_challenge.conf;
+server_names_hash_bucket_size 128;
+
+	##
+	# Basic Settings
+	##
+
+	sendfile on;
+	tcp_nopush on;
+	tcp_nodelay on;
+	keepalive_timeout 65;
+	types_hash_max_size 2048;
+	# server_tokens off;
+
+	# server_names_hash_bucket_size 64;
+	# server_name_in_redirect off;
+
+	include /etc/nginx/mime.types;
+	default_type application/octet-stream;
+
+	##
+	# SSL Settings
+	##
+
+	ssl_protocols  TLSv1.2 TLSv1.3; # Dropping SSLv3, ref: POODLE
+	ssl_prefer_server_ciphers on;
+        
+
+        ##
+        # Connection header for WebSocket reverse proxy
+        ##
+        map $http_upgrade $connection_upgrade {
+            default upgrade;
+            ''      close;
+        }
+
+	##
+	# Logging Settings
+	##
+
+	access_log /var/log/nginx/access.log;
+	error_log /var/log/nginx/error.log;
+
+	##
+	# Gzip Settings
+	##
+
+	gzip on;
+        
+	# gzip_vary on;
+	# gzip_proxied any;
+	# gzip_comp_level 6;
+	# gzip_buffers 16 8k;
+	# gzip_http_version 1.1;
+	# gzip_types text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss text/javascript;
+
+	##
+	# Virtual Host Configs
+	##
+
+	include /etc/nginx/conf.d/*.conf;
+	include /etc/nginx/sites-enabled/*;
+
+	client_max_body_size 10M; 
+}
+
+
+#mail {
+#	# See sample authentication script at:
+#	# http://wiki.nginx.org/ImapAuthenticateWithApachePhpScript
+# 
+#	# auth_http localhost/auth.php;
+#	# pop3_capabilities "TOP" "USER";
+#	# imap_capabilities "IMAP4rev1" "UIDPLUS";
+# 
+#	server {
+#		listen     localhost:110;
+#		protocol   pop3;
+#		proxy      on;
+#	}
+# 
+#	server {
+#		listen     localhost:143;
+#		protocol   imap;
+#		proxy      on;
+#	}
+#}
+
+
+2021-11-01 04:29:59,457:DEBUG:certbot_nginx.parser:Writing nginx conf tree to /etc/nginx/sites-enabled/bookclub:
+server {
+    server_name mtc-bookclub.xyz www.mtc-bookclub.xyz;
+    #server_name 192.241.154.7;
+
+    location = /favicon.ico { access_log off; log_not_found off; }
+    location /static/ {
+        root /home/django/bookclub/src/bookclub/bookclub;
+    }
+     location / {
+        include proxy_params;
+        proxy_pass http://unix:/run/gunicorn.sock;
+     }
+
+     location /ws/ {
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+        proxy_redirect off;
+        proxy_pass http://127.0.0.1:8001;
+    }
+
+    #location /wss/ {
+    #    proxy_http_version 1.1;
+    #    proxy_set_header Upgrade $http_upgrade;
+    #    proxy_set_header Connection "upgrade";
+
+    #    proxy_redirect off;
+    #    proxy_pass https://127.0.0.1:8001;
+    #}
+
+
+
+
+    #listen 443 ssl; # managed by Certbot
+    #ssl_certificate /etc/letsencrypt/live/mtc-bookclub.xyz/fullchain.pem; # managed by Certbot
+    #ssl_certificate_key /etc/letsencrypt/live/mtc-bookclub.xyz/privkey.pem; # managed by Certbot
+    #include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    #ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+
+
+
+
+
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/mtc-bookclub.xyz/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/mtc-bookclub.xyz/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+
+}
+server {rewrite ^(/.well-known/acme-challenge/.*) $1 break; # managed by Certbot
+
+rewrite ^(/.well-known/acme-challenge/.*) $1 break; # managed by Certbot
+
+
+    if ($host = www.mtc-bookclub.xyz) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+
+    if ($host = mtc-bookclub.xyz) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+
+    server_name mtc-bookclub.xyz www.mtc-bookclub.xyz;
+    listen 80;
+    return 404; # managed by Certbot
+
+
+
+
+location = /.well-known/acme-challenge/qfFkNXf8G5Ob8CZjLEm_cjxlp7FNU4VjRANGKb88ZjI{default_type text/plain;return 200 qfFkNXf8G5Ob8CZjLEm_cjxlp7FNU4VjRANGKb88ZjI.cTWadPhTelqYLYbkEY9Y6ZxBTr5_6vO-zl0YPmVb4fo;} # managed by Certbot
+
+location = /.well-known/acme-challenge/T2xw1o-uzqR3x-77mA8QLArGMakhhmcGsjf2pUrEmLQ{default_type text/plain;return 200 T2xw1o-uzqR3x-77mA8QLArGMakhhmcGsjf2pUrEmLQ.cTWadPhTelqYLYbkEY9Y6ZxBTr5_6vO-zl0YPmVb4fo;} # managed by Certbot
+
+}
+2021-11-01 04:30:00,481:INFO:certbot.auth_handler:Waiting for verification...
+2021-11-01 04:30:00,482:DEBUG:acme.client:JWS payload:
+b'{\n  "resource": "challenge",\n  "type": "http-01"\n}'
+2021-11-01 04:30:00,484:DEBUG:acme.client:Sending POST request to https://acme-staging-v02.api.letsencrypt.org/acme/chall-v3/830505998/whWfXA:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS1zdGFnaW5nLXYwMi5hcGkubGV0c2VuY3J5cHQub3JnL2FjbWUvYWNjdC8zMTEyNzMzOCIsICJub25jZSI6ICIwMDAySUdNUEZUd3lpaFJ6MlQ3ei1xN2FRTTdSM3lVdmFXNDhsYnd2eGRENkxUOCIsICJ1cmwiOiAiaHR0cHM6Ly9hY21lLXN0YWdpbmctdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9jaGFsbC12My84MzA1MDU5OTgvd2hXZlhBIn0",
+  "signature": "A8wlVrc4j5uVwmq4WrickNVQVFuHDxMdsz5s5zT0MmKtK5DrFtadUq7p9cRcVWITtPQgoAmZNHb-fUSEYETK9WzEUucISoyqDbCAmJQ2v1qEH4vmZJCXOnIbBTDb2eqvbIcOBShY0zVHDLeoOLXcMMQTwGLOnrPHkFryTkghQYPmaaGpleAk9fQc3C29NREHdD5RuFMl6ELgRttk_78hTpaedSvjd-9sI8YW0KyGTZ1DeX9xf5OEjvNTMV0yi-W59EcmZ49OJkczSDtOwvHTRU8z5i4nd7lolU_y-JtB_NGL93VeVFLtVmpYS99bRKadfgVaeh79aUKEYq40oFXXIg",
+  "payload": "ewogICJyZXNvdXJjZSI6ICJjaGFsbGVuZ2UiLAogICJ0eXBlIjogImh0dHAtMDEiCn0"
+}
+2021-11-01 04:30:00,547:DEBUG:urllib3.connectionpool:https://acme-staging-v02.api.letsencrypt.org:443 "POST /acme/chall-v3/830505998/whWfXA HTTP/1.1" 200 192
+2021-11-01 04:30:00,547:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Mon, 01 Nov 2021 04:30:00 GMT
+Content-Type: application/json
+Content-Length: 192
+Connection: keep-alive
+Boulder-Requester: 31127338
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-staging-v02.api.letsencrypt.org/directory>;rel="index", <https://acme-staging-v02.api.letsencrypt.org/acme/authz-v3/830505998>;rel="up"
+Location: https://acme-staging-v02.api.letsencrypt.org/acme/chall-v3/830505998/whWfXA
+Replay-Nonce: 0002ras140SasBk9uxUU6BYQRGLhGE0zRhHf8yRb37zzGcA
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "type": "http-01",
+  "status": "pending",
+  "url": "https://acme-staging-v02.api.letsencrypt.org/acme/chall-v3/830505998/whWfXA",
+  "token": "qfFkNXf8G5Ob8CZjLEm_cjxlp7FNU4VjRANGKb88ZjI"
+}
+2021-11-01 04:30:00,548:DEBUG:acme.client:Storing nonce: 0002ras140SasBk9uxUU6BYQRGLhGE0zRhHf8yRb37zzGcA
+2021-11-01 04:30:00,548:DEBUG:acme.client:JWS payload:
+b'{\n  "resource": "challenge",\n  "type": "http-01"\n}'
+2021-11-01 04:30:00,550:DEBUG:acme.client:Sending POST request to https://acme-staging-v02.api.letsencrypt.org/acme/chall-v3/830506008/ASwc3Q:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS1zdGFnaW5nLXYwMi5hcGkubGV0c2VuY3J5cHQub3JnL2FjbWUvYWNjdC8zMTEyNzMzOCIsICJub25jZSI6ICIwMDAycmFzMTQwU2FzQms5dXhVVTZCWVFSR0xoR0UwelJoSGY4eVJiMzd6ekdjQSIsICJ1cmwiOiAiaHR0cHM6Ly9hY21lLXN0YWdpbmctdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9jaGFsbC12My84MzA1MDYwMDgvQVN3YzNRIn0",
+  "signature": "Q8ny1YQDdYbxN9ANIKjuEkJYFBMT2NHimHnDXdp9topbBFxFu_hNl_H1lkzZdZDF49aiSEnhfGvb56O8vw6PMG6dyufQpXsdgeVj11-2j9acV2BypyOubRmFykf7cwa7ZdKyIJRLcSJjF-xOYrFIdl7JEGJdQU8aMS_l6ioy4kAsQX4vIDQX88tBboNZbKdM3uQ4FSusPinXEkd-IljBfm5kBsO3HlVUdjRMOlVnudXLUNMXYMMiXRbynA0IkxIiwf-VgRapWoCUJi2_KbS4bL93a-79JQZgNaMJGkW9gQIOVlFOPG5GkYo7bbmj_G8loWc9J0sEBDZkgWKppjeNrA",
+  "payload": "ewogICJyZXNvdXJjZSI6ICJjaGFsbGVuZ2UiLAogICJ0eXBlIjogImh0dHAtMDEiCn0"
+}
+2021-11-01 04:30:00,622:DEBUG:urllib3.connectionpool:https://acme-staging-v02.api.letsencrypt.org:443 "POST /acme/chall-v3/830506008/ASwc3Q HTTP/1.1" 200 192
+2021-11-01 04:30:00,623:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Mon, 01 Nov 2021 04:30:00 GMT
+Content-Type: application/json
+Content-Length: 192
+Connection: keep-alive
+Boulder-Requester: 31127338
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-staging-v02.api.letsencrypt.org/directory>;rel="index", <https://acme-staging-v02.api.letsencrypt.org/acme/authz-v3/830506008>;rel="up"
+Location: https://acme-staging-v02.api.letsencrypt.org/acme/chall-v3/830506008/ASwc3Q
+Replay-Nonce: 0002RmuGxnhh9x6BWxOlGi0lquWFd6bZC8sJ1GHzlYbBWms
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "type": "http-01",
+  "status": "pending",
+  "url": "https://acme-staging-v02.api.letsencrypt.org/acme/chall-v3/830506008/ASwc3Q",
+  "token": "T2xw1o-uzqR3x-77mA8QLArGMakhhmcGsjf2pUrEmLQ"
+}
+2021-11-01 04:30:00,623:DEBUG:acme.client:Storing nonce: 0002RmuGxnhh9x6BWxOlGi0lquWFd6bZC8sJ1GHzlYbBWms
+2021-11-01 04:30:01,624:DEBUG:acme.client:JWS payload:
+b''
+2021-11-01 04:30:01,626:DEBUG:acme.client:Sending POST request to https://acme-staging-v02.api.letsencrypt.org/acme/authz-v3/830505998:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS1zdGFnaW5nLXYwMi5hcGkubGV0c2VuY3J5cHQub3JnL2FjbWUvYWNjdC8zMTEyNzMzOCIsICJub25jZSI6ICIwMDAyUm11R3huaGg5eDZCV3hPbEdpMGxxdVdGZDZiWkM4c0oxR0h6bFliQldtcyIsICJ1cmwiOiAiaHR0cHM6Ly9hY21lLXN0YWdpbmctdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9hdXRoei12My84MzA1MDU5OTgifQ",
+  "signature": "UvKdU-9i9GtNr6tV2XKThTwAQ-3nW_YcGbr_3fTCn_eb1gQ55pct0Pf4Zkf0t2jARYgM9rcQUSnWgZxh9La7v-qYjFtq6yvNqWjKQmiO2FH0htazaLghUjz7W1qNzgpVY4yqORjDkx00WqMD86eNeTPuRKwdLjLqginCH3PEOD0-SAP82fxSdQRJOP-GQ45DLjqvsMoUjUQq-Q9GajBXpi_W3ARlDCadHhWGoCfNB4__mUz4PSg6vryNEgp5S5FE1P8Kz0BFmXgwGsm-GqI75-wCCwNUOjC-4fjGEM3FOzrbZnxjBAGFkTWKa4-VPT2I3YsHYOxs8r5n5OWTWYJ81Q",
+  "payload": ""
+}
+2021-11-01 04:30:01,686:DEBUG:urllib3.connectionpool:https://acme-staging-v02.api.letsencrypt.org:443 "POST /acme/authz-v3/830505998 HTTP/1.1" 200 768
+2021-11-01 04:30:01,687:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Mon, 01 Nov 2021 04:30:01 GMT
+Content-Type: application/json
+Content-Length: 768
+Connection: keep-alive
+Boulder-Requester: 31127338
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-staging-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: 0002a40JhgiPhz6sx4Q-GYfgMzYExTkiGeSQznDBgtcOyiw
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "identifier": {
+    "type": "dns",
+    "value": "mtc-bookclub.xyz"
+  },
+  "status": "valid",
+  "expires": "2021-12-01T04:30:00Z",
+  "challenges": [
+    {
+      "type": "http-01",
+      "status": "valid",
+      "url": "https://acme-staging-v02.api.letsencrypt.org/acme/chall-v3/830505998/whWfXA",
+      "token": "qfFkNXf8G5Ob8CZjLEm_cjxlp7FNU4VjRANGKb88ZjI",
+      "validationRecord": [
+        {
+          "url": "http://mtc-bookclub.xyz/.well-known/acme-challenge/qfFkNXf8G5Ob8CZjLEm_cjxlp7FNU4VjRANGKb88ZjI",
+          "hostname": "mtc-bookclub.xyz",
+          "port": "80",
+          "addressesResolved": [
+            "192.241.154.7"
+          ],
+          "addressUsed": "192.241.154.7"
+        }
+      ],
+      "validated": "2021-11-01T04:30:00Z"
+    }
+  ]
+}
+2021-11-01 04:30:01,687:DEBUG:acme.client:Storing nonce: 0002a40JhgiPhz6sx4Q-GYfgMzYExTkiGeSQznDBgtcOyiw
+2021-11-01 04:30:01,688:DEBUG:acme.client:JWS payload:
+b''
+2021-11-01 04:30:01,690:DEBUG:acme.client:Sending POST request to https://acme-staging-v02.api.letsencrypt.org/acme/authz-v3/830506008:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS1zdGFnaW5nLXYwMi5hcGkubGV0c2VuY3J5cHQub3JnL2FjbWUvYWNjdC8zMTEyNzMzOCIsICJub25jZSI6ICIwMDAyYTQwSmhnaVBoejZzeDRRLUdZZmdNellFeFRraUdlU1F6bkRCZ3RjT3lpdyIsICJ1cmwiOiAiaHR0cHM6Ly9hY21lLXN0YWdpbmctdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9hdXRoei12My84MzA1MDYwMDgifQ",
+  "signature": "F1AT0uSgWLMmJNZluepLsUCAkiWkGdZBucGrJvXT6GOJT4t4ceNfRcJjsAeHFDeeK2dF8rzSIkW1BcFgHIbRisvh14FsDiyHjNO8HV3xzef0giZ9ggo2ys910o5y5AHoWVDc-nBk83sSpO__fikvPNJhwDm9BMGWr2WUsHakx3MMr8-jWdin-P5va0_Hxd8VZwLqle6hB-zqbY5vL95WmZvOyhMXcX4SCiC2el2l8ja38CdQ0_0wqo0Tb670Q2JqgKzgOjxpSlsf6VV-6XODW8EHTYsqHL-VNzLtAwALWmSVuINOluiRsgzKbxVee6qpj_Akj-afNWXqYYFUH5b-Pg",
+  "payload": ""
+}
+2021-11-01 04:30:01,751:DEBUG:urllib3.connectionpool:https://acme-staging-v02.api.letsencrypt.org:443 "POST /acme/authz-v3/830506008 HTTP/1.1" 200 780
+2021-11-01 04:30:01,752:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Mon, 01 Nov 2021 04:30:01 GMT
+Content-Type: application/json
+Content-Length: 780
+Connection: keep-alive
+Boulder-Requester: 31127338
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-staging-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: 00011rhYtiRqLVKB9MGJw_N2FqSghArhyBX8RCts3QJU6hU
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "identifier": {
+    "type": "dns",
+    "value": "www.mtc-bookclub.xyz"
+  },
+  "status": "valid",
+  "expires": "2021-12-01T04:30:00Z",
+  "challenges": [
+    {
+      "type": "http-01",
+      "status": "valid",
+      "url": "https://acme-staging-v02.api.letsencrypt.org/acme/chall-v3/830506008/ASwc3Q",
+      "token": "T2xw1o-uzqR3x-77mA8QLArGMakhhmcGsjf2pUrEmLQ",
+      "validationRecord": [
+        {
+          "url": "http://www.mtc-bookclub.xyz/.well-known/acme-challenge/T2xw1o-uzqR3x-77mA8QLArGMakhhmcGsjf2pUrEmLQ",
+          "hostname": "www.mtc-bookclub.xyz",
+          "port": "80",
+          "addressesResolved": [
+            "192.241.154.7"
+          ],
+          "addressUsed": "192.241.154.7"
+        }
+      ],
+      "validated": "2021-11-01T04:30:00Z"
+    }
+  ]
+}
+2021-11-01 04:30:01,752:DEBUG:acme.client:Storing nonce: 00011rhYtiRqLVKB9MGJw_N2FqSghArhyBX8RCts3QJU6hU
+2021-11-01 04:30:01,753:DEBUG:certbot.error_handler:Calling registered functions
+2021-11-01 04:30:01,753:INFO:certbot.auth_handler:Cleaning up challenges
+2021-11-01 04:30:02,945:DEBUG:certbot.client:CSR: CSR(file=None, data=b'-----BEGIN CERTIFICATE REQUEST-----\nMIICiTCCAXECAQIwADCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMjR\nZlzcrQhLXU1vDFQrGK15QUXE026BMtjy1m4Y2iZo9ZdIsJ/7U1uqQXKkQBDJ1ZPh\nVJyMVly+I7Wcpc5dsGRf1KXxEvpoPyrkiv/JEgaFpY3GeDkDFRVxm1DqMO6tQeBm\n2lZ1AtGrW3AL08mDbB3AgB0t5srDFkaPHMUpTvX4Pa8IH8iMvDEHCJIH09ztwksv\nHRZ5SDWCup7mkUz1mYXd5zr74gaKkL+UrJK+bUUYA8WT5RcB9FF8/FBlzzL9J7aK\nNYMy45tBWTKNBStggs5cOhzakwR4/9wQsDC3mY/yxNxZ4+xd/v37VTWw8XijEggd\nBp5isOM2ztipzD65bVkCAwEAAaBEMEIGCSqGSIb3DQEJDjE1MDMwMQYDVR0RBCow\nKIIQbXRjLWJvb2tjbHViLnh5eoIUd3d3Lm10Yy1ib29rY2x1Yi54eXowDQYJKoZI\nhvcNAQELBQADggEBALVfFUkLsGSvlzNhAZrFayhtmnujonc3tJqCJ8xDrWWovww6\nDk96TcluRFPshm6nawvGIHJgkaDu0dV/b72+lH8HtG2yB9VklE5TASciFxgMq2Ig\njgqYfUt0fiW5v8K7CtyHQTIbhR3b71UQapGqSUw2JdJV0JlMYHsev1wRhAaY75q5\nG45zl/Jt/hKHJgLutGtNWHjkTf15ou24JjSj8lDYE98QnckFZ8003CbVWtgsv+nW\nYIFlAMS9hrj+bnFRAwASGWb3k+4X8+Y6tJcv6vRFL8P7RusECNaYmWO82ohhoRUs\nL8LtxlkM1UjTJ0HvuTwqSFhrPQuQ25q/vLPm5lg=\n-----END CERTIFICATE REQUEST-----\n', form='pem')
+2021-11-01 04:30:02,947:DEBUG:acme.client:JWS payload:
+b'{\n  "resource": "new-cert",\n  "csr": "MIICiTCCAXECAQIwADCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMjRZlzcrQhLXU1vDFQrGK15QUXE026BMtjy1m4Y2iZo9ZdIsJ_7U1uqQXKkQBDJ1ZPhVJyMVly-I7Wcpc5dsGRf1KXxEvpoPyrkiv_JEgaFpY3GeDkDFRVxm1DqMO6tQeBm2lZ1AtGrW3AL08mDbB3AgB0t5srDFkaPHMUpTvX4Pa8IH8iMvDEHCJIH09ztwksvHRZ5SDWCup7mkUz1mYXd5zr74gaKkL-UrJK-bUUYA8WT5RcB9FF8_FBlzzL9J7aKNYMy45tBWTKNBStggs5cOhzakwR4_9wQsDC3mY_yxNxZ4-xd_v37VTWw8XijEggdBp5isOM2ztipzD65bVkCAwEAAaBEMEIGCSqGSIb3DQEJDjE1MDMwMQYDVR0RBCowKIIQbXRjLWJvb2tjbHViLnh5eoIUd3d3Lm10Yy1ib29rY2x1Yi54eXowDQYJKoZIhvcNAQELBQADggEBALVfFUkLsGSvlzNhAZrFayhtmnujonc3tJqCJ8xDrWWovww6Dk96TcluRFPshm6nawvGIHJgkaDu0dV_b72-lH8HtG2yB9VklE5TASciFxgMq2IgjgqYfUt0fiW5v8K7CtyHQTIbhR3b71UQapGqSUw2JdJV0JlMYHsev1wRhAaY75q5G45zl_Jt_hKHJgLutGtNWHjkTf15ou24JjSj8lDYE98QnckFZ8003CbVWtgsv-nWYIFlAMS9hrj-bnFRAwASGWb3k-4X8-Y6tJcv6vRFL8P7RusECNaYmWO82ohhoRUsL8LtxlkM1UjTJ0HvuTwqSFhrPQuQ25q_vLPm5lg"\n}'
+2021-11-01 04:30:02,949:DEBUG:acme.client:Sending POST request to https://acme-staging-v02.api.letsencrypt.org/acme/finalize/31127338/901986748:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS1zdGFnaW5nLXYwMi5hcGkubGV0c2VuY3J5cHQub3JnL2FjbWUvYWNjdC8zMTEyNzMzOCIsICJub25jZSI6ICIwMDAxMXJoWXRpUnFMVktCOU1HSndfTjJGcVNnaEFyaHlCWDhSQ3RzM1FKVTZoVSIsICJ1cmwiOiAiaHR0cHM6Ly9hY21lLXN0YWdpbmctdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9maW5hbGl6ZS8zMTEyNzMzOC85MDE5ODY3NDgifQ",
+  "signature": "RhidEC5NSZopCHpBo6Mu9SSm_FX90o1UtbXgEzOdXmWce8U1Vr6LbfOlujVfku1VAmb8xY-NtcJNabOIp_iQ0SVoagBFBOC-VSl2eWLSszgN7Qzk-KxIG_y6oMCHiUNKN9Yhv3T6e5sk1K2aI5TKP8Z9ZxI0-n3H9eygiDrYurBW7k93JXskBCnaiYjHR5KVdqnscPYHwioZFa1tj1Tx5o_jAjaqh5OZJDJMuG1SDEyejGRsEmGOLYlt6gStSGmZeVSLEvD32C8Cgj55b3U48LdfSTGvSvGSBQmC26rFTpS_r4otIvNwvhkiw4tB_6LFd0_ixuPNdHaZziN3nwU3hA",
+  "payload": "ewogICJyZXNvdXJjZSI6ICJuZXctY2VydCIsCiAgImNzciI6ICJNSUlDaVRDQ0FYRUNBUUl3QURDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDQVFvQ2dnRUJBTWpSWmx6Y3JRaExYVTF2REZRckdLMTVRVVhFMDI2Qk10ankxbTRZMmlabzlaZElzSl83VTF1cVFYS2tRQkRKMVpQaFZKeU1WbHktSTdXY3BjNWRzR1JmMUtYeEV2cG9QeXJraXZfSkVnYUZwWTNHZURrREZSVnhtMURxTU82dFFlQm0ybFoxQXRHclczQUwwOG1EYkIzQWdCMHQ1c3JERmthUEhNVXBUdlg0UGE4SUg4aU12REVIQ0pJSDA5enR3a3N2SFJaNVNEV0N1cDdta1V6MW1ZWGQ1enI3NGdhS2tMLVVySkstYlVVWUE4V1Q1UmNCOUZGOF9GQmx6ekw5SjdhS05ZTXk0NXRCV1RLTkJTdGdnczVjT2h6YWt3UjRfOXdRc0RDM21ZX3l4TnhaNC14ZF92MzdWVFd3OFhpakVnZ2RCcDVpc09NMnp0aXB6RDY1YlZrQ0F3RUFBYUJFTUVJR0NTcUdTSWIzRFFFSkRqRTFNRE13TVFZRFZSMFJCQ293S0lJUWJYUmpMV0p2YjJ0amJIVmlMbmg1ZW9JVWQzZDNMbTEwWXkxaWIyOXJZMngxWWk1NGVYb3dEUVlKS29aSWh2Y05BUUVMQlFBRGdnRUJBTFZmRlVrTHNHU3Zsek5oQVpyRmF5aHRtbnVqb25jM3RKcUNKOHhEcldXb3Z3dzZEazk2VGNsdVJGUHNobTZuYXd2R0lISmdrYUR1MGRWX2I3Mi1sSDhIdEcyeUI5VmtsRTVUQVNjaUZ4Z01xMklnamdxWWZVdDBmaVc1djhLN0N0eUhRVEliaFIzYjcxVVFhcEdxU1V3MkpkSlYwSmxNWUhzZXYxd1JoQWFZNzVxNUc0NXpsX0p0X2hLSEpnTHV0R3ROV0hqa1RmMTVvdTI0SmpTajhsRFlFOThRbmNrRlo4MDAzQ2JWV3Rnc3YtbldZSUZsQU1TOWhyai1ibkZSQXdBU0dXYjNrLTRYOC1ZNnRKY3Y2dlJGTDhQN1J1c0VDTmFZbVdPODJvaGhvUlVzTDhMdHhsa00xVWpUSjBIdnVUd3FTRmhyUFF1UTI1cV92TFBtNWxnIgp9"
+}
+2021-11-01 04:30:04,246:DEBUG:urllib3.connectionpool:https://acme-staging-v02.api.letsencrypt.org:443 "POST /acme/finalize/31127338/901986748 HTTP/1.1" 200 608
+2021-11-01 04:30:04,248:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Mon, 01 Nov 2021 04:30:04 GMT
+Content-Type: application/json
+Content-Length: 608
+Connection: keep-alive
+Boulder-Requester: 31127338
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-staging-v02.api.letsencrypt.org/directory>;rel="index"
+Location: https://acme-staging-v02.api.letsencrypt.org/acme/order/31127338/901986748
+Replay-Nonce: 0002dtPoNQbTMtDa3_YhyXM0UoXR-fngUJYt5AltJnVOjD4
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "status": "valid",
+  "expires": "2021-11-08T04:29:59Z",
+  "identifiers": [
+    {
+      "type": "dns",
+      "value": "mtc-bookclub.xyz"
+    },
+    {
+      "type": "dns",
+      "value": "www.mtc-bookclub.xyz"
+    }
+  ],
+  "authorizations": [
+    "https://acme-staging-v02.api.letsencrypt.org/acme/authz-v3/830505998",
+    "https://acme-staging-v02.api.letsencrypt.org/acme/authz-v3/830506008"
+  ],
+  "finalize": "https://acme-staging-v02.api.letsencrypt.org/acme/finalize/31127338/901986748",
+  "certificate": "https://acme-staging-v02.api.letsencrypt.org/acme/cert/fa610bf822ae77b0146115fbb9e0ac370010"
+}
+2021-11-01 04:30:04,248:DEBUG:acme.client:Storing nonce: 0002dtPoNQbTMtDa3_YhyXM0UoXR-fngUJYt5AltJnVOjD4
+2021-11-01 04:30:05,249:DEBUG:acme.client:JWS payload:
+b''
+2021-11-01 04:30:05,251:DEBUG:acme.client:Sending POST request to https://acme-staging-v02.api.letsencrypt.org/acme/order/31127338/901986748:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS1zdGFnaW5nLXYwMi5hcGkubGV0c2VuY3J5cHQub3JnL2FjbWUvYWNjdC8zMTEyNzMzOCIsICJub25jZSI6ICIwMDAyZHRQb05RYlRNdERhM19ZaHlYTTBVb1hSLWZuZ1VKWXQ1QWx0Sm5WT2pENCIsICJ1cmwiOiAiaHR0cHM6Ly9hY21lLXN0YWdpbmctdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9vcmRlci8zMTEyNzMzOC85MDE5ODY3NDgifQ",
+  "signature": "pLRLGxD7q2Zm9wXHkI8xy65Zy2rrLn_qiACffuwcrDVA-KDuWM0xG-XGGnjbiLfBe1pp5LEujfCI_k8fhMTuSn3XJQrWWLeCZvFF61sUG_ChBgj3yIazCYSo_PwMVPnNvq8T2HE58ORJJa9Oq3_k1jR3yMIs1ePvU2U8JQoaO0xt-5AUzhrjaY6VJnaKQCPWp6fDBEhu3z5am-Q48Sr8cLBW2yplZEUsSmLR6fLkT-oXDrHQJUa2bTc4emSYSl9a1c0MjwZg1517cFuZds-bRlBXQMih0meEyanvgnojNTtkKhsMr8ZX4inl_GXUUTYBSZGfO6P-hBmnvDCZvXirfg",
+  "payload": ""
+}
+2021-11-01 04:30:05,390:DEBUG:urllib3.connectionpool:https://acme-staging-v02.api.letsencrypt.org:443 "POST /acme/order/31127338/901986748 HTTP/1.1" 200 608
+2021-11-01 04:30:05,391:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Mon, 01 Nov 2021 04:30:05 GMT
+Content-Type: application/json
+Content-Length: 608
+Connection: keep-alive
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-staging-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: 0001FX0j6xMpJVuk-EWwUBZ_53XabRKqDNJECKUCk9w-tT8
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "status": "valid",
+  "expires": "2021-11-08T04:29:59Z",
+  "identifiers": [
+    {
+      "type": "dns",
+      "value": "mtc-bookclub.xyz"
+    },
+    {
+      "type": "dns",
+      "value": "www.mtc-bookclub.xyz"
+    }
+  ],
+  "authorizations": [
+    "https://acme-staging-v02.api.letsencrypt.org/acme/authz-v3/830505998",
+    "https://acme-staging-v02.api.letsencrypt.org/acme/authz-v3/830506008"
+  ],
+  "finalize": "https://acme-staging-v02.api.letsencrypt.org/acme/finalize/31127338/901986748",
+  "certificate": "https://acme-staging-v02.api.letsencrypt.org/acme/cert/fa610bf822ae77b0146115fbb9e0ac370010"
+}
+2021-11-01 04:30:05,391:DEBUG:acme.client:Storing nonce: 0001FX0j6xMpJVuk-EWwUBZ_53XabRKqDNJECKUCk9w-tT8
+2021-11-01 04:30:05,391:DEBUG:acme.client:JWS payload:
+b''
+2021-11-01 04:30:05,393:DEBUG:acme.client:Sending POST request to https://acme-staging-v02.api.letsencrypt.org/acme/cert/fa610bf822ae77b0146115fbb9e0ac370010:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS1zdGFnaW5nLXYwMi5hcGkubGV0c2VuY3J5cHQub3JnL2FjbWUvYWNjdC8zMTEyNzMzOCIsICJub25jZSI6ICIwMDAxRlgwajZ4TXBKVnVrLUVXd1VCWl81M1hhYlJLcUROSkVDS1VDazl3LXRUOCIsICJ1cmwiOiAiaHR0cHM6Ly9hY21lLXN0YWdpbmctdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9jZXJ0L2ZhNjEwYmY4MjJhZTc3YjAxNDYxMTVmYmI5ZTBhYzM3MDAxMCJ9",
+  "signature": "EaE2uTKOHyVAWwkehUnlj5bMwzm7S595ieKaqwIsfPyzNuvOWPrpLuvUzfWUaWX8dtLQvOjcirJJeJJ9qGIt_b1kpP9UFQwlU9JLX-7H8AtMASDzh7Ed4-FaW2LOUswQEmpFrxG_2K6gItgrUkm_1xDd1t_uREi8zl0bs3mxJwChKrDa8ywgp05TRXlquXgUm3g1S63zHfH8ydbI4lfC16WsCqzeBpqcovBjRqSbwte-ug__KVb58v2B9M7TWrb7EziRlq_A4zt1dBgomiAatJXcATRuaJHHyuo22mDaYoeyR8WZRmMBJ8j8jWUTXObitQQU72GaGTSbki6arjV-rA",
+  "payload": ""
+}
+2021-11-01 04:30:05,462:DEBUG:urllib3.connectionpool:https://acme-staging-v02.api.letsencrypt.org:443 "POST /acme/cert/fa610bf822ae77b0146115fbb9e0ac370010 HTTP/1.1" 200 5772
+2021-11-01 04:30:05,463:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Mon, 01 Nov 2021 04:30:05 GMT
+Content-Type: application/pem-certificate-chain
+Content-Length: 5772
+Connection: keep-alive
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-staging-v02.api.letsencrypt.org/directory>;rel="index", <https://acme-staging-v02.api.letsencrypt.org/acme/cert/fa610bf822ae77b0146115fbb9e0ac370010/1>;rel="alternate"
+Replay-Nonce: 0002OYkdGWptKXX1zFyd9jr39x0nX96Oh3oFZspVITfhB8Y
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+-----BEGIN CERTIFICATE-----
+MIIFbTCCBFWgAwIBAgITAPphC/girnewFGEV+7ngrDcAEDANBgkqhkiG9w0BAQsF
+ADBZMQswCQYDVQQGEwJVUzEgMB4GA1UEChMXKFNUQUdJTkcpIExldCdzIEVuY3J5
+cHQxKDAmBgNVBAMTHyhTVEFHSU5HKSBBcnRpZmljaWFsIEFwcmljb3QgUjMwHhcN
+MjExMTAxMDMzMDAzWhcNMjIwMTMwMDMzMDAyWjAbMRkwFwYDVQQDExBtdGMtYm9v
+a2NsdWIueHl6MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyNFmXNyt
+CEtdTW8MVCsYrXlBRcTTboEy2PLWbhjaJmj1l0iwn/tTW6pBcqRAEMnVk+FUnIxW
+XL4jtZylzl2wZF/UpfES+mg/KuSK/8kSBoWljcZ4OQMVFXGbUOow7q1B4GbaVnUC
+0atbcAvTyYNsHcCAHS3mysMWRo8cxSlO9fg9rwgfyIy8MQcIkgfT3O3CSy8dFnlI
+NYK6nuaRTPWZhd3nOvviBoqQv5Sskr5tRRgDxZPlFwH0UXz8UGXPMv0ntoo1gzLj
+m0FZMo0FK2CCzlw6HNqTBHj/3BCwMLeZj/LE3Fnj7F3+/ftVNbDxeKMSCB0GnmKw
+4zbO2KnMPrltWQIDAQABo4ICajCCAmYwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQW
+MBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBQq
+FU8XCso/Tf3ddqHHfSUUBtBHbjAfBgNVHSMEGDAWgBTecnpI3zHDplDfn4Uj31c3
+S10uZTBdBggrBgEFBQcBAQRRME8wJQYIKwYBBQUHMAGGGWh0dHA6Ly9zdGctcjMu
+by5sZW5jci5vcmcwJgYIKwYBBQUHMAKGGmh0dHA6Ly9zdGctcjMuaS5sZW5jci5v
+cmcvMDEGA1UdEQQqMCiCEG10Yy1ib29rY2x1Yi54eXqCFHd3dy5tdGMtYm9va2Ns
+dWIueHl6MEwGA1UdIARFMEMwCAYGZ4EMAQIBMDcGCysGAQQBgt8TAQEBMCgwJgYI
+KwYBBQUHAgEWGmh0dHA6Ly9jcHMubGV0c2VuY3J5cHQub3JnMIIBBQYKKwYBBAHW
+eQIEAgSB9gSB8wDxAHYAFuhpwdGV6tfD+Jca4/B2AfeM4badMahSGLaDfzGoFQgA
+AAF82cLtpAAABAMARzBFAiBhRdxHItRNsHxSSRcA2E7HNumAjHlOpU+So76df7zp
+OgIhAIkOVClIh/1qEpIFsjQ7qdtO51aBylMxNpWUFkr4oPAdAHcAKHYaGJAn++88
+0NYaAY12sFBXKcenQRvMvfYE9F1CYVMAAAF82cLxjAAABAMASDBGAiEA3dUstG2c
+lmh0xkaQlQd/iU5LwKIGNmpW9j3hiyw0SSsCIQCl7BqTgyJwkWJuF/JhGaN7vxoV
+35LFl3MV3qR3yumG5zANBgkqhkiG9w0BAQsFAAOCAQEAoDu8UlwA9oSy31kQ3lE4
+Mg9sPxD/6I44bK8vdcsn70eefKS1YuwmMYwyWiWP2pGb11J11k95WhxB3lpMPJ+o
+dV6ClijJ455YjgAuZKTE30QzdwY6/Pbxkypz7K5sUr3XTgBCeKkwY93zUaFIc5zd
+iShXhv1BJM81nxlcv5AcOPbY3tF6ZsnGToFIaDwTO3vxS05HYuLyE8CYUo6XslhC
++De1q5AbHHWdfQtPYgDZOmgxFocCsHwlt/5epZUPGofBmDa16NrpN5DIqRYB2fev
+eOgO1bCYwTSKcoj3GRTevCesKcNrJExxWrDOErVUZz/I9kxC4s4KzkzpiJnRlXvD
+BA==
+-----END CERTIFICATE-----
+
+-----BEGIN CERTIFICATE-----
+MIIFWzCCA0OgAwIBAgIQTfQrldHumzpMLrM7jRBd1jANBgkqhkiG9w0BAQsFADBm
+MQswCQYDVQQGEwJVUzEzMDEGA1UEChMqKFNUQUdJTkcpIEludGVybmV0IFNlY3Vy
+aXR5IFJlc2VhcmNoIEdyb3VwMSIwIAYDVQQDExkoU1RBR0lORykgUHJldGVuZCBQ
+ZWFyIFgxMB4XDTIwMDkwNDAwMDAwMFoXDTI1MDkxNTE2MDAwMFowWTELMAkGA1UE
+BhMCVVMxIDAeBgNVBAoTFyhTVEFHSU5HKSBMZXQncyBFbmNyeXB0MSgwJgYDVQQD
+Ex8oU1RBR0lORykgQXJ0aWZpY2lhbCBBcHJpY290IFIzMIIBIjANBgkqhkiG9w0B
+AQEFAAOCAQ8AMIIBCgKCAQEAu6TR8+74b46mOE1FUwBrvxzEYLck3iasmKrcQkb+
+gy/z9Jy7QNIAl0B9pVKp4YU76JwxF5DOZZhi7vK7SbCkK6FbHlyU5BiDYIxbbfvO
+L/jVGqdsSjNaJQTg3C3XrJja/HA4WCFEMVoT2wDZm8ABC1N+IQe7Q6FEqc8NwmTS
+nmmRQm4TQvr06DP+zgFK/MNubxWWDSbSKKTH5im5j2fZfg+j/tM1bGaczFWw8/lS
+nukyn5J2L+NJYnclzkXoh9nMFnyPmVbfyDPOc4Y25aTzVoeBKXa/cZ5MM+WddjdL
+biWvm19f1sYn1aRaAIrkppv7kkn83vcth8XCG39qC2ZvaQIDAQABo4IBEDCCAQww
+DgYDVR0PAQH/BAQDAgGGMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDATAS
+BgNVHRMBAf8ECDAGAQH/AgEAMB0GA1UdDgQWBBTecnpI3zHDplDfn4Uj31c3S10u
+ZTAfBgNVHSMEGDAWgBS182Xy/rAKkh/7PH3zRKCsYyXDFDA2BggrBgEFBQcBAQQq
+MCgwJgYIKwYBBQUHMAKGGmh0dHA6Ly9zdGcteDEuaS5sZW5jci5vcmcvMCsGA1Ud
+HwQkMCIwIKAeoByGGmh0dHA6Ly9zdGcteDEuYy5sZW5jci5vcmcvMCIGA1UdIAQb
+MBkwCAYGZ4EMAQIBMA0GCysGAQQBgt8TAQEBMA0GCSqGSIb3DQEBCwUAA4ICAQCN
+DLam9yN0EFxxn/3p+ruWO6n/9goCAM5PT6cC6fkjMs4uas6UGXJjr5j7PoTQf3C1
+vuxiIGRJC6qxV7yc6U0X+w0Mj85sHI5DnQVWN5+D1er7mp13JJA0xbAbHa3Rlczn
+y2Q82XKui8WHuWra0gb2KLpfboYj1Ghgkhr3gau83pC/WQ8HfkwcvSwhIYqTqxoZ
+Uq8HIf3M82qS9aKOZE0CEmSyR1zZqQxJUT7emOUapkUN9poJ9zGc+FgRZvdro0XB
+yphWXDaqMYph0DxW/10ig5j4xmmNDjCRmqIKsKoWA52wBTKKXK1na2ty/lW5dhtA
+xkz5rVZFd4sgS4J0O+zm6d5GRkWsNJ4knotGXl8vtS3X40KXeb3A5+/3p0qaD215
+Xq8oSNORfB2oI1kQuyEAJ5xvPTdfwRlyRG3lFYodrRg6poUBD/8fNTXMtzydpRgy
+zUQZh/18F6B/iW6cbiRN9r2Hkh05Om+q0/6w0DdZe+8YrNpfhSObr/1eVZbKGMIY
+qKmyZbBNu5ysENIK5MPc14mUeKmFjpN840VR5zunoU52lqpLDua/qIM8idk86xGW
+xx2ml43DO/Ya/tVZVok0mO0TUjzJIfPqyvr455IsIut4RlCR9Iq0EDTve2/ZwCuG
+hSjpTUFGSiQrR2JK2Evp+o6AETUkBCO1aw0PpQBPDQ==
+-----END CERTIFICATE-----
+
+-----BEGIN CERTIFICATE-----
+MIIFVDCCBDygAwIBAgIRAO1dW8lt+99NPs1qSY3Rs8cwDQYJKoZIhvcNAQELBQAw
+cTELMAkGA1UEBhMCVVMxMzAxBgNVBAoTKihTVEFHSU5HKSBJbnRlcm5ldCBTZWN1
+cml0eSBSZXNlYXJjaCBHcm91cDEtMCsGA1UEAxMkKFNUQUdJTkcpIERvY3RvcmVk
+IER1cmlhbiBSb290IENBIFgzMB4XDTIxMDEyMDE5MTQwM1oXDTI0MDkzMDE4MTQw
+M1owZjELMAkGA1UEBhMCVVMxMzAxBgNVBAoTKihTVEFHSU5HKSBJbnRlcm5ldCBT
+ZWN1cml0eSBSZXNlYXJjaCBHcm91cDEiMCAGA1UEAxMZKFNUQUdJTkcpIFByZXRl
+bmQgUGVhciBYMTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBALbagEdD
+Ta1QgGBWSYkyMhscZXENOBaVRTMX1hceJENgsL0Ma49D3MilI4KS38mtkmdF6cPW
+nL++fgehT0FbRHZgjOEr8UAN4jH6omjrbTD++VZneTsMVaGamQmDdFl5g1gYaigk
+kmx8OiCO68a4QXg4wSyn6iDipKP8utsE+x1E28SA75HOYqpdrk4HGxuULvlr03wZ
+GTIf/oRt2/c+dYmDoaJhge+GOrLAEQByO7+8+vzOwpNAPEx6LW+crEEZ7eBXih6V
+P19sTGy3yfqK5tPtTdXXCOQMKAp+gCj/VByhmIr+0iNDC540gtvV303WpcbwnkkL
+YC0Ft2cYUyHtkstOfRcRO+K2cZozoSwVPyB8/J9RpcRK3jgnX9lujfwA/pAbP0J2
+UPQFxmWFRQnFjaq6rkqbNEBgLy+kFL1NEsRbvFbKrRi5bYy2lNms2NJPZvdNQbT/
+2dBZKmJqxHkxCuOQFjhJQNeO+Njm1Z1iATS/3rts2yZlqXKsxQUzN6vNbD8KnXRM
+EeOXUYvbV4lqfCf8mS14WEbSiMy87GB5S9ucSV1XUrlTG5UGcMSZOBcEUpisRPEm
+QWUOTWIoDQ5FOia/GI+Ki523r2ruEmbmG37EBSBXdxIdndqrjy+QVAmCebyDx9eV
+EGOIpn26bW5LKerumJxa/CFBaKi4bRvmdJRLAgMBAAGjgfEwge4wDgYDVR0PAQH/
+BAQDAgEGMA8GA1UdEwEB/wQFMAMBAf8wHQYDVR0OBBYEFLXzZfL+sAqSH/s8ffNE
+oKxjJcMUMB8GA1UdIwQYMBaAFAhX2onHolN5DE/d4JCPdLriJ3NEMDgGCCsGAQUF
+BwEBBCwwKjAoBggrBgEFBQcwAoYcaHR0cDovL3N0Zy1kc3QzLmkubGVuY3Iub3Jn
+LzAtBgNVHR8EJjAkMCKgIKAehhxodHRwOi8vc3RnLWRzdDMuYy5sZW5jci5vcmcv
+MCIGA1UdIAQbMBkwCAYGZ4EMAQIBMA0GCysGAQQBgt8TAQEBMA0GCSqGSIb3DQEB
+CwUAA4IBAQB7tR8B0eIQSS6MhP5kuvGth+dN02DsIhr0yJtk2ehIcPIqSxRRmHGl
+4u2c3QlvEpeRDp2w7eQdRTlI/WnNhY4JOofpMf2zwABgBWtAu0VooQcZZTpQruig
+F/z6xYkBk3UHkjeqxzMN3d1EqGusxJoqgdTouZ5X5QTTIee9nQ3LEhWnRSXDx7Y0
+ttR1BGfcdqHopO4IBqAhbkKRjF5zj7OD8cG35omywUbZtOJnftiI0nFcRaxbXo0v
+oDfLD0S6+AC2R3tKpqjkNX6/91hrRFglUakyMcZU/xleqbv6+Lr3YD8PsBTub6lI
+oZ2lS38fL18Aon458fbc0BPHtenfhKj5
+-----END CERTIFICATE-----
+
+2021-11-01 04:30:05,463:DEBUG:acme.client:Storing nonce: 0002OYkdGWptKXX1zFyd9jr39x0nX96Oh3oFZspVITfhB8Y
+2021-11-01 04:30:05,464:DEBUG:certbot.renewal:Dry run: skipping updating lineage at /etc/letsencrypt/live/mtc-bookclub.xyz
+2021-11-01 04:30:05,465:DEBUG:certbot.updater:Skipping renewal deployer in dry-run mode.
+2021-11-01 04:30:06,486:DEBUG:certbot.updater:Skipping updaters in dry-run mode.
+2021-11-01 04:30:06,487:DEBUG:certbot.renewal:no renewal failures
+2021-11-01 18:59:30,273:DEBUG:certbot.main:certbot version: 0.40.0
+2021-11-01 18:59:30,274:DEBUG:certbot.main:Arguments: ['-q']
+2021-11-01 18:59:30,274:DEBUG:certbot.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#manual,PluginEntryPoint#nginx,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
+2021-11-01 18:59:30,287:DEBUG:certbot.log:Root logging level set at 30
+2021-11-01 18:59:30,287:INFO:certbot.log:Saving debug log to /var/log/letsencrypt/letsencrypt.log
+2021-11-01 18:59:30,299:DEBUG:certbot.plugins.selection:Requested authenticator <certbot.cli._Default object at 0x7f2d223c52e0> and installer <certbot.cli._Default object at 0x7f2d223c52e0>
+2021-11-01 18:59:30,310:INFO:certbot.renewal:Cert not yet due for renewal
+2021-11-01 18:59:30,310:DEBUG:certbot.plugins.selection:Requested authenticator nginx and installer nginx
+2021-11-01 18:59:30,311:DEBUG:certbot.plugins.selection:Selecting plugin: * nginx
+Description: Nginx Web Server plugin
+Interfaces: IAuthenticator, IInstaller, IPlugin
+Entry point: nginx = certbot_nginx.configurator:NginxConfigurator
+Initialized: <certbot_nginx.configurator.NginxConfigurator object at 0x7f2d223c5a30>
+2021-11-01 18:59:30,311:DEBUG:certbot.renewal:no renewal failures
+2021-11-02 01:41:30,227:DEBUG:certbot.main:certbot version: 0.40.0
+2021-11-02 01:41:30,227:DEBUG:certbot.main:Arguments: ['-q']
+2021-11-02 01:41:30,227:DEBUG:certbot.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#manual,PluginEntryPoint#nginx,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
+2021-11-02 01:41:30,237:DEBUG:certbot.log:Root logging level set at 30
+2021-11-02 01:41:30,238:INFO:certbot.log:Saving debug log to /var/log/letsencrypt/letsencrypt.log
+2021-11-02 01:41:30,246:DEBUG:certbot.plugins.selection:Requested authenticator <certbot.cli._Default object at 0x7f9307225310> and installer <certbot.cli._Default object at 0x7f9307225310>
+2021-11-02 01:41:30,256:INFO:certbot.renewal:Cert not yet due for renewal
+2021-11-02 01:41:30,257:DEBUG:certbot.plugins.selection:Requested authenticator nginx and installer nginx
+2021-11-02 01:41:30,257:DEBUG:certbot.plugins.selection:Selecting plugin: * nginx
+Description: Nginx Web Server plugin
+Interfaces: IAuthenticator, IInstaller, IPlugin
+Entry point: nginx = certbot_nginx.configurator:NginxConfigurator
+Initialized: <certbot_nginx.configurator.NginxConfigurator object at 0x7f9307225a90>
+2021-11-02 01:41:30,258:DEBUG:certbot.renewal:no renewal failures
+2021-11-02 16:06:41,914:DEBUG:certbot.main:certbot version: 0.40.0
+2021-11-02 16:06:41,915:DEBUG:certbot.main:Arguments: ['-q']
+2021-11-02 16:06:41,915:DEBUG:certbot.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#manual,PluginEntryPoint#nginx,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
+2021-11-02 16:06:41,928:DEBUG:certbot.log:Root logging level set at 30
+2021-11-02 16:06:41,929:INFO:certbot.log:Saving debug log to /var/log/letsencrypt/letsencrypt.log
+2021-11-02 16:06:41,940:DEBUG:certbot.plugins.selection:Requested authenticator <certbot.cli._Default object at 0x7fc4dc0022e0> and installer <certbot.cli._Default object at 0x7fc4dc0022e0>
+2021-11-02 16:06:41,951:INFO:certbot.renewal:Cert not yet due for renewal
+2021-11-02 16:06:41,952:DEBUG:certbot.plugins.selection:Requested authenticator nginx and installer nginx
+2021-11-02 16:06:41,952:DEBUG:certbot.plugins.selection:Selecting plugin: * nginx
+Description: Nginx Web Server plugin
+Interfaces: IAuthenticator, IInstaller, IPlugin
+Entry point: nginx = certbot_nginx.configurator:NginxConfigurator
+Initialized: <certbot_nginx.configurator.NginxConfigurator object at 0x7fc4dc002a30>
+2021-11-02 16:06:41,953:DEBUG:certbot.renewal:no renewal failures
+2021-11-03 02:56:06,200:DEBUG:certbot.main:certbot version: 0.40.0
+2021-11-03 02:56:06,201:DEBUG:certbot.main:Arguments: ['-q']
+2021-11-03 02:56:06,201:DEBUG:certbot.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#manual,PluginEntryPoint#nginx,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
+2021-11-03 02:56:06,214:DEBUG:certbot.log:Root logging level set at 30
+2021-11-03 02:56:06,214:INFO:certbot.log:Saving debug log to /var/log/letsencrypt/letsencrypt.log
+2021-11-03 02:56:06,225:DEBUG:certbot.plugins.selection:Requested authenticator <certbot.cli._Default object at 0x7f70905a4340> and installer <certbot.cli._Default object at 0x7f70905a4340>
+2021-11-03 02:56:06,235:INFO:certbot.renewal:Cert not yet due for renewal
+2021-11-03 02:56:06,235:DEBUG:certbot.plugins.selection:Requested authenticator nginx and installer nginx
+2021-11-03 02:56:06,236:DEBUG:certbot.plugins.selection:Selecting plugin: * nginx
+Description: Nginx Web Server plugin
+Interfaces: IAuthenticator, IInstaller, IPlugin
+Entry point: nginx = certbot_nginx.configurator:NginxConfigurator
+Initialized: <certbot_nginx.configurator.NginxConfigurator object at 0x7f70905a4970>
+2021-11-03 02:56:06,236:DEBUG:certbot.renewal:no renewal failures
+2021-11-03 17:40:05,131:DEBUG:certbot.main:certbot version: 0.40.0
+2021-11-03 17:40:05,131:DEBUG:certbot.main:Arguments: ['-q']
+2021-11-03 17:40:05,132:DEBUG:certbot.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#manual,PluginEntryPoint#nginx,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
+2021-11-03 17:40:05,143:DEBUG:certbot.log:Root logging level set at 30
+2021-11-03 17:40:05,144:INFO:certbot.log:Saving debug log to /var/log/letsencrypt/letsencrypt.log
+2021-11-03 17:40:05,153:DEBUG:certbot.plugins.selection:Requested authenticator <certbot.cli._Default object at 0x7f36901d6340> and installer <certbot.cli._Default object at 0x7f36901d6340>
+2021-11-03 17:40:05,163:INFO:certbot.renewal:Cert not yet due for renewal
+2021-11-03 17:40:05,164:DEBUG:certbot.plugins.selection:Requested authenticator nginx and installer nginx
+2021-11-03 17:40:05,165:DEBUG:certbot.plugins.selection:Selecting plugin: * nginx
+Description: Nginx Web Server plugin
+Interfaces: IAuthenticator, IInstaller, IPlugin
+Entry point: nginx = certbot_nginx.configurator:NginxConfigurator
+Initialized: <certbot_nginx.configurator.NginxConfigurator object at 0x7f36901d6970>
+2021-11-03 17:40:05,165:DEBUG:certbot.renewal:no renewal failures
+2021-11-04 02:58:41,621:DEBUG:certbot.main:certbot version: 0.40.0
+2021-11-04 02:58:41,621:DEBUG:certbot.main:Arguments: ['-q']
+2021-11-04 02:58:41,621:DEBUG:certbot.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#manual,PluginEntryPoint#nginx,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
+2021-11-04 02:58:41,632:DEBUG:certbot.log:Root logging level set at 30
+2021-11-04 02:58:41,633:INFO:certbot.log:Saving debug log to /var/log/letsencrypt/letsencrypt.log
+2021-11-04 02:58:41,643:DEBUG:certbot.plugins.selection:Requested authenticator <certbot.cli._Default object at 0x7f2e18700340> and installer <certbot.cli._Default object at 0x7f2e18700340>
+2021-11-04 02:58:41,653:INFO:certbot.renewal:Cert not yet due for renewal
+2021-11-04 02:58:41,654:DEBUG:certbot.plugins.selection:Requested authenticator nginx and installer nginx
+2021-11-04 02:58:41,654:DEBUG:certbot.plugins.selection:Selecting plugin: * nginx
+Description: Nginx Web Server plugin
+Interfaces: IAuthenticator, IInstaller, IPlugin
+Entry point: nginx = certbot_nginx.configurator:NginxConfigurator
+Initialized: <certbot_nginx.configurator.NginxConfigurator object at 0x7f2e18700970>
+2021-11-04 02:58:41,655:DEBUG:certbot.renewal:no renewal failures

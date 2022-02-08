@@ -1,0 +1,121 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: bookmania, serif;
+}
+
+.root {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  margin: 0;
+  padding: 0;
+  max-width: 100vw;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.center__container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.vertical__center__container {
+  top: 50%;
+  height: 10em;
+  margin-top: -10em;
+}
+
+.left {
+  width: 50%;
+}
+
+.left__narrow {
+  width: 30%;
+}
+
+.right {
+  width: 50%;
+}
+
+.right__arrow {
+  width: 70%;
+}
+
+#right_aligned_column {
+  text-align: right;
+}
+
+/***
+ * Specific type of elements
+ */
+
+#quote {
+  font-size: 4vw;
+  color: #042f27;
+  text-shadow: 2px 2px #86cec1;
+}
+
+/**
+ * STREAM
+ */
+
+#stream__wrapper {
+  font-size: 1.5vw;
+  margin-top: 5vh;
+}
+
+#stream_container span {
+  display: inline-block;
+}
+
+.post_text {
+  font-size: 2vw;
+  padding-bottom: 1vw;
+}
+
+.post_profile,
+.post_date_time,
+.post_pdf_link,
+.comment_date_time,
+.comment_profile {
+  display: block;
+  color: rgb(109, 109, 109);
+  font-size: 1vw;
+  padding: 0.2vw;
+}
+
+.indiv_comment_container {
+  padding: 1vw;
+  margin: 1vw;
+}
+
+.indiv_post_comment_container {
+  margin: 1vw;
+}
+
+#btn__row {
+  padding-top: 3vh;
+}
+
+.card {
+  margin-bottom: 2vw;
+}
+
+#stream__left__wrapper {
+  margin-left: 2vw;
+}
+
+#stream__quote {
+  font-size: 2.2vw;
+  margin: 2vw;
+}

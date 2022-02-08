@@ -1,0 +1,39 @@
+{% extends "pre_login_base.html" %} {% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col align-self-start">
+      <h2 id="quote">Hi there, glad you are here.</h2>
+    </div>
+
+    <div class="col align-self-center">
+      <form id="register_form" method="post" action="{% url 'register' %}">
+        {% csrf_token %}
+        <table>
+          {{ form }}
+        </table>
+      </form>
+    </div>
+  </div>
+
+  <div class="row" id="btn__row">
+    <div class="col">
+      <a href="{% url 'login' %} " id="id_login_link">
+        <button ="button" class="btn btn-light">
+          Login with existing account
+        </button></a
+      >
+    </div>
+    <div class="col">
+      <button
+        ="button"
+        class="btn btn-light"
+        form="register_form"
+        type="submit"
+        value="Register"
+      >
+        Register
+      </button>
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form
+      action="{% url 'new_room' %}"
+      method="POST"
+      id="new_room_container"
+      enctype="multipart/form-data"
+    >
+      {% csrf_token %}
+      <table>
+        {{ form }}
+      </table>
+      <button id="id_create_room_button">Submit</button>
+      <span id="error" class="error"></span>
+    </form>
+    <script type="text/javascript" src="{% static 'js/createRoom.js' %}"></script>
+  </body>
+</html>

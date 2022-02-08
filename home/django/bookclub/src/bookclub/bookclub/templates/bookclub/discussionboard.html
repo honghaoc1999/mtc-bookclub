@@ -1,0 +1,20 @@
+{% extends "base.html" %} {% block content %} {% load static %}
+<div class="container min-vh-100 under__nav">
+  <script
+    type="text/javascript"
+    src="{% static 'js/discussionboard.js' %}"
+  ></script>
+
+  {% if user.profile.access_role == 'admin' %}
+  <div>{% include "bookclub/createRoom.html" %}</div>
+  {% else %} {% endif %}
+  <script>
+    window.onload = getRooms;
+    window.setInterval(getRooms, 60000);
+    var username = "{{user.username}}";
+  </script>
+  <div id="id_room_list">
+    <div></div>
+    {% endblock %}
+  </div>
+</div>

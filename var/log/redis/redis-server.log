@@ -1,0 +1,99 @@
+733:signal-handler (1635740506) Received SIGTERM scheduling shutdown...
+733:M 01 Nov 2021 04:21:46.632 # User requested shutdown...
+733:M 01 Nov 2021 04:21:46.644 * Saving the final RDB snapshot before exiting.
+733:M 01 Nov 2021 04:21:46.651 * DB saved on disk
+733:M 01 Nov 2021 04:21:46.651 * Removing the pid file.
+733:M 01 Nov 2021 04:21:46.651 # Redis is now ready to exit, bye bye...
+661:C 01 Nov 2021 04:22:05.557 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+661:C 01 Nov 2021 04:22:05.563 # Redis version=5.0.7, bits=64, commit=00000000, modified=0, pid=661, just started
+661:C 01 Nov 2021 04:22:05.563 # Configuration loaded
+661:C 01 Nov 2021 04:22:05.563 # systemd supervision requested, but NOTIFY_SOCKET not found
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 5.0.7 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 732
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+732:M 01 Nov 2021 04:22:05.671 # Server initialized
+732:M 01 Nov 2021 04:22:05.671 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+732:M 01 Nov 2021 04:22:05.671 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+732:M 01 Nov 2021 04:22:05.682 * DB loaded from disk: 0.011 seconds
+732:M 01 Nov 2021 04:22:05.682 * Ready to accept connections
+732:signal-handler (1635741128) Received SIGTERM scheduling shutdown...
+732:M 01 Nov 2021 04:32:08.264 # User requested shutdown...
+732:M 01 Nov 2021 04:32:08.265 * Saving the final RDB snapshot before exiting.
+732:M 01 Nov 2021 04:32:08.266 * DB saved on disk
+732:M 01 Nov 2021 04:32:08.266 * Removing the pid file.
+732:M 01 Nov 2021 04:32:08.266 # Redis is now ready to exit, bye bye...
+656:C 01 Nov 2021 04:32:25.891 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+656:C 01 Nov 2021 04:32:25.893 # Redis version=5.0.7, bits=64, commit=00000000, modified=0, pid=656, just started
+656:C 01 Nov 2021 04:32:25.894 # Configuration loaded
+656:C 01 Nov 2021 04:32:25.894 # systemd supervision requested, but NOTIFY_SOCKET not found
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 5.0.7 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 728
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+728:M 01 Nov 2021 04:32:25.990 # Server initialized
+728:M 01 Nov 2021 04:32:25.990 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+728:M 01 Nov 2021 04:32:25.991 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+728:M 01 Nov 2021 04:32:25.994 * DB loaded from disk: 0.003 seconds
+728:M 01 Nov 2021 04:32:25.994 * Ready to accept connections
+728:signal-handler (1635741416) Received SIGTERM scheduling shutdown...
+728:M 01 Nov 2021 04:36:56.586 # User requested shutdown...
+728:M 01 Nov 2021 04:36:56.586 * Saving the final RDB snapshot before exiting.
+728:M 01 Nov 2021 04:36:56.595 * DB saved on disk
+728:M 01 Nov 2021 04:36:56.595 * Removing the pid file.
+728:M 01 Nov 2021 04:36:56.595 # Redis is now ready to exit, bye bye...
+661:C 01 Nov 2021 04:37:14.152 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+661:C 01 Nov 2021 04:37:14.157 # Redis version=5.0.7, bits=64, commit=00000000, modified=0, pid=661, just started
+661:C 01 Nov 2021 04:37:14.157 # Configuration loaded
+661:C 01 Nov 2021 04:37:14.157 # systemd supervision requested, but NOTIFY_SOCKET not found
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 5.0.7 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 733
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+733:M 01 Nov 2021 04:37:14.255 # Server initialized
+733:M 01 Nov 2021 04:37:14.255 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+733:M 01 Nov 2021 04:37:14.255 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+733:M 01 Nov 2021 04:37:14.265 * DB loaded from disk: 0.009 seconds
+733:M 01 Nov 2021 04:37:14.265 * Ready to accept connections

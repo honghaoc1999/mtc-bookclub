@@ -1,0 +1,58 @@
+{% extends "base.html" %} {% block content %}
+<div class="card">
+  <div class="card-body">
+    <h2 class="card-title">
+      Profile Page for {{profile.user.first_name}} {{profile.user.last_name}}
+    </h2>
+
+    <div class="card">
+      <div class="card-body">
+        {%if not profile.picture %}
+        <img id="id_user_picture" src="../static/img/defaultUserImage.jpeg" />
+        {% else %}
+        <img id="id_user_picture" src="{% url 'photo' profile.user.id %}" />
+        {% endif %}
+      </div>
+    </div>
+
+    <p id="id_user_bio" class="card-text">{{profile.bio}}</p>
+
+    <div class="card">
+      <div class="card-body">
+        {% if profile.user in user.profile.following.all %}
+        <form action="{% url 'unfollow' profile.user.id %}" method="POST">
+          <button id="id_unfollow">Unfollow</button>
+          {% csrf_token %}
+        </form>
+        {% else %}
+        <form action="{% url 'follow' profile.user.id %}" method="POST">
+          <button id="id_follow">Follow</button>
+          {% csrf_token %}
+        </form>
+        {% endif %}
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+        <p class="card-title">
+          {{profile.user.first_name}} {{profile.user.last_name}} is following:
+        </p>
+        <ul class="list-group list-group-flush">
+          {% for u in profile.following.all %}
+          <li class="list-group-item">
+            <a
+              href="{% url 'other_profile' u.id %}"
+              id="id_profile_link_{{u.username}}"
+            >
+              {{u.first_name}} {{u.last_name}}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,57 @@
+{% extends "base.html" %} {% block content %}
+<nav
+  class="navbar sticky-top navbar-light"
+  style="background-color: rgb(255, 255, 255)"
+>
+  <a class="navbar-nav" href="{% url 'global_stream' %} ">
+    <button class="btn btn-light">
+      Back To Stream
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        fill="currentColor"
+        class="bi bi-box-arrow-in-up-left"
+        viewBox="0 0 16 16"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M9.636 13.5a.5.5 0 0 1-.5.5H2.5A1.5 1.5 0 0 1 1 12.5v-10A1.5 1.5 0 0 1 2.5 1h10A1.5 1.5 0 0 1 14 2.5v6.636a.5.5 0 0 1-1 0V2.5a.5.5 0 0 0-.5-.5h-10a.5.5 0 0 0-.5.5v10a.5.5 0 0 0 .5.5h6.636a.5.5 0 0 1 .5.5z"
+        />
+        <path
+          fill-rule="evenodd"
+          d="M5 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1H6.707l8.147 8.146a.5.5 0 0 1-.708.708L6 6.707V10.5a.5.5 0 0 1-1 0v-5z"
+        />
+      </svg></button
+  ></a>
+</nav>
+<div class="container min-vh-100 under__nav">
+  <div class="row">
+    <div class="col-7">
+      <form
+        action="{% url 'new_post' %}"
+        method="POST"
+        id="new_post_form"
+        enctype="multipart/form-data"
+      >
+        {% csrf_token %}
+        <table>
+          {{ form }}
+        </table>
+      </form>
+    </div>
+    <div class="col">
+      <h2 id="quote">Upload reading notes to share.</h2>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3 offset-md-9">
+      <button form="new_post_form" class="btn btn-light" id="id_post_button">
+        Share your thoughts
+      </button>
+      <span id="error" class="error"></span>
+    </div>
+  </div>
+</div>
+{% endblock content %}

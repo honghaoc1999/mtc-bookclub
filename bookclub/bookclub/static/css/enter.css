@@ -1,0 +1,8 @@
+.root {
+  background-image: url(../img/backgrounds/bg_no_bot.png);
+  background-size: cover;
+}
+
+input {
+  border-radius: 30px;
+}

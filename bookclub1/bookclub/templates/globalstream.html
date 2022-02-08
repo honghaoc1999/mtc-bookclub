@@ -1,0 +1,25 @@
+{% extends "base.html" %} {% block link %}
+<p id="id_page_name">Global Stream</p>
+{% endblock %} {% block nav %}
+<div>{% include "navigation.html" %}</div>
+{% endblock %} {% block content %}
+<form action="{% url 'global_stream' %}" method="POST" id="new_post_container">
+  {% csrf_token %}
+  <table>
+    {{ form }}
+  </table>
+
+  <button id="id_post_button">Submit</button>
+  <span id="error" class="error"></span>
+</form>
+
+<div id="stream_container"></div>
+
+<script type="text/javascript">
+  var addCommentUrl = "{% url 'ajax-add-comment' %}";
+
+  window.onload = getGlobal;
+  //window.setInterval(getGlobal, 5000);
+</script>
+
+{% endblock %}

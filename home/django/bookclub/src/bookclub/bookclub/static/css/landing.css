@@ -1,0 +1,39 @@
+#landing__container {
+  background-image: url("../img/landing/landing_light.png");
+  background-size: cover;
+}
+
+#title__container {
+  /* for center */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+
+  padding-bottom: 4vh;
+}
+
+#landing__container h1 {
+  text-shadow: 7px 7px #86cec1;
+  color: #042f27;
+}
+
+#landing__container h4 {
+  text-shadow: 2px 2px #86cec1;
+  color: #042f27;
+}
+
+#landing__container button {
+  background: #f6ff8f;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  color: #bf9227;
+  border: none;
+}
+
+#landing__container button:hover {
+  background: #bf9227;
+  color: #f6ff8f;
+  transition: all cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.5s;
+}

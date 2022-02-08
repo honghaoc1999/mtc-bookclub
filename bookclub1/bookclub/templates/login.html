@@ -1,0 +1,15 @@
+{% extends "base.html" %} {% block link %}
+<a href="{% url 'register' %} " id="id_register_link">
+  <button>Register</button></a
+>
+{% endblock %} {% block page_name %}
+<p id="id_page_name">Login Page</p>
+{% endblock %} {% block content %}
+<form method="post" action="{% url 'login' %}">
+  {% csrf_token %}
+  <table>
+    {{ form }}
+  </table>
+  <input type="submit" value="Login" id="id_login_button" />
+</form>
+{% endblock %}

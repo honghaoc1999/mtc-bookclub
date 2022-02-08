@@ -1,0 +1,30 @@
+#title__container {
+  /* for center */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 4vh;
+}
+
+h1 {
+  text-shadow: 7px 7px #86cec1;
+  color: #042f27;
+  font-size: 13vw;
+}
+
+h4 {
+  text-shadow: 2px 2px #86cec1;
+  color: #042f27;
+  font-size: 2vw;
+}
+
+.btn {
+  font-family: work-sans, sans-serif;
+  margin-bottom: 1vh;
+}
+
+input {
+  border-radius: 30px;
+}

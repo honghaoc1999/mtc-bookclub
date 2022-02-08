@@ -1,0 +1,42 @@
+{% extends "base.html" %} {% block nav %}
+<div>{% include "navigation.html" %}</div>
+{% endblock %} {% block page_name %}
+<p id="id_page_name">
+  Profile Page for {{profile.user.first_name}} {{profile.user.last_name}}
+</p>
+{% endblock %} {% block content %} {%if not profile.picture %}
+<img id="id_user_picture" src="../static/img/defaultUserImage.jpeg" />
+{% else %}
+<img id="id_user_picture" src="{% url 'photo' profile.user.id %}" />
+{% endif %}
+
+<div id="id_user_bio">{{profile.bio}}</div>
+
+{% if profile.user in user.profile.following.all %}
+<form action="{% url 'unfollow' profile.user.id %}" method="POST">
+  <button id="id_unfollow">Unfollow</button>
+  {% csrf_token %}
+</form>
+{% else %}
+<form action="{% url 'follow' profile.user.id %}" method="POST">
+  <button id="id_follow">Follow</button>
+  {% csrf_token %}
+</form>
+{% endif %}
+
+<div>
+  You are following:
+  <ul>
+    {% for u in profile.following.all %}
+    <li>
+      <a
+        href="{% url 'other_profile' u.id %}"
+        id="id_profile_link_{{u.username}}"
+      >
+        {{u.first_name}} {{u.last_name}}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endblock %}
